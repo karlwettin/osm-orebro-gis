@@ -1,20 +1,12 @@
 package se.kodapan.osm.orebro;
 
-import com.vividsolutions.jts.geom.Coordinate;
-import com.vividsolutions.jts.geom.GeometryFactory;
-import com.vividsolutions.jts.geom.PrecisionModel;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.geotools.geometry.jts.JTS;
-import org.geotools.referencing.CRS;
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
-import org.opengis.referencing.crs.CoordinateReferenceSystem;
-import org.opengis.referencing.operation.MathTransform;
 import se.kodapan.geojson.Point;
 
 import java.io.*;
@@ -39,7 +31,7 @@ public class Search {
       throw new IOException("Could not mkdirs " + cachePath.getAbsolutePath());
     }
 
-    File file = new File(cachePath, textQuery + ".json");
+    File file = new File(cachePath, URLEncoder.encode(textQuery, "UTF8") + ".json");
     if (!file.exists()) {
 
       HttpGet get = new HttpGet(Orebro.serverURLPrefix + "search/" + URLEncoder.encode(textQuery, "UTF8").replace("+", "%20") + "?srs=epsg:4326");

@@ -1,22 +1,24 @@
 package se.kodapan.osm.orebro;
 
-import org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream;
-import org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream;
+import org.apache.lucene.search.BooleanClause;
+import org.apache.lucene.search.BooleanQuery;
+import org.apache.lucene.search.Query;
 import org.json.JSONArray;
 import org.json.JSONTokener;
 import se.kodapan.geojson.Point;
-import se.kodapan.osm.domain.Node;
+import se.kodapan.osm.domain.*;
 import se.kodapan.osm.domain.root.PojoRoot;
 import se.kodapan.osm.domain.root.indexed.IndexedRoot;
 import se.kodapan.osm.domain.root.indexed.IndexedRootImpl;
 import se.kodapan.osm.parser.xml.instantiated.InstantiatedOsmXmlParser;
+import se.kodapan.osm.services.overpass.FileSystemCachedOverpass;
 import se.kodapan.osm.xml.OsmXmlWriter;
 
 import java.io.*;
-import java.net.URL;
-import java.nio.channels.Channels;
-import java.nio.channels.ReadableByteChannel;
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * @author kalle@kodapan.se
@@ -28,6 +30,21 @@ public class Orebro {
 
   public final static File data = new File("data");
 
+  public static boolean isGatunamnSuffix(String title) {
+    title = title.toLowerCase();
+    return (title.endsWith("gata")
+        || title.endsWith("gatan")
+        || title.endsWith("väg")
+        || title.endsWith("vägen")
+        || title.endsWith("gränd")
+        || title.endsWith("gränden")
+        || title.endsWith("rondell")
+        || title.endsWith("rondellen")
+        || title.endsWith("stig")
+        || title.endsWith("stigen")
+        || title.endsWith("leden"));
+  }
+
 
   public static void main(String[] args) throws Exception {
 
@@ -35,74 +52,501 @@ public class Orebro {
       data.mkdirs();
     }
 
-//    loadSweden();
-//
-//    if (true) {
-//      return;
-//    }
+    new Orebro().run();
 
-    OsmXmlWriter osmXmlWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, "orebro.osm.xml")), "UTF8"));
-
-//    harvestSingleCharacterJSON();
-//    extractTypes();
-//    extractPossibleStreetNames();
-
-    Collection<Node> houseNumbers = extractHouseNumbers();
-    int id = -1;
-    for (Node node : houseNumbers) {
-      node.setId(id--);
-      osmXmlWriter.write(node);
-    }
-    osmXmlWriter.close();
   }
 
 
-  public static Set<Node> extractHouseNumbers() throws Exception {
+  public void run() throws Exception {
 
+    final OsmXmlWriter osmXmlWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, "orebro-" + System.currentTimeMillis() + ".osm.xml")), "UTF8"));
 
-    Set<Node> houseNumbers = new HashSet<>();
-
-    Search search = new Search();
-
-    boolean dobreak = false;
-
-    for (String streetName : extractPossibleStreetNames()) {
-      if (dobreak) {
-        break;
+    OsmObjectVisitor<Void> writeRecursedXml = new OsmObjectVisitor<Void>() {
+      @Override
+      public Void visit(Node node) {
+        try {
+          osmXmlWriter.write(node);
+        } catch (Exception e) {
+          throw new RuntimeException(e);
+        }
+        return null;
       }
-      int houseNumber = 1;
-      int previousFoundHouseNumber = 0;
-      while (houseNumber - previousFoundHouseNumber < 25) {
-        String textQuery = streetName + " " + houseNumber;
+
+      @Override
+      public Void visit(Way way) {
+        try {
+          osmXmlWriter.write(way);
+          for (Node node : way.getNodes()) {
+            node.accept(this);
+          }
+        } catch (Exception e) {
+          throw new RuntimeException(e);
+        }
+        return null;
+      }
+
+      @Override
+      public Void visit(Relation relation) {
+        try {
+          osmXmlWriter.write(relation);
+          for (RelationMembership membership : relation.getMembers()) {
+            membership.getObject().accept(this);
+          }
+        } catch (Exception e) {
+          throw new RuntimeException(e);
+        }
+        return null;
+      }
+    };
 
 
-          JSONArray response = search.search(new File(data, "house numbers"), textQuery);
+    FileSystemCachedOverpass overpass;
 
-        if (response.length() != 0) {
+    PojoRoot root;
+    IndexedRoot<Query> index;
 
-          Item item = Search.unmarshallJSONItem(response.getJSONObject(0));
-          if (textQuery.equalsIgnoreCase(item.getTitle())) {
+    Map<Item, Node> houseNumbers = new HashMap<>();
+    Map<Item, Node> streets = new HashMap<>();
+    Map<Item, Node> addressLandsbygd = new HashMap<>();
+    Map<Item, Node> addressPlaces = new HashMap<>();
+    Set<String> streetNames = new HashSet<>();
 
-            Node streetAddress = new Node();
-            Point point = (Point)item.getGeom();
-            streetAddress.setLatitude(point.getLatitude());
-            streetAddress.setLongitude(point.getLongitude());
-            streetAddress.setTag("addr:housenumber", String.valueOf(houseNumber));
-            streetAddress.setTag("addr:street", streetName);
-            if (item.getTown() != null) {
-              streetAddress.setTag("addr:city", item.getTown());
+
+    overpass = new FileSystemCachedOverpass(new File(data, "overpass"));
+    overpass.setUserAgent(getClass().getName());
+    overpass.open();
+    try {
+
+
+      //
+      //  ladda in örebro som osm-data så vi kan leta upp kända och okända vägar, husnummer och uppgångar, etc.
+      {
+        String xml = overpass.execute("<osm-script>\n" +
+            "  <union>\n" +
+            "    <query type=\"relation\">\n" +
+            "      <has-kv k=\"highway\"/>\n" +
+            "      <bbox-query e=\"15.40626525878906\" n=\"59.371341958846685\" s=\"59.1850748575612\" w=\"15.038909912109375\"/>\n" +
+            "    </query>\n" +
+            "    <query type=\"way\">\n" +
+            "      <has-kv k=\"highway\"/>\n" +
+            "      <bbox-query e=\"15.40626525878906\" n=\"59.371341958846685\" s=\"59.1850748575612\" w=\"15.038909912109375\"/>\n" +
+            "    </query>\n" +
+            "    <query type=\"relation\">\n" +
+            "      <has-kv k=\"addr:housenumber\"/>\n" +
+            "      <bbox-query e=\"15.40626525878906\" n=\"59.371341958846685\" s=\"59.1850748575612\" w=\"15.038909912109375\"/>\n" +
+            "    </query>\n" +
+            "    <query type=\"way\">\n" +
+            "      <has-kv k=\"addr:housenumber\"/>\n" +
+            "      <bbox-query e=\"15.40626525878906\" n=\"59.371341958846685\" s=\"59.1850748575612\" w=\"15.038909912109375\"/>\n" +
+            "    </query>\n" +
+            "    <query type=\"node\">\n" +
+            "      <has-kv k=\"addr:housenumber\"/>\n" +
+            "      <bbox-query e=\"15.40626525878906\" n=\"59.371341958846685\" s=\"59.1850748575612\" w=\"15.038909912109375\"/>\n" +
+            "    </query>\n" +
+            "  </union>\n" +
+            "  <union>\n" +
+            "    <item/>\n" +
+            "    <recurse type=\"down\"/>\n" +
+            "  </union>\n" +
+            "  <print mode=\"meta\"/>\n" +
+            "</osm-script>\n");
+
+        root = new PojoRoot();
+        InstantiatedOsmXmlParser parser = InstantiatedOsmXmlParser.newInstance();
+        parser.setRoot(root);
+
+        parser.parse(xml);
+
+        File path = new File(data, "index");
+        boolean reconstruct = !path.exists();
+        index = new IndexedRootImpl(root, path);
+        index.open();
+        if (reconstruct) {
+          index.reconstruct(20);
+        }
+      }
+
+
+      Search search = new Search();
+
+
+      {
+        int previousFoundHouseNumber = 0;
+//        for (int houseNumber = 1; houseNumber - previousFoundHouseNumber < 25; houseNumber++) {
+        for (int houseNumber = 1; houseNumber < 500; houseNumber++) {
+
+          // sök efter husnummer och landsbygdsnamn
+          {
+            String textQuery = " " + String.valueOf(houseNumber);
+            JSONArray response = search.search(new File(data, "search"), textQuery);
+            for (int i = 0; i < response.length(); i++) {
+              Item item = Search.unmarshallJSONItem(response.getJSONObject(i));
+              if ("StreetAddress".equals(item.getType())
+                  && item.getTitle().toLowerCase().endsWith(textQuery.toLowerCase())) {
+
+                if ("Landsbygd".equals(item.getTown())) {
+
+                  // todo sök efter name:, addr:place, addr:street, etc i området
+
+                  Node streetAddress = new Node();
+                  Point point = (Point) item.getGeom();
+                  streetAddress.setLatitude(point.getLatitude());
+                  streetAddress.setLongitude(point.getLongitude());
+                  streetAddress.setTag("source", "data.karta.orebro.se");
+                  streetAddress.setTag("source:license", "cc-by");
+                  streetAddress.setTag("addr:place", item.getTitle());
+
+                  // todo
+                  streetAddress.setTag("addr:city", item.getCity());
+                  if (!item.getCity().equals(item.getTown())) {
+                    streetAddress.setTag("addr:town", item.getTown());
+                  }
+
+                  addressLandsbygd.put(item, streetAddress);
+
+                } else {
+
+
+                  Node streetAddress = new Node();
+                  Point point = (Point) item.getGeom();
+                  streetAddress.setLatitude(point.getLatitude());
+                  streetAddress.setLongitude(point.getLongitude());
+                  streetAddress.setTag("source", "data.karta.orebro.se");
+                  streetAddress.setTag("source:license", "cc-by");
+                  streetAddress.setTag("addr:housenumber", String.valueOf(houseNumber));
+                  streetAddress.setTag("ref:se:husnummer", String.valueOf(houseNumber));
+                  streetAddress.setTag("addr:street", item.getTitle().substring(0, item.getTitle().indexOf(textQuery)).trim());
+                  streetNames.add(streetAddress.getTag("addr:street"));
+
+                  // todo
+                  streetAddress.setTag("addr:city", item.getCity());
+                  if (!item.getCity().equals(item.getTown())) {
+                    streetAddress.setTag("addr:town", item.getTown());
+                  }
+
+                  houseNumbers.put(item, streetAddress);
+
+
+                  // sök efter husnumret i området, lägg till existerande i xml
+
+                  BooleanQuery bq = new BooleanQuery();
+
+                  BooleanQuery classQuery = new BooleanQuery();
+
+                  classQuery.add(index.getQueryFactories().nodeRadialEnvelopeQueryFactory()
+                      .setKilometerRadius(0.5)
+                      .setLongitude(((Point) item.getGeom()).getLongitude())
+                      .setLatitude(((Point) item.getGeom()).getLatitude())
+                      .build()
+                      , BooleanClause.Occur.SHOULD);
+
+                  classQuery.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
+                      .setKilometerRadius(0.5)
+                      .setLongitude(((Point) item.getGeom()).getLongitude())
+                      .setLatitude(((Point) item.getGeom()).getLatitude())
+                      .build()
+                      , BooleanClause.Occur.SHOULD);
+
+                  bq.add(classQuery
+                      , BooleanClause.Occur.MUST);
+
+                  bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+                      .setKey("addr:street")
+                      .setValue(streetAddress.getTag("addr:street"))
+                      .build(), BooleanClause.Occur.MUST);
+
+                  bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+                      .setKey("addr:housenumber")
+                      .setValue(streetAddress.getTag("addr:housenumber"))
+                      .build(), BooleanClause.Occur.MUST);
+
+                  Set<OsmObject> hits = index.search(bq).keySet();
+
+                  if (!hits.isEmpty()) {
+                    streetAddress.setTag("note", "duplicate");
+
+                    // todo create duplicate-relation with hits + item?
+
+                    for (OsmObject hit : hits) {
+                      hit.accept(writeRecursedXml);
+                    }
+                  }
+
+                }
+                previousFoundHouseNumber = houseNumber;
+              }
             }
-            houseNumbers.add(streetAddress);
+          }
 
-            previousFoundHouseNumber = houseNumber;
+
+          // sök efter uppgångar på husnummer
+          {
+            for (char houseDoor : "ABCDEFGHIJKLMNOPQRSTUVQXYZÅÄÖ".toCharArray()) {
+              String textQuery = " " + String.valueOf(houseNumber) + String.valueOf(houseDoor);
+              JSONArray response = search.search(new File(data, "search"), textQuery);
+              for (int i = 0; i < response.length(); i++) {
+                Item item = Search.unmarshallJSONItem(response.getJSONObject(i));
+                if ("StreetAddress".equals(item.getType())
+                    && item.getTitle().toLowerCase().endsWith(textQuery.toLowerCase())) {
+
+                  Node streetAddress = new Node();
+                  Point point = (Point) item.getGeom();
+                  streetAddress.setLatitude(point.getLatitude());
+                  streetAddress.setLongitude(point.getLongitude());
+                  streetAddress.setTag("source", "data.karta.orebro.se");
+                  streetAddress.setTag("source:license", "cc-by");
+                  streetAddress.setTag("addr:housenumber", String.valueOf(houseNumber) + String.valueOf(houseDoor));
+                  streetAddress.setTag("ref:se:husnummer", String.valueOf(houseNumber));
+                  streetAddress.setTag("ref:se:uppgång", String.valueOf(houseDoor));
+                  streetAddress.setTag("addr:street", item.getTitle().substring(0, item.getTitle().indexOf(textQuery)).trim());
+                  streetNames.add(streetAddress.getTag("addr:street"));
+
+                  // todo
+                  streetAddress.setTag("addr:city", item.getCity());
+                  if (!item.getCity().equals(item.getTown())) {
+                    streetAddress.setTag("addr:town", item.getTown());
+                  }
+
+                  houseNumbers.put(item, streetAddress);
+
+                  // sök efter husnumret i området, lägg till existerande i xml
+
+                  BooleanQuery bq = new BooleanQuery();
+
+                  BooleanQuery classQuery = new BooleanQuery();
+
+                  classQuery.add(index.getQueryFactories().nodeRadialEnvelopeQueryFactory()
+                      .setKilometerRadius(0.5)
+                      .setLongitude(((Point) item.getGeom()).getLongitude())
+                      .setLatitude(((Point) item.getGeom()).getLatitude())
+                      .build()
+                      , BooleanClause.Occur.SHOULD);
+
+                  classQuery.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
+                      .setKilometerRadius(0.5)
+                      .setLongitude(((Point) item.getGeom()).getLongitude())
+                      .setLatitude(((Point) item.getGeom()).getLatitude())
+                      .build()
+                      , BooleanClause.Occur.SHOULD);
+
+                  bq.add(classQuery
+                      , BooleanClause.Occur.MUST);
+
+                  bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+                      .setKey("addr:street")
+                      .setValue(streetAddress.getTag("addr:street"))
+                      .build(), BooleanClause.Occur.MUST);
+
+                  bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+                      .setKey("addr:housenumber")
+                      .setValue(streetAddress.getTag("addr:housenumber"))
+                      .build(), BooleanClause.Occur.MUST);
+
+                  Set<OsmObject> hits = index.search(bq).keySet();
+
+                  if (!hits.isEmpty()) {
+                    streetAddress.setTag("note", "duplicate");
+
+                    // todo create duplicate-relation with hits + item?
+
+                    for (OsmObject hit : hits) {
+                      hit.accept(writeRecursedXml);
+                    }
+                  }
+
+
+                  previousFoundHouseNumber = houseNumber;
+                }
+              }
+            }
           }
         }
-        houseNumber++;
       }
+
+
+      // sök efter gator och platser
+      {
+
+        for (char c : "abcdefghijklmnopqrstuvwxyzåäö".toCharArray()) {
+          JSONArray response = search.search(new File(data, "search"), String.valueOf(c));
+          for (int i = 0; i < response.length(); i++) {
+            if ("StreetAddress".equals(response.getJSONObject(i).get("type"))) {
+              Item item = Search.unmarshallJSONItem(response.getJSONObject(i));
+
+              if (streetNames.contains(item.getTitle())
+                  || isGatunamnSuffix(item.getTitle())) {
+
+                Node street = new Node();
+                Point point = (Point) item.getGeom();
+                street.setLatitude(point.getLatitude());
+                street.setLongitude(point.getLongitude());
+                street.setTag("source", "data.karta.orebro.se");
+                street.setTag("source:license", "cc-by");
+                street.setTag("highway", "road");
+                street.setTag("name", item.getTitle());
+
+                // todo
+                street.setTag("addr:city", item.getCity());
+                if (!item.getCity().equals(item.getTown())) {
+                  street.setTag("addr:town", item.getTown());
+                }
+
+
+                streets.put(item, street);
+
+                // sök efter gatan i området, lägg till existerande i xml
+
+                BooleanQuery bq = new BooleanQuery();
+
+                BooleanQuery classQuery = new BooleanQuery();
+
+                classQuery.add(index.getQueryFactories().nodeRadialEnvelopeQueryFactory()
+                    .setKilometerRadius(1)
+                    .setLongitude(((Point) item.getGeom()).getLongitude())
+                    .setLatitude(((Point) item.getGeom()).getLatitude())
+                    .build()
+                    , BooleanClause.Occur.SHOULD);
+
+                //          classQuery.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
+                //              .setKilometerRadius(0.5)
+                //              .setLongitude(houseNumber.getValue().getLongitude())
+                //              .setLatitude(houseNumber.getValue().getLatitude())
+                //              .build()
+                //              , BooleanClause.Occur.SHOULD);
+
+                bq.add(classQuery
+                    , BooleanClause.Occur.MUST);
+
+                bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+                    .setKey("addr:street")
+                    .setValue(street.getTag("name"))
+                    .build(), BooleanClause.Occur.MUST);
+
+                bq.add(index.getQueryFactories().containsTagKeyQueryFactory()
+                    .setKey("highway")
+                    .build(), BooleanClause.Occur.MUST);
+
+                Set<OsmObject> hits = index.search(bq).keySet();
+
+                if (!hits.isEmpty()) {
+                  street.setTag("note", "duplicate");
+
+                  // todo create duplicate-relation with hits + item?
+
+                  for (OsmObject hit : hits) {
+                    hit.accept(writeRecursedXml);
+                  }
+                }
+
+
+              } else {
+
+                // addr:place
+
+                Node place = new Node();
+                Point point = (Point) item.getGeom();
+                place.setLatitude(point.getLatitude());
+                place.setLongitude(point.getLongitude());
+                place.setTag("source", "data.karta.orebro.se");
+                place.setTag("source:license", "cc-by");
+                place.setTag("addr:place", item.getTitle());
+
+                // todo
+                place.setTag("addr:city", item.getCity());
+                if (!item.getCity().equals(item.getTown())) {
+                  place.setTag("addr:town", item.getTown());
+                }
+
+
+                addressPlaces.put(item, place);
+
+                // sök efter platsen i området, lägg till existerande i xml
+
+                BooleanQuery bq = new BooleanQuery();
+
+                BooleanQuery classQuery = new BooleanQuery();
+
+                classQuery.add(index.getQueryFactories().nodeRadialEnvelopeQueryFactory()
+                    .setKilometerRadius(5)
+                    .setLongitude(((Point) item.getGeom()).getLongitude())
+                    .setLatitude(((Point) item.getGeom()).getLatitude())
+                    .build()
+                    , BooleanClause.Occur.SHOULD);
+
+                          classQuery.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
+                              .setKilometerRadius(0.5)
+                              .setLongitude(((Point) item.getGeom()).getLongitude())
+                              .setLatitude(((Point) item.getGeom()).getLatitude())
+                              .build()
+                              , BooleanClause.Occur.SHOULD);
+
+                bq.add(classQuery
+                    , BooleanClause.Occur.MUST);
+
+
+                BooleanQuery nameQuery = new BooleanQuery();
+
+                bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+                    .setKey("addr:place")
+                    .setValue(place.getTag("addr:place"))
+                    .build(), BooleanClause.Occur.SHOULD);
+
+                bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+                    .setKey("name")
+                    .setValue(place.getTag("addr:place"))
+                    .build(), BooleanClause.Occur.SHOULD);
+
+                bq.add(nameQuery
+                    , BooleanClause.Occur.MUST);
+
+                Set<OsmObject> hits = index.search(bq).keySet();
+
+                if (!hits.isEmpty()) {
+                  place.setTag("note", "duplicate");
+
+                  // todo create duplicate-relation with hits + item?
+
+                  for (OsmObject hit : hits) {
+                    hit.accept(writeRecursedXml);
+                  }
+                }
+
+
+              }
+
+
+            }
+          }
+        }
+      }
+
+
+    } finally {
+      overpass.close();
     }
 
-    return houseNumbers;
+    int nodeId = -1;
+    for (Node node : streets.values()) {
+      node.setId(nodeId--);
+      osmXmlWriter.write(node);
+    }
+    for (Node node : houseNumbers.values()) {
+      node.setId(nodeId--);
+      osmXmlWriter.write(node);
+    }
+    for (Node node : addressLandsbygd.values()) {
+      node.setId(nodeId--);
+      osmXmlWriter.write(node);
+    }
+    for (Node node : addressPlaces.values()) {
+      node.setId(nodeId--);
+      osmXmlWriter.write(node);
+    }
+
+    osmXmlWriter.close();
+
   }
+
 
   public static void extractTypes() throws Exception {
 
@@ -123,95 +567,6 @@ public class Orebro {
 
     System.out.println(types);
 
-  }
-
-  public static Collection<String> extractPossibleStreetNames() throws Exception {
-
-    harvestSingleCharacterJSON();
-
-    Set<Item> items = new HashSet<>();
-
-    for (File file : new File(data, "single character").listFiles(new FileFilter() {
-      @Override
-      public boolean accept(File pathname) {
-        return pathname.getName().endsWith(".json");
-      }
-    })) {
-
-      JSONArray response = new JSONArray(new JSONTokener(new InputStreamReader(new FileInputStream(file), "UTF8")));
-      for (int i = 0; i < response.length(); i++) {
-        items.add(Search.unmarshallJSONItem(response.getJSONObject(i)));
-      }
-    }
-
-    Set<String> titles = new HashSet<>();
-    for (Item item : items) {
-      if ("StreetAddress".equals(item.getType())
-          && item.getTitle() != null) {
-        titles.add(item.getTitle());
-      }
-    }
-
-    List<String> orderdTitles = new ArrayList<>(titles);
-    Collections.sort(orderdTitles);
-    Writer writer = new OutputStreamWriter(new FileOutputStream(new File(data, "streetNames.txt")), "UTF8");
-    for (String title : orderdTitles) {
-      writer.write(title);
-      writer.write("\n");
-    }
-    writer.close();
-
-    System.currentTimeMillis();
-
-    return orderdTitles;
-  }
-
-
-  public static void harvestSingleCharacterJSON() throws Exception {
-
-
-    Search search = new Search();
-
-    char[] characters = {
-        'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'å', 'ä', 'ö',
-        '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'
-    };
-
-    for (char character : characters) {
-      search.search(new File(data, "single character"), String.valueOf(character));
-    }
-
-
-    search.close();
-
-
-  }
-
-  public static PojoRoot loadSweden() throws Exception {
-    File file = new File(data, "sweden-latest.osm.bz2");
-    if (!file.exists()) {
-      URL website = new URL("http://mirror.openstreetmap.se/geofabrik/europe/sweden-latest.osm.bz2");
-      ReadableByteChannel rbc = Channels.newChannel(website.openStream());
-      FileOutputStream fos = new FileOutputStream(file);
-      fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-      fos.close();
-    }
-
-    PojoRoot root = new PojoRoot();
-    InstantiatedOsmXmlParser parser = InstantiatedOsmXmlParser.newInstance();
-    parser.setRoot(root);
-
-    parser.parse(new BZip2CompressorInputStream(new FileInputStream(file)));
-
-    File path = new File(data, "sweden");
-    boolean reconstruct = !path.exists();
-    IndexedRoot indexedRoot = new IndexedRootImpl(root, path);
-    indexedRoot.open();
-    if (reconstruct) {
-      indexedRoot.reconstruct(10);
-    }
-
-    return root;
   }
 
 
