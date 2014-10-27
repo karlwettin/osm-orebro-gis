@@ -15,10 +15,9 @@ import se.kodapan.osm.services.overpass.FileSystemCachedOverpass;
 import se.kodapan.osm.xml.OsmXmlWriter;
 
 import java.io.*;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * @author kalle@kodapan.se
@@ -59,41 +58,96 @@ public class Orebro {
 
   public void run() throws Exception {
 
-    final OsmXmlWriter osmXmlWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, "orebro-" + System.currentTimeMillis() + ".osm.xml")), "UTF8"));
 
-    OsmObjectVisitor<Void> writeRecursedXml = new OsmObjectVisitor<Void>() {
+    final OsmXmlWriter houseNumberWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, System.currentTimeMillis() + "-orebro-house-numbers.osm.xml")), "UTF8")) {
+      private AtomicLong id = new AtomicLong(-1);
+
+      @Override
+      public void write(Node node) throws IOException {
+        node.setId(id.getAndDecrement());
+        super.write(node);
+      }
+    };
+
+    final OsmXmlWriter streetWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, System.currentTimeMillis() + "-orebro-new-streets.osm.xml")), "UTF8")) {
+      private AtomicLong id = new AtomicLong(-1);
+
+      @Override
+      public void write(Node node) throws IOException {
+        node.setId(id.getAndDecrement());
+        super.write(node);
+      }
+    };
+
+    final OsmXmlWriter uncertainWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, System.currentTimeMillis() + "-orebro-new-uncertain.osm.xml")), "UTF8")) {
+      private AtomicLong id = new AtomicLong(-1);
+
+      @Override
+      public void write(Node node) throws IOException {
+        node.setId(id.getAndDecrement());
+        super.write(node);
+      }
+    };
+//
+
+    final OsmXmlWriter orebroDuplicatesWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, System.currentTimeMillis() + "-orebro-duplicates.osm.xml")), "UTF8")) {
+      private AtomicLong id = new AtomicLong(-1);
+
+      @Override
+      public void write(Node node) throws IOException {
+        node.setId(id.getAndDecrement());
+        super.write(node);
+      }
+    };
+
+    final OsmXmlWriter osmDuplicatesWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, System.currentTimeMillis() + "-orebro-osm-duplicates.osm.xml")), "UTF8"));
+
+
+    OsmObjectVisitor<Void> writeToOsmDuplicates = new OsmObjectVisitor<Void>() {
+      private Set<OsmObject> seen = new HashSet<>();
+
       @Override
       public Void visit(Node node) {
-        try {
-          osmXmlWriter.write(node);
-        } catch (Exception e) {
-          throw new RuntimeException(e);
+
+        if (seen.add(node)) {
+          try {
+            osmDuplicatesWriter.write(node);
+            osmDuplicatesWriter.flush();
+          } catch (Exception e) {
+            throw new RuntimeException(e);
+          }
         }
         return null;
       }
 
       @Override
       public Void visit(Way way) {
-        try {
-          osmXmlWriter.write(way);
-          for (Node node : way.getNodes()) {
-            node.accept(this);
+        if (seen.add(way)) {
+          try {
+            osmDuplicatesWriter.write(way);
+            for (Node node : way.getNodes()) {
+              node.accept(this);
+            }
+            osmDuplicatesWriter.flush();
+          } catch (Exception e) {
+            throw new RuntimeException(e);
           }
-        } catch (Exception e) {
-          throw new RuntimeException(e);
         }
         return null;
       }
 
       @Override
       public Void visit(Relation relation) {
-        try {
-          osmXmlWriter.write(relation);
-          for (RelationMembership membership : relation.getMembers()) {
-            membership.getObject().accept(this);
+        if (seen.add(relation)) {
+          try {
+            osmDuplicatesWriter.write(relation);
+            for (RelationMembership membership : relation.getMembers()) {
+              membership.getObject().accept(this);
+            }
+            osmDuplicatesWriter.flush();
+          } catch (Exception e) {
+            throw new RuntimeException(e);
           }
-        } catch (Exception e) {
-          throw new RuntimeException(e);
         }
         return null;
       }
@@ -105,12 +159,6 @@ public class Orebro {
     PojoRoot root;
     IndexedRoot<Query> index;
 
-    Map<Item, Node> houseNumbers = new HashMap<>();
-    Map<Item, Node> streets = new HashMap<>();
-    Map<Item, Node> addressLandsbygd = new HashMap<>();
-    Map<Item, Node> addressPlaces = new HashMap<>();
-    Set<String> streetNames = new HashSet<>();
-
 
     overpass = new FileSystemCachedOverpass(new File(data, "overpass"));
     overpass.setUserAgent(getClass().getName());
@@ -119,7 +167,7 @@ public class Orebro {
 
 
       //
-      //  ladda in örebro som osm-data så vi kan leta upp kända och okända vägar, husnummer och uppgångar, etc.
+      System.out.println("ladda in örebro som osm-data så vi kan leta upp kända och okända vägar, husnummer och uppgångar, etc.");
       {
         String xml = overpass.execute("<osm-script>\n" +
             "  <union>\n" +
@@ -169,11 +217,16 @@ public class Orebro {
 
       Search search = new Search();
 
+      Set<String> streetNames = new HashSet<>();
 
+
+      System.out.println("sök efter husnummer och landsbygdsnamn");
       {
         int previousFoundHouseNumber = 0;
 //        for (int houseNumber = 1; houseNumber - previousFoundHouseNumber < 25; houseNumber++) {
-        for (int houseNumber = 1; houseNumber < 500; houseNumber++) {
+        for (int houseNumber = 1; houseNumber < 10000 && houseNumber - previousFoundHouseNumber < 1500; houseNumber++) {
+
+          System.out.println(houseNumber);
 
           // sök efter husnummer och landsbygdsnamn
           {
@@ -186,23 +239,24 @@ public class Orebro {
 
                 if ("Landsbygd".equals(item.getTown())) {
 
+
+                  Node landsbygdsadress = new Node();
+                  Point point = (Point) item.getGeom();
+                  landsbygdsadress.setLatitude(point.getLatitude());
+                  landsbygdsadress.setLongitude(point.getLongitude());
+                  landsbygdsadress.setTag("source", "data.karta.orebro.se");
+                  landsbygdsadress.setTag("source:license", "cc-by");
+                  landsbygdsadress.setTag("addr:place", item.getTitle().substring(0, item.getTitle().indexOf(textQuery)).trim());
+                  landsbygdsadress.setTag("addr:housenumber", String.valueOf(houseNumber));
+
+
+                  addCity(item, landsbygdsadress);
+
+
                   // todo sök efter name:, addr:place, addr:street, etc i området
 
-                  Node streetAddress = new Node();
-                  Point point = (Point) item.getGeom();
-                  streetAddress.setLatitude(point.getLatitude());
-                  streetAddress.setLongitude(point.getLongitude());
-                  streetAddress.setTag("source", "data.karta.orebro.se");
-                  streetAddress.setTag("source:license", "cc-by");
-                  streetAddress.setTag("addr:place", item.getTitle());
+                  houseNumberWriter.write(landsbygdsadress);
 
-                  // todo
-                  streetAddress.setTag("addr:city", item.getCity());
-                  if (!item.getCity().equals(item.getTown())) {
-                    streetAddress.setTag("addr:town", item.getTown());
-                  }
-
-                  addressLandsbygd.put(item, streetAddress);
 
                 } else {
 
@@ -214,17 +268,10 @@ public class Orebro {
                   streetAddress.setTag("source", "data.karta.orebro.se");
                   streetAddress.setTag("source:license", "cc-by");
                   streetAddress.setTag("addr:housenumber", String.valueOf(houseNumber));
-                  streetAddress.setTag("ref:se:husnummer", String.valueOf(houseNumber));
                   streetAddress.setTag("addr:street", item.getTitle().substring(0, item.getTitle().indexOf(textQuery)).trim());
                   streetNames.add(streetAddress.getTag("addr:street"));
 
-                  // todo
-                  streetAddress.setTag("addr:city", item.getCity());
-                  if (!item.getCity().equals(item.getTown())) {
-                    streetAddress.setTag("addr:town", item.getTown());
-                  }
-
-                  houseNumbers.put(item, streetAddress);
+                  addCity(item, streetAddress);
 
 
                   // sök efter husnumret i området, lägg till existerande i xml
@@ -268,8 +315,15 @@ public class Orebro {
                     // todo create duplicate-relation with hits + item?
 
                     for (OsmObject hit : hits) {
-                      hit.accept(writeRecursedXml);
+                      hit.accept(writeToOsmDuplicates);
                     }
+
+                    orebroDuplicatesWriter.write(streetAddress);
+
+                  } else {
+
+                    houseNumberWriter.write(streetAddress);
+
                   }
 
                 }
@@ -277,86 +331,96 @@ public class Orebro {
               }
             }
           }
+        }
+      }
 
 
-          // sök efter uppgångar på husnummer
-          {
-            for (char houseDoor : "ABCDEFGHIJKLMNOPQRSTUVQXYZÅÄÖ".toCharArray()) {
-              String textQuery = " " + String.valueOf(houseNumber) + String.valueOf(houseDoor);
-              JSONArray response = search.search(new File(data, "search"), textQuery);
-              for (int i = 0; i < response.length(); i++) {
-                Item item = Search.unmarshallJSONItem(response.getJSONObject(i));
-                if ("StreetAddress".equals(item.getType())
-                    && item.getTitle().toLowerCase().endsWith(textQuery.toLowerCase())) {
+      System.out.println("sök efter uppgångar på husnummer");//
+      {
+        int previousFoundHouseNumber = 0;
+        for (int houseNumber = 1; houseNumber - previousFoundHouseNumber < 25; houseNumber++) {
+          System.out.println(houseNumber);
+//            for (int houseNumber = 1; houseNumber < 500; houseNumber++) {
 
-                  Node streetAddress = new Node();
-                  Point point = (Point) item.getGeom();
-                  streetAddress.setLatitude(point.getLatitude());
-                  streetAddress.setLongitude(point.getLongitude());
-                  streetAddress.setTag("source", "data.karta.orebro.se");
-                  streetAddress.setTag("source:license", "cc-by");
-                  streetAddress.setTag("addr:housenumber", String.valueOf(houseNumber) + String.valueOf(houseDoor));
-                  streetAddress.setTag("ref:se:husnummer", String.valueOf(houseNumber));
-                  streetAddress.setTag("ref:se:uppgång", String.valueOf(houseDoor));
-                  streetAddress.setTag("addr:street", item.getTitle().substring(0, item.getTitle().indexOf(textQuery)).trim());
-                  streetNames.add(streetAddress.getTag("addr:street"));
+          for (char houseDoor : "ABCDEFGHIJKLMNOPQRSTUVQXYZÅÄÖ".toCharArray()) {
+            String textQuery = " " + String.valueOf(houseNumber) + String.valueOf(houseDoor);
+            JSONArray response = search.search(new File(data, "search"), textQuery);
+            for (int i = 0; i < response.length(); i++) {
+              Item item = Search.unmarshallJSONItem(response.getJSONObject(i));
+              if ("StreetAddress".equals(item.getType())
+                  && item.getTitle().toLowerCase().endsWith(textQuery.toLowerCase())) {
 
-                  // todo
-                  streetAddress.setTag("addr:city", item.getCity());
-                  if (!item.getCity().equals(item.getTown())) {
-                    streetAddress.setTag("addr:town", item.getTown());
+                Node streetAddress = new Node();
+                Point point = (Point) item.getGeom();
+                streetAddress.setLatitude(point.getLatitude());
+                streetAddress.setLongitude(point.getLongitude());
+                streetAddress.setTag("source", "data.karta.orebro.se");
+                streetAddress.setTag("source:license", "cc-by");
+                streetAddress.setTag("addr:housenumber", String.valueOf(houseNumber) + String.valueOf(houseDoor));
+                streetAddress.setTag("ref:se:husnummer", String.valueOf(houseNumber));
+                streetAddress.setTag("ref:se:uppgång", String.valueOf(houseDoor));
+                streetAddress.setTag("addr:street", item.getTitle().substring(0, item.getTitle().indexOf(textQuery)).trim());
+                streetNames.add(streetAddress.getTag("addr:street"));
+
+                addCity(item, streetAddress);
+
+                //houseNumbers.put(item, streetAddress);
+
+                // sök efter husnumret i området, lägg till existerande i xml
+
+                BooleanQuery bq = new BooleanQuery();
+
+                BooleanQuery classQuery = new BooleanQuery();
+
+                classQuery.add(index.getQueryFactories().nodeRadialEnvelopeQueryFactory()
+                    .setKilometerRadius(0.5)
+                    .setLongitude(((Point) item.getGeom()).getLongitude())
+                    .setLatitude(((Point) item.getGeom()).getLatitude())
+                    .build()
+                    , BooleanClause.Occur.SHOULD);
+
+                classQuery.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
+                    .setKilometerRadius(0.5)
+                    .setLongitude(((Point) item.getGeom()).getLongitude())
+                    .setLatitude(((Point) item.getGeom()).getLatitude())
+                    .build()
+                    , BooleanClause.Occur.SHOULD);
+
+                bq.add(classQuery
+                    , BooleanClause.Occur.MUST);
+
+                bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+                    .setKey("addr:street")
+                    .setValue(streetAddress.getTag("addr:street"))
+                    .build(), BooleanClause.Occur.MUST);
+
+                bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+                    .setKey("addr:housenumber")
+                    .setValue(streetAddress.getTag("addr:housenumber"))
+                    .build(), BooleanClause.Occur.MUST);
+
+                Set<OsmObject> hits = index.search(bq).keySet();
+
+                if (!hits.isEmpty()) {
+                  streetAddress.setTag("note", "duplicate");
+
+                  // todo create duplicate-relation with hits + item?
+
+                  for (OsmObject hit : hits) {
+                    hit.accept(writeToOsmDuplicates);
                   }
 
-                  houseNumbers.put(item, streetAddress);
+                  orebroDuplicatesWriter.write(streetAddress);
 
-                  // sök efter husnumret i området, lägg till existerande i xml
+                } else {
 
-                  BooleanQuery bq = new BooleanQuery();
-
-                  BooleanQuery classQuery = new BooleanQuery();
-
-                  classQuery.add(index.getQueryFactories().nodeRadialEnvelopeQueryFactory()
-                      .setKilometerRadius(0.5)
-                      .setLongitude(((Point) item.getGeom()).getLongitude())
-                      .setLatitude(((Point) item.getGeom()).getLatitude())
-                      .build()
-                      , BooleanClause.Occur.SHOULD);
-
-                  classQuery.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
-                      .setKilometerRadius(0.5)
-                      .setLongitude(((Point) item.getGeom()).getLongitude())
-                      .setLatitude(((Point) item.getGeom()).getLatitude())
-                      .build()
-                      , BooleanClause.Occur.SHOULD);
-
-                  bq.add(classQuery
-                      , BooleanClause.Occur.MUST);
-
-                  bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
-                      .setKey("addr:street")
-                      .setValue(streetAddress.getTag("addr:street"))
-                      .build(), BooleanClause.Occur.MUST);
-
-                  bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
-                      .setKey("addr:housenumber")
-                      .setValue(streetAddress.getTag("addr:housenumber"))
-                      .build(), BooleanClause.Occur.MUST);
-
-                  Set<OsmObject> hits = index.search(bq).keySet();
-
-                  if (!hits.isEmpty()) {
-                    streetAddress.setTag("note", "duplicate");
-
-                    // todo create duplicate-relation with hits + item?
-
-                    for (OsmObject hit : hits) {
-                      hit.accept(writeRecursedXml);
-                    }
-                  }
+                  houseNumberWriter.write(streetAddress);
 
 
-                  previousFoundHouseNumber = houseNumber;
                 }
+
+
+                previousFoundHouseNumber = houseNumber;
               }
             }
           }
@@ -364,10 +428,13 @@ public class Orebro {
       }
 
 
-      // sök efter gator och platser
+      System.out.println("sök efter gator och platser");
       {
 
         for (char c : "abcdefghijklmnopqrstuvwxyzåäö".toCharArray()) {
+
+          System.out.println(c);
+
           JSONArray response = search.search(new File(data, "search"), String.valueOf(c));
           for (int i = 0; i < response.length(); i++) {
             if ("StreetAddress".equals(response.getJSONObject(i).get("type"))) {
@@ -385,14 +452,8 @@ public class Orebro {
                 street.setTag("highway", "road");
                 street.setTag("name", item.getTitle());
 
-                // todo
-                street.setTag("addr:city", item.getCity());
-                if (!item.getCity().equals(item.getTown())) {
-                  street.setTag("addr:town", item.getTown());
-                }
+                addCity(item, street);
 
-
-                streets.put(item, street);
 
                 // sök efter gatan i området, lägg till existerande i xml
 
@@ -407,24 +468,25 @@ public class Orebro {
                     .build()
                     , BooleanClause.Occur.SHOULD);
 
-                //          classQuery.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
-                //              .setKilometerRadius(0.5)
-                //              .setLongitude(houseNumber.getValue().getLongitude())
-                //              .setLatitude(houseNumber.getValue().getLatitude())
-                //              .build()
-                //              , BooleanClause.Occur.SHOULD);
+                classQuery.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
+                    .setKilometerRadius(1)
+                    .setLongitude(((Point) item.getGeom()).getLongitude())
+                    .setLatitude(((Point) item.getGeom()).getLatitude())
+                    .build()
+                    , BooleanClause.Occur.SHOULD);
 
                 bq.add(classQuery
                     , BooleanClause.Occur.MUST);
 
-                bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
-                    .setKey("addr:street")
-                    .setValue(street.getTag("name"))
-                    .build(), BooleanClause.Occur.MUST);
-
                 bq.add(index.getQueryFactories().containsTagKeyQueryFactory()
                     .setKey("highway")
                     .build(), BooleanClause.Occur.MUST);
+
+                bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+                    .setKey("name")
+                    .setValue(street.getTag("name"))
+                    .build(), BooleanClause.Occur.MUST);
+
 
                 Set<OsmObject> hits = index.search(bq).keySet();
 
@@ -434,14 +496,21 @@ public class Orebro {
                   // todo create duplicate-relation with hits + item?
 
                   for (OsmObject hit : hits) {
-                    hit.accept(writeRecursedXml);
+                    hit.accept(writeToOsmDuplicates);
                   }
+
+                  orebroDuplicatesWriter.write(street);
+
+                } else {
+
+                  streetWriter.write(street);
+
                 }
 
 
               } else {
 
-                // addr:place
+                // uncertain but still interesting
 
                 Node place = new Node();
                 Point point = (Point) item.getGeom();
@@ -449,16 +518,10 @@ public class Orebro {
                 place.setLongitude(point.getLongitude());
                 place.setTag("source", "data.karta.orebro.se");
                 place.setTag("source:license", "cc-by");
-                place.setTag("addr:place", item.getTitle());
+                place.setTag("note", "uncertain");
+                place.setTag("name", item.getTitle());
+                addCity(item, place);
 
-                // todo
-                place.setTag("addr:city", item.getCity());
-                if (!item.getCity().equals(item.getTown())) {
-                  place.setTag("addr:town", item.getTown());
-                }
-
-
-                addressPlaces.put(item, place);
 
                 // sök efter platsen i området, lägg till existerande i xml
 
@@ -473,12 +536,12 @@ public class Orebro {
                     .build()
                     , BooleanClause.Occur.SHOULD);
 
-                          classQuery.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
-                              .setKilometerRadius(0.5)
-                              .setLongitude(((Point) item.getGeom()).getLongitude())
-                              .setLatitude(((Point) item.getGeom()).getLatitude())
-                              .build()
-                              , BooleanClause.Occur.SHOULD);
+                classQuery.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
+                    .setKilometerRadius(0.5)
+                    .setLongitude(((Point) item.getGeom()).getLongitude())
+                    .setLatitude(((Point) item.getGeom()).getLatitude())
+                    .build()
+                    , BooleanClause.Occur.SHOULD);
 
                 bq.add(classQuery
                     , BooleanClause.Occur.MUST);
@@ -488,12 +551,12 @@ public class Orebro {
 
                 bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
                     .setKey("addr:place")
-                    .setValue(place.getTag("addr:place"))
+                    .setValue(place.getTag("name"))
                     .build(), BooleanClause.Occur.SHOULD);
 
                 bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
                     .setKey("name")
-                    .setValue(place.getTag("addr:place"))
+                    .setValue(place.getTag("name"))
                     .build(), BooleanClause.Occur.SHOULD);
 
                 bq.add(nameQuery
@@ -501,16 +564,18 @@ public class Orebro {
 
                 Set<OsmObject> hits = index.search(bq).keySet();
 
+
                 if (!hits.isEmpty()) {
                   place.setTag("note", "duplicate");
-
                   // todo create duplicate-relation with hits + item?
-
                   for (OsmObject hit : hits) {
-                    hit.accept(writeRecursedXml);
+                    hit.accept(writeToOsmDuplicates);
                   }
-                }
+                  orebroDuplicatesWriter.write(place);
 
+                } else {
+                  uncertainWriter.write(place);
+                }
 
               }
 
@@ -525,26 +590,24 @@ public class Orebro {
       overpass.close();
     }
 
-    int nodeId = -1;
-    for (Node node : streets.values()) {
-      node.setId(nodeId--);
-      osmXmlWriter.write(node);
-    }
-    for (Node node : houseNumbers.values()) {
-      node.setId(nodeId--);
-      osmXmlWriter.write(node);
-    }
-    for (Node node : addressLandsbygd.values()) {
-      node.setId(nodeId--);
-      osmXmlWriter.write(node);
-    }
-    for (Node node : addressPlaces.values()) {
-      node.setId(nodeId--);
-      osmXmlWriter.write(node);
-    }
 
-    osmXmlWriter.close();
+    houseNumberWriter.close();
+    streetWriter.close();
+    uncertainWriter.close();
+    osmDuplicatesWriter.close();
+    orebroDuplicatesWriter.close();
 
+  }
+
+  private void addCity(Item item, Node place) {
+
+
+    place.setTag("addr:city", item.getCity());
+    if (!"Landsbygd".equals(item.getTown())) {
+      if (place.getTag("addr:place") == null) {
+        place.setTag("addr:place", item.getTown());
+      }
+    }
   }
 
 
