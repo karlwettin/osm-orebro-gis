@@ -58,8 +58,7 @@ public class Orebro {
 
   public void run() throws Exception {
 
-
-    final OsmXmlWriter houseNumberWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, System.currentTimeMillis() + "-orebro-house-numbers.osm.xml")), "UTF8")) {
+    final OsmXmlWriter geoObjectWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, "geo-objects.osm.xml")), "UTF8")) {
       private AtomicLong id = new AtomicLong(-1);
 
       @Override
@@ -69,7 +68,7 @@ public class Orebro {
       }
     };
 
-    final OsmXmlWriter streetWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, System.currentTimeMillis() + "-orebro-new-streets.osm.xml")), "UTF8")) {
+    final OsmXmlWriter houseNumberWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, "house-numbers.osm.xml")), "UTF8")) {
       private AtomicLong id = new AtomicLong(-1);
 
       @Override
@@ -79,7 +78,27 @@ public class Orebro {
       }
     };
 
-    final OsmXmlWriter uncertainWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, System.currentTimeMillis() + "-orebro-new-uncertain.osm.xml")), "UTF8")) {
+    final OsmXmlWriter streetWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, "streets.osm.xml")), "UTF8")) {
+      private AtomicLong id = new AtomicLong(-1);
+
+      @Override
+      public void write(Node node) throws IOException {
+        node.setId(id.getAndDecrement());
+        super.write(node);
+      }
+    };
+
+    final OsmXmlWriter placesLandsbygdWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, "places-landsbygd.osm.xml")), "UTF8")) {
+      private AtomicLong id = new AtomicLong(-1);
+
+      @Override
+      public void write(Node node) throws IOException {
+        node.setId(id.getAndDecrement());
+        super.write(node);
+      }
+    };
+
+    final OsmXmlWriter uncertainWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, "uncertain.osm.xml")), "UTF8")) {
       private AtomicLong id = new AtomicLong(-1);
 
       @Override
@@ -90,7 +109,7 @@ public class Orebro {
     };
 //
 
-    final OsmXmlWriter orebroDuplicatesWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, System.currentTimeMillis() + "-orebro-duplicates.osm.xml")), "UTF8")) {
+    final OsmXmlWriter orebroDuplicatesWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, "duplicates.osm.xml")), "UTF8")) {
       private AtomicLong id = new AtomicLong(-1);
 
       @Override
@@ -100,7 +119,7 @@ public class Orebro {
       }
     };
 
-    final OsmXmlWriter osmDuplicatesWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, System.currentTimeMillis() + "-orebro-osm-duplicates.osm.xml")), "UTF8"));
+    final OsmXmlWriter osmDuplicatesWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, "osm-duplicates.osm.xml")), "UTF8"));
 
 
     OsmObjectVisitor<Void> writeToOsmDuplicates = new OsmObjectVisitor<Void>() {
@@ -218,6 +237,7 @@ public class Orebro {
       Search search = new Search();
 
       Set<String> streetNames = new HashSet<>();
+      Set<String> placeNames = new HashSet<>();
 
 
       System.out.println("sök efter husnummer och landsbygdsnamn");
@@ -244,11 +264,11 @@ public class Orebro {
                   Point point = (Point) item.getGeom();
                   landsbygdsadress.setLatitude(point.getLatitude());
                   landsbygdsadress.setLongitude(point.getLongitude());
-                  landsbygdsadress.setTag("source", "data.karta.orebro.se");
-                  landsbygdsadress.setTag("source:license", "cc-by");
+                  addSource(landsbygdsadress);
                   landsbygdsadress.setTag("addr:place", item.getTitle().substring(0, item.getTitle().indexOf(textQuery)).trim());
                   landsbygdsadress.setTag("addr:housenumber", String.valueOf(houseNumber));
 
+                  placeNames.add(landsbygdsadress.getTag("addr:place"));
 
                   addCity(item, landsbygdsadress);
 
@@ -265,8 +285,7 @@ public class Orebro {
                   Point point = (Point) item.getGeom();
                   streetAddress.setLatitude(point.getLatitude());
                   streetAddress.setLongitude(point.getLongitude());
-                  streetAddress.setTag("source", "data.karta.orebro.se");
-                  streetAddress.setTag("source:license", "cc-by");
+                  addSource(streetAddress);
                   streetAddress.setTag("addr:housenumber", String.valueOf(houseNumber));
                   streetAddress.setTag("addr:street", item.getTitle().substring(0, item.getTitle().indexOf(textQuery)).trim());
                   streetNames.add(streetAddress.getTag("addr:street"));
@@ -354,8 +373,7 @@ public class Orebro {
                 Point point = (Point) item.getGeom();
                 streetAddress.setLatitude(point.getLatitude());
                 streetAddress.setLongitude(point.getLongitude());
-                streetAddress.setTag("source", "data.karta.orebro.se");
-                streetAddress.setTag("source:license", "cc-by");
+                addSource(streetAddress);
                 streetAddress.setTag("addr:housenumber", String.valueOf(houseNumber) + String.valueOf(houseDoor));
                 streetAddress.setTag("ref:se:husnummer", String.valueOf(houseNumber));
                 streetAddress.setTag("ref:se:uppgång", String.valueOf(houseDoor));
@@ -447,8 +465,7 @@ public class Orebro {
                 Point point = (Point) item.getGeom();
                 street.setLatitude(point.getLatitude());
                 street.setLongitude(point.getLongitude());
-                street.setTag("source", "data.karta.orebro.se");
-                street.setTag("source:license", "cc-by");
+                addSource(street);
                 street.setTag("highway", "road");
                 street.setTag("name", item.getTitle());
 
@@ -507,20 +524,16 @@ public class Orebro {
 
                 }
 
+              } else if (placeNames.contains(item.getTitle())) {
 
-              } else {
-
-                // uncertain but still interesting
-
-                Node place = new Node();
+                Node landsbygsPlace = new Node();
                 Point point = (Point) item.getGeom();
-                place.setLatitude(point.getLatitude());
-                place.setLongitude(point.getLongitude());
-                place.setTag("source", "data.karta.orebro.se");
-                place.setTag("source:license", "cc-by");
-                place.setTag("note", "uncertain");
-                place.setTag("name", item.getTitle());
-                addCity(item, place);
+                landsbygsPlace.setLatitude(point.getLatitude());
+                landsbygsPlace.setLongitude(point.getLongitude());
+                addSource(landsbygsPlace);
+                landsbygsPlace.setTag("place", "hamlet");
+                landsbygsPlace.setTag("name", item.getTitle());
+                addCity(item, landsbygsPlace);
 
 
                 // sök efter platsen i området, lägg till existerande i xml
@@ -537,7 +550,70 @@ public class Orebro {
                     , BooleanClause.Occur.SHOULD);
 
                 classQuery.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
-                    .setKilometerRadius(0.5)
+                    .setKilometerRadius(5)
+                    .setLongitude(((Point) item.getGeom()).getLongitude())
+                    .setLatitude(((Point) item.getGeom()).getLatitude())
+                    .build()
+                    , BooleanClause.Occur.SHOULD);
+
+                bq.add(classQuery
+                    , BooleanClause.Occur.MUST);
+
+
+                BooleanQuery nameQuery = new BooleanQuery();
+
+                bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+                    .setKey("name")
+                    .setValue(landsbygsPlace.getTag("name"))
+                    .build(), BooleanClause.Occur.SHOULD);
+
+                bq.add(nameQuery
+                    , BooleanClause.Occur.MUST);
+
+                Set<OsmObject> hits = index.search(bq).keySet();
+
+
+                if (!hits.isEmpty()) {
+                  landsbygsPlace.setTag("note", "duplicate");
+                  // todo create duplicate-relation with hits + item?
+                  for (OsmObject hit : hits) {
+                    hit.accept(writeToOsmDuplicates);
+                  }
+                  orebroDuplicatesWriter.write(landsbygsPlace);
+
+                } else {
+                  placesLandsbygdWriter.write(landsbygsPlace);
+                }
+
+
+              } else {
+
+                // uncertain but still interesting
+
+                Node uncertain = new Node();
+                Point point = (Point) item.getGeom();
+                uncertain.setLatitude(point.getLatitude());
+                uncertain.setLongitude(point.getLongitude());
+                addSource(uncertain);
+                uncertain.setTag("name", item.getTitle());
+                addCity(item, uncertain);
+
+
+                // sök efter platsen i området, lägg till existerande i xml
+
+                BooleanQuery bq = new BooleanQuery();
+
+                BooleanQuery classQuery = new BooleanQuery();
+
+                classQuery.add(index.getQueryFactories().nodeRadialEnvelopeQueryFactory()
+                    .setKilometerRadius(1)
+                    .setLongitude(((Point) item.getGeom()).getLongitude())
+                    .setLatitude(((Point) item.getGeom()).getLatitude())
+                    .build()
+                    , BooleanClause.Occur.SHOULD);
+
+                classQuery.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
+                    .setKilometerRadius(1)
                     .setLongitude(((Point) item.getGeom()).getLongitude())
                     .setLatitude(((Point) item.getGeom()).getLatitude())
                     .build()
@@ -551,12 +627,12 @@ public class Orebro {
 
                 bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
                     .setKey("addr:place")
-                    .setValue(place.getTag("name"))
+                    .setValue(uncertain.getTag("name"))
                     .build(), BooleanClause.Occur.SHOULD);
 
                 bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
                     .setKey("name")
-                    .setValue(place.getTag("name"))
+                    .setValue(uncertain.getTag("name"))
                     .build(), BooleanClause.Occur.SHOULD);
 
                 bq.add(nameQuery
@@ -566,19 +642,106 @@ public class Orebro {
 
 
                 if (!hits.isEmpty()) {
-                  place.setTag("note", "duplicate");
+                  uncertain.setTag("note", "duplicate");
                   // todo create duplicate-relation with hits + item?
                   for (OsmObject hit : hits) {
                     hit.accept(writeToOsmDuplicates);
                   }
-                  orebroDuplicatesWriter.write(place);
+                  orebroDuplicatesWriter.write(uncertain);
 
                 } else {
-                  uncertainWriter.write(place);
+                  uncertainWriter.write(uncertain);
                 }
 
               }
 
+
+            }
+          }
+        }
+      }
+
+
+      System.out.println("leta upp alla GeoObject");
+      {
+        Set<Item> seen = new HashSet<>();
+        for (File file : new File(data, "search").listFiles(new FileFilter() {
+          @Override
+          public boolean accept(File pathname) {
+            return pathname.getName().endsWith(".json");
+          }
+        })) {
+          JSONArray response = new JSONArray(new JSONTokener(new InputStreamReader(new FileInputStream(file), "UTF8")));
+          for (int i = 0; i < response.length(); i++) {
+            Item item = Search.unmarshallJSONItem(response.getJSONObject(i));
+            if ("GeoObject".equals(item.getType())) {
+
+              if (seen.add(item)) {
+
+                Node geoObject = new Node();
+
+                Point point = (Point) item.getGeom();
+                geoObject.setLatitude(point.getLatitude());
+                geoObject.setLongitude(point.getLongitude());
+                addSource(geoObject);
+                geoObject.setTag("name", item.getTitle());
+                addCity(item, geoObject);
+
+                // sök efter platsen i området, lägg till existerande i xml
+
+                BooleanQuery bq = new BooleanQuery();
+
+                BooleanQuery classQuery = new BooleanQuery();
+
+                classQuery.add(index.getQueryFactories().nodeRadialEnvelopeQueryFactory()
+                    .setKilometerRadius(1)
+                    .setLongitude(((Point) item.getGeom()).getLongitude())
+                    .setLatitude(((Point) item.getGeom()).getLatitude())
+                    .build()
+                    , BooleanClause.Occur.SHOULD);
+
+                classQuery.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
+                    .setKilometerRadius(1)
+                    .setLongitude(((Point) item.getGeom()).getLongitude())
+                    .setLatitude(((Point) item.getGeom()).getLatitude())
+                    .build()
+                    , BooleanClause.Occur.SHOULD);
+
+                bq.add(classQuery
+                    , BooleanClause.Occur.MUST);
+
+
+                BooleanQuery nameQuery = new BooleanQuery();
+
+                bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+                    .setKey("addr:place")
+                    .setValue(geoObject.getTag("name"))
+                    .build(), BooleanClause.Occur.SHOULD);
+
+                bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+                    .setKey("name")
+                    .setValue(geoObject.getTag("name"))
+                    .build(), BooleanClause.Occur.SHOULD);
+
+                bq.add(nameQuery
+                    , BooleanClause.Occur.MUST);
+
+                Set<OsmObject> hits = index.search(bq).keySet();
+
+
+                if (!hits.isEmpty()) {
+                  geoObject.setTag("note", "duplicate");
+                  // todo create duplicate-relation with hits + item?
+                  for (OsmObject hit : hits) {
+                    hit.accept(writeToOsmDuplicates);
+                  }
+                  orebroDuplicatesWriter.write(geoObject);
+
+                } else {
+                  geoObjectWriter.write(geoObject);
+                }
+
+              }
 
             }
           }
@@ -591,23 +754,34 @@ public class Orebro {
     }
 
 
+    geoObjectWriter.close();
     houseNumberWriter.close();
     streetWriter.close();
+    placesLandsbygdWriter.close();
     uncertainWriter.close();
     osmDuplicatesWriter.close();
     orebroDuplicatesWriter.close();
 
   }
 
+  private void addSource(Node uncertain) {
+    uncertain.setTag("source", "data.karta.orebro.se");
+    uncertain.setTag("source:license", "cc-by");
+  }
+
   private void addCity(Item item, Node place) {
 
-
-    place.setTag("addr:city", item.getCity());
-    if (!"Landsbygd".equals(item.getTown())) {
-      if (place.getTag("addr:place") == null) {
-        place.setTag("addr:place", item.getTown());
+    if (item.getCity() != null) {
+      place.setTag("addr:city", item.getCity());
+    }
+    if (item.getTown() != null && !item.getTown().equals(item.getCity())) {
+      if (!"Landsbygd".equals(item.getTown())) {
+        if (place.getTag("addr:place") == null) {
+          place.setTag("addr:place", item.getTown());
+        }
       }
     }
+
   }
 
 
