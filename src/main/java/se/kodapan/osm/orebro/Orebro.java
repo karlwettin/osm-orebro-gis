@@ -86,6 +86,11 @@ public class Orebro {
         node.setId(id.getAndDecrement());
         super.write(node);
       }
+      @Override
+      public void write(Way way) throws IOException {
+        way.setId(id.getAndDecrement());
+        super.write(way);
+      }
     };
 
     final OsmXmlWriter placesLandsbygdWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, "places-landsbygd.osm.xml")), "UTF8")) {
@@ -110,6 +115,16 @@ public class Orebro {
 //
 
     final OsmXmlWriter orebroDuplicatesWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, "duplicates.osm.xml")), "UTF8")) {
+      private AtomicLong id = new AtomicLong(-1);
+
+      @Override
+      public void write(Node node) throws IOException {
+        node.setId(id.getAndDecrement());
+        super.write(node);
+      }
+    };
+
+    final OsmXmlWriter parksWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(data, "parks.osm.xml")), "UTF8")) {
       private AtomicLong id = new AtomicLong(-1);
 
       @Override
@@ -331,8 +346,6 @@ public class Orebro {
                   if (!hits.isEmpty()) {
                     streetAddress.setTag("note", "duplicate");
 
-                    // todo create duplicate-relation with hits + item?
-
                     for (OsmObject hit : hits) {
                       hit.accept(writeToOsmDuplicates);
                     }
@@ -422,7 +435,7 @@ public class Orebro {
                 if (!hits.isEmpty()) {
                   streetAddress.setTag("note", "duplicate");
 
-                  // todo create duplicate-relation with hits + item?
+                  
 
                   for (OsmObject hit : hits) {
                     hit.accept(writeToOsmDuplicates);
@@ -510,7 +523,7 @@ public class Orebro {
                 if (!hits.isEmpty()) {
                   street.setTag("note", "duplicate");
 
-                  // todo create duplicate-relation with hits + item?
+                  
 
                   for (OsmObject hit : hits) {
                     hit.accept(writeToOsmDuplicates);
@@ -559,23 +572,17 @@ public class Orebro {
                 bq.add(classQuery
                     , BooleanClause.Occur.MUST);
 
-
-                BooleanQuery nameQuery = new BooleanQuery();
-
                 bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
                     .setKey("name")
                     .setValue(landsbygsPlace.getTag("name"))
-                    .build(), BooleanClause.Occur.SHOULD);
-
-                bq.add(nameQuery
-                    , BooleanClause.Occur.MUST);
+                    .build(), BooleanClause.Occur.MUST);
 
                 Set<OsmObject> hits = index.search(bq).keySet();
 
 
                 if (!hits.isEmpty()) {
                   landsbygsPlace.setTag("note", "duplicate");
-                  // todo create duplicate-relation with hits + item?
+                  
                   for (OsmObject hit : hits) {
                     hit.accept(writeToOsmDuplicates);
                   }
@@ -590,13 +597,13 @@ public class Orebro {
 
                 // uncertain but still interesting
 
-                Node uncertain = new Node();
+                Node object = new Node();
                 Point point = (Point) item.getGeom();
-                uncertain.setLatitude(point.getLatitude());
-                uncertain.setLongitude(point.getLongitude());
-                addSource(uncertain);
-                uncertain.setTag("name", item.getTitle());
-                addCity(item, uncertain);
+                object.setLatitude(point.getLatitude());
+                object.setLongitude(point.getLongitude());
+                addSource(object);
+                object.setTag("name", item.getTitle());
+                addCity(item, object);
 
 
                 // sök efter platsen i området, lägg till existerande i xml
@@ -622,35 +629,74 @@ public class Orebro {
                 bq.add(classQuery
                     , BooleanClause.Occur.MUST);
 
-
-                BooleanQuery nameQuery = new BooleanQuery();
-
-                bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
-                    .setKey("addr:place")
-                    .setValue(uncertain.getTag("name"))
-                    .build(), BooleanClause.Occur.SHOULD);
-
                 bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
                     .setKey("name")
-                    .setValue(uncertain.getTag("name"))
-                    .build(), BooleanClause.Occur.SHOULD);
-
-                bq.add(nameQuery
-                    , BooleanClause.Occur.MUST);
+                    .setValue(object.getTag("name"))
+                    .build(), BooleanClause.Occur.MUST);
 
                 Set<OsmObject> hits = index.search(bq).keySet();
 
 
                 if (!hits.isEmpty()) {
-                  uncertain.setTag("note", "duplicate");
-                  // todo create duplicate-relation with hits + item?
+                  object.setTag("note", "duplicate");
+                  
                   for (OsmObject hit : hits) {
                     hit.accept(writeToOsmDuplicates);
                   }
-                  orebroDuplicatesWriter.write(uncertain);
+                  orebroDuplicatesWriter.write(object);
 
                 } else {
-                  uncertainWriter.write(uncertain);
+
+                  if (item.getTitle().toLowerCase().endsWith("park")
+                      || item.getTitle().toLowerCase().endsWith("parken")
+                      || item.getTitle().toLowerCase().endsWith("hage")
+                      || item.getTitle().toLowerCase().endsWith("hagen")
+                      || item.getTitle().toLowerCase().endsWith("lunden")) {
+                    object.setTag("leisure", "park");
+                    parksWriter.write(object);
+
+//                  } else if (item.getTitle().toLowerCase().endsWith("rondell")
+//                      || item.getTitle().toLowerCase().endsWith("rondellen")) {
+//
+//                    // hitta junction:roundabout inom 1000 meter
+//
+//                    bq = new BooleanQuery();
+//
+//                    bq.add(index.getQueryFactories().wayRadialEnvelopeQueryFactory()
+//                        .setKilometerRadius(1)
+//                        .setLongitude(((Point) item.getGeom()).getLongitude())
+//                        .setLatitude(((Point) item.getGeom()).getLatitude())
+//                        .build()
+//                        , BooleanClause.Occur.MUST);
+//
+//                    bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
+//                        .setKey("junction")
+//                        .setValue("roundabout")
+//                        .build(), BooleanClause.Occur.MUST);
+//
+//                    bq.add(nameQuery
+//                        , BooleanClause.Occur.MUST);
+//
+//                    hits = index.search(bq).keySet();
+//
+//
+//                    if (hits.size() == 1) {
+//                      Way roundabout = (Way)hits.iterator().next();
+//                      roundabout.setTag("name", object.getTag("name"));
+//                      roundabout.accept(writeToOsmDuplicates);
+//                      streetWriter.write(object);
+//
+//
+//                    } else {
+//                      uncertainWriter.write(object);
+//
+//                    }
+
+                  } else {
+                    uncertainWriter.write(object);
+
+                  }
+
                 }
 
               }
@@ -711,27 +757,17 @@ public class Orebro {
                     , BooleanClause.Occur.MUST);
 
 
-                BooleanQuery nameQuery = new BooleanQuery();
-
-                bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
-                    .setKey("addr:place")
-                    .setValue(geoObject.getTag("name"))
-                    .build(), BooleanClause.Occur.SHOULD);
-
                 bq.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
                     .setKey("name")
                     .setValue(geoObject.getTag("name"))
-                    .build(), BooleanClause.Occur.SHOULD);
-
-                bq.add(nameQuery
-                    , BooleanClause.Occur.MUST);
+                    .build(), BooleanClause.Occur.MUST);
 
                 Set<OsmObject> hits = index.search(bq).keySet();
 
 
                 if (!hits.isEmpty()) {
                   geoObject.setTag("note", "duplicate");
-                  // todo create duplicate-relation with hits + item?
+                  
                   for (OsmObject hit : hits) {
                     hit.accept(writeToOsmDuplicates);
                   }
@@ -754,6 +790,7 @@ public class Orebro {
     }
 
 
+    parksWriter.close();
     geoObjectWriter.close();
     houseNumberWriter.close();
     streetWriter.close();
