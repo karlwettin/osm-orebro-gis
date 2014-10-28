@@ -229,7 +229,7 @@ public class Orebro {
       }
 
 
-      Pattern landsbygdAddressPattern = Pattern.compile("(.+) ([1-9][0-9]*)");
+//      Pattern landsbygdAddressPattern = Pattern.compile("(.+) ([1-9][0-9]*)");
       Pattern streetAddressPattern = Pattern.compile("(.+) (([1-9][0-9]*)([A-Z]?))");
 
       System.out.println("leta upp alla objekt per layerid");
@@ -262,7 +262,6 @@ public class Orebro {
         System.currentTimeMillis();
         long id = -1;
         for (Map.Entry<Integer, Set<Item>> entries : itemsByLayer.entrySet()) {
-
 
 
           String name;
@@ -323,8 +322,12 @@ public class Orebro {
             double radiusKilometersDuplicates = 0.5;
 
             Node node = new Node();
+
             node.setLatitude(((Point) item.getGeom()).getLatitude());
             node.setLongitude(((Point) item.getGeom()).getLongitude());
+
+            node.setTag("source", "data.karta.orebro.se");
+            node.setTag("source:license", "cc-by");
 
             if (entries.getKey() == 217) {
               // Flexpunkt 200...300?
@@ -461,10 +464,12 @@ public class Orebro {
 
                 if ("Landsbygd".equals(item.getTown())) {
 
-                  Matcher matcher = landsbygdAddressPattern.matcher(item.getTitle());
+                  Matcher matcher = streetAddressPattern.matcher(item.getTitle());
                   if (!matcher.matches()) {
                     node.setTag("name", item.getTitle());
                     node.setTag("place", "hamlet");
+
+                    radiusKilometersDuplicates = 10;
 
                   } else {
                     node.setTag("addr:place", matcher.group(1));
@@ -491,10 +496,6 @@ public class Orebro {
 
                     node.setTag("addr:street", matcher.group(1));
                     node.setTag("addr:housenumber", matcher.group(2));
-                    if (matcher.group(4) != null) {
-                      node.setTag("addr:house:number", matcher.group(3));
-                      node.setTag("addr:house:staircase", matcher.group(4));
-                    }
 
                     duplicateQuery.add(index.getQueryFactories().containsTagKeyAndValueQueryFactory()
                         .setKey("addr:street")
@@ -505,7 +506,6 @@ public class Orebro {
                         .setKey("addr:housenumber")
                         .setValue(node.getTag("addr:housenumber"))
                         .build(), BooleanClause.Occur.MUST);
-
 
 
                   } else {
@@ -603,26 +603,6 @@ public class Orebro {
 
     } finally {
       overpass.close();
-    }
-
-  }
-
-  private void addSource(Node uncertain) {
-    uncertain.setTag("source", "data.karta.orebro.se");
-    uncertain.setTag("source:license", "cc-by");
-  }
-
-  private void addCity(Item item, Node place) {
-
-    if (item.getCity() != null) {
-      place.setTag("addr:city", item.getCity());
-    }
-    if (item.getTown() != null && !item.getTown().equals(item.getCity())) {
-      if (!"Landsbygd".equals(item.getTown())) {
-        if (place.getTag("addr:place") == null) {
-          place.setTag("addr:place", item.getTown());
-        }
-      }
     }
 
   }
