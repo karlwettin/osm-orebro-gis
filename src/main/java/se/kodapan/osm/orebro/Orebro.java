@@ -133,6 +133,7 @@ public class Orebro {
       {
         String xml = overpass.execute("<osm-script>\n" +
             "  <union>\n" +
+            // highway
             "    <query type=\"relation\">\n" +
             "      <has-kv k=\"highway\"/>\n" +
             "      <bbox-query e=\"15.40626525878906\" n=\"59.371341958846685\" s=\"59.1850748575612\" w=\"15.038909912109375\"/>\n" +
@@ -141,6 +142,7 @@ public class Orebro {
             "      <has-kv k=\"highway\"/>\n" +
             "      <bbox-query e=\"15.40626525878906\" n=\"59.371341958846685\" s=\"59.1850748575612\" w=\"15.038909912109375\"/>\n" +
             "    </query>\n" +
+            // addr:housenumber
             "    <query type=\"relation\">\n" +
             "      <has-kv k=\"addr:housenumber\"/>\n" +
             "      <bbox-query e=\"15.40626525878906\" n=\"59.371341958846685\" s=\"59.1850748575612\" w=\"15.038909912109375\"/>\n" +
@@ -151,6 +153,15 @@ public class Orebro {
             "    </query>\n" +
             "    <query type=\"node\">\n" +
             "      <has-kv k=\"addr:housenumber\"/>\n" +
+            "      <bbox-query e=\"15.40626525878906\" n=\"59.371341958846685\" s=\"59.1850748575612\" w=\"15.038909912109375\"/>\n" +
+            "    </query>\n" +
+            // name=*
+            "    <query type=\"way\">\n" +
+            "      <has-kv k=\"name\"/>\n" +
+            "      <bbox-query e=\"15.40626525878906\" n=\"59.371341958846685\" s=\"59.1850748575612\" w=\"15.038909912109375\"/>\n" +
+            "    </query>\n" +
+            "    <query type=\"node\">\n" +
+            "      <has-kv k=\"name\"/>\n" +
             "      <bbox-query e=\"15.40626525878906\" n=\"59.371341958846685\" s=\"59.1850748575612\" w=\"15.038909912109375\"/>\n" +
             "    </query>\n" +
             "  </union>\n" +
