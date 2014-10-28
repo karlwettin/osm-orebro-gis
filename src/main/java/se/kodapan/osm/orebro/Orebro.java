@@ -51,7 +51,7 @@ public class Orebro {
     path.mkdirs();
 
 
-    final OsmXmlWriter orebroDuplicatesWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(path, "duplicates-örebro.osm.xml")), "UTF8")) {
+    final OsmXmlWriter orebroDuplicatesWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(path, "dubletter-orebro.osm.xml")), "UTF8")) {
       private AtomicLong id = new AtomicLong(-1);
 
       @Override
@@ -62,7 +62,7 @@ public class Orebro {
     };
 
 
-    final OsmXmlWriter osmDuplicatesWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(path, "duplicates-osm.osm.xml")), "UTF8"));
+    final OsmXmlWriter osmDuplicatesWriter = new OsmXmlWriter(new OutputStreamWriter(new FileOutputStream(new File(path, "dubletter-osm.osm.xml")), "UTF8"));
 
 
     OsmObjectVisitor<Void> writeToOsmDuplicates = new OsmObjectVisitor<Void>() {
@@ -277,7 +277,7 @@ public class Orebro {
 
           String name;
           if (entries.getKey() == 217) {
-            name = "flextrafikens hållplatser";
+            name = "flextrafikens hallplatser";
           } else if (entries.getKey() == 219) {
             name = "bussparkering";
           } else if (entries.getKey() == 24) {
@@ -285,13 +285,13 @@ public class Orebro {
           } else if (entries.getKey() == 258) {
             name = "handikappsparkering";
           } else if (entries.getKey() == 9) {
-            name = "återvinningscentral";
+            name = "atervinningscentral";
           } else if (entries.getKey() == 29) {
-            name = "återvinningsstation";
+            name = "atervinningsstation";
           } else if (entries.getKey() == 17) {
-            name = "återvinning ris och kompost";
+            name = "atervinning ris och kompost";
           } else if (entries.getKey() == 218) {
-            name = "mötesplatser för unga";
+            name = "motesplatser för unga";
           } else if (entries.getKey() == 22) {
             name = "förskolor";
           } else if (entries.getKey() == 28) {
@@ -299,7 +299,7 @@ public class Orebro {
           } else if (entries.getKey() == 12) {
             name = "grundskolor";
           } else if (entries.getKey() == 21) {
-            name = "vård- och omsorgsboende";
+            name = "vard- och omsorgsboende";
           } else if (entries.getKey() == 220) {
             name = "seniorboenden";
           } else if (entries.getKey() == 10) {
@@ -309,13 +309,13 @@ public class Orebro {
           } else if (entries.getKey() == 18) {
             name = "torg";
           } else if (entries.getKey() == 7) {
-            name = "idrottsanläggningar";
+            name = "idrottsanlaggningar";
           } else if (entries.getKey() == 216) {
             name = "offentliga kommunala toaletter";
           } else if (entries.getKey() == 1) {
-            name = "badanläggningar";
+            name = "badanlaggningar";
           } else if (entries.getKey() == 14) {
-            name = "Industriområde";
+            name = "industriomrade";
           } else if (entries.getKey() == 0) {
             name = "adresser";
           } else {
@@ -339,6 +339,7 @@ public class Orebro {
 
             node.setTag("source", "data.karta.orebro.se");
             node.setTag("source:license", "cc-by");
+
 
             if (entries.getKey() == 217) {
               // Flexpunkt 200...300?
