@@ -15,10 +15,7 @@ import se.kodapan.osm.services.overpass.FileSystemCachedOverpass;
 import se.kodapan.osm.xml.OsmXmlWriter;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -291,9 +288,9 @@ public class Orebro {
           } else if (entries.getKey() == 17) {
             name = "atervinning ris och kompost";
           } else if (entries.getKey() == 218) {
-            name = "motesplatser för unga";
+            name = "motesplatser for unga";
           } else if (entries.getKey() == 22) {
-            name = "förskolor";
+            name = "forskolor";
           } else if (entries.getKey() == 28) {
             name = "gymnasieskolor";
           } else if (entries.getKey() == 12) {
@@ -333,12 +330,10 @@ public class Orebro {
             double radiusKilometersDuplicates = 0.5;
 
             Node node = new Node();
+            node.setTags(new LinkedHashMap<String, String>(10));
 
             node.setLatitude(((Point) item.getGeom()).getLatitude());
             node.setLongitude(((Point) item.getGeom()).getLongitude());
-
-            node.setTag("source", "data.karta.orebro.se");
-            node.setTag("source:license", "cc-by");
 
 
             if (entries.getKey() == 217) {
@@ -591,6 +586,9 @@ public class Orebro {
               for (OsmObject hit : hits) {
                 hit.accept(writeToOsmDuplicates);
               }
+//              node.setTag("ref:se:orebro:layerId", String.valueOf(item.getLayerId()));
+//              node.setTag("ref:se:orebro:city", String.valueOf(item.getCity()));
+//              node.setTag("ref:se:orebro:town", String.valueOf(item.getTown()));
               orebroDuplicatesWriter.write(node);
 
             } else {
