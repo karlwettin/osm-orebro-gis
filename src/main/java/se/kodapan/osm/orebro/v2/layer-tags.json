@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "title": "Bad",
+    "tags": {
+      "amenity": "public bath"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Idrott",
+    "tags": {
+      "note:todo": "Detta är någon slags idrottsanläggning"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Återvinningscentraler",
+    "tags": {
+      "amenity": "recycling"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Bibliotek",
+    "tags": {
+      "amenity": "library"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Grundskola",
+    "tags": {
+      "amenity": "school",
+      "note:todo": "isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Industriområden",
+    "tags": {
+      "landuse": "industrial"
+    }
+  },
+  {
+    "id": 17,
+    "title": "Ris och kompost",
+    "tags": {
+      "amenity": "recycling",
+      "recycling:organic": "yes",
+      "recycling:christmas_trees": "yes"
+    }
+  },
+  {
+    "id": 18,
+    "title": "Torg",
+    "tags": {
+      "highway": "pedestrian",
+      "area": "yes"
+    }
+  },
+  {
+    "id": 21,
+    "title": "Vård- och omsorgsboende",
+    "tags": {
+      "amenity": "social_facility",
+      "social_facility": "assisted_living"
+    }
+  },
+  {
+    "id": 22,
+    "title": "Förskola",
+    "tags": {
+      "amenity": "school",
+      "isced:level": "1"
+    }
+  },
+  {
+    "id": 23,
+    "title": "Park",
+    "tags": {
+      "leisure": "park"
+    }
+  },
+  {
+    "id": 24,
+    "title": "Parkering",
+    "tags": {
+      "amenity": "parking"
+    }
+  },
+  {
+    "id": 28,
+    "title": "Gymnasieskola",
+    "tags": {
+      "amenity": "school",
+      "isced:level": "4"
+    }
+  },
+  {
+    "id": 29,
+    "title": "Återvinningsstationer",
+    "tags": {
+      "amenity": "recycling"
+    }
+  },
+  {
+    "id": 215,
+    "title": "Familjecentraler",
+    "tags": {
+      "note:todo": "Se http://www.orebro.se/488.html"
+    }
+  },
+  {
+    "id": 216,
+    "title": "Offentliga, kommunala toaletter",
+    "tags": {
+      "amenity": "toilets",
+      "access": "public",
+      "operator": "Örebro kommun"
+    }
+  },
+  {
+    "id": 217,
+    "title": "Flextrafikens flexpunkter",
+    "tags": {
+      "public_transport": "stop_position",
+      "bus": "yes",
+      "operator": "Flextrafiken"
+    }
+  },
+  {
+    "id": 218,
+    "title": "Mötesplatser för unga",
+    "tags": {
+      "amenity": "community_centre"
+    }
+  },
+  {
+    "id": 219,
+    "title": "Bussparkering",
+    "tags": {
+      "amenity": "parking",
+      "note:todo": "Detta är en bussparkering, specialtag?"
+    }
+  },
+  {
+    "id": 220,
+    "title": "Seniorboenden",
+    "tags": {
+      "amenity": "social_facility",
+      "social_facility": "assisted_living",
+      "social_facility:for": "senior"
+    }
+  },
+  {
+    "id": 258,
+    "title": "Parkering Handikapplatser",
+    "tags": {
+      "amenity": "parking",
+      "capacity:disabled": "yes"
+    }
+  }
+]

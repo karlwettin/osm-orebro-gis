@@ -1,4 +1,4 @@
-package se.kodapan.osm.orebro;
+package se.kodapan.osm.orebro.v1;
 
 import se.kodapan.geojson.GeoJSONObject;
 

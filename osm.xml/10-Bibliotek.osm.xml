@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
+	<node id='-1' lat='6572644.96806065' lon='161855.877367774' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Stadsbiblioteket' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/61' />
+		<tag k='url' v='http://bibliotek.orebro.se/stadsbiblioteket' />
+	</node>
+	<node id='-2' lat='6569347.06538645' lon='160592.625176835' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Adolfsbergs bibliotek' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/62' />
+		<tag k='url' v='http://bibliotek.orebro.se/adolfsberg' />
+	</node>
+	<node id='-3' lat='6569353.34462773' lon='163833.147973308' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Brickebackens bibliotek' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/63' />
+		<tag k='url' v='http://bibliotek.orebro.se/brickebacken' />
+	</node>
+	<node id='-4' lat='6576457.08858629' lon='147134.053093868' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Garphyttans bibliotek' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/64' />
+		<tag k='url' v='http://bibliotek.orebro.se/garphyttan' />
+	</node>
+	<node id='-5' lat='6578303.0694551' lon='172744.33391908' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Glanshammars bibliotek' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/65' />
+		<tag k='url' v='http://bibliotek.orebro.se/glanshammar' />
+	</node>
+	<node id='-6' lat='6573382.49715109' lon='159414.487645258' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Haga bibliotek' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/66' />
+		<tag k='url' v='http://bibliotek.orebro.se/haga' />
+	</node>
+	<node id='-7' lat='6581105.28669384' lon='163240.515185279' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Hovsta bibliotek' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/67' />
+		<tag k='url' v='http://bibliotek.orebro.se/hovsta' />
+	</node>
+	<node id='-8' lat='6574010.40507616' lon='160882.141679759' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Tegelbrukets bibliotek' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/68' />
+		<tag k='url' v='http://bibliotek.orebro.se/tegelbruket' />
+	</node>
+	<node id='-9' lat='6560350.00220328' lon='180206.43510965' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Odensbackens bibliotek' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/69' />
+		<tag k='url' v='http://bibliotek.orebro.se/odensbacken' />
+	</node>
+	<node id='-10' lat='6574630.46762954' lon='160218.500936799' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Varberga bibliotek' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/71' />
+		<tag k='url' v='http://bibliotek.orebro.se/varberga' />
+	</node>
+	<node id='-11' lat='6571014.85314525' lon='147435.097923022' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Vintrosa bibliotek' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/72' />
+		<tag k='url' v='http://bibliotek.orebro.se/vintrosa' />
+	</node>
+	<node id='-12' lat='6576019.44166249' lon='160690.742235064' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Vivalla bibliotek' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/73' />
+		<tag k='url' v='http://bibliotek.orebro.se/vivalla' />
+	</node>
+	<node id='-13' lat='6573395.09566763' lon='162844.965049115' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Patientbiblioteket' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/74' />
+		<tag k='url' v='http://www.orebroll.se/sv/uso/Patientinformation/Kliniker-och-enheter/Patientbiblioteket/' />
+	</node>
+	<node id='-14' lat='6570984.51173518' lon='164317.465787146' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Universitetsbiblioteket' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/75' />
+		<tag k='url' v='http://www.oru.se/ub' />
+	</node>
+	<node id='-15' lat='6574933.245' lon='161373.495' >
+		<tag k='amenity' v='library' />
+		<tag k='name' v='Baronbackarnas bibliotek' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2365' />
+		<tag k='url' v='http://bibliotek.orebro.se/baronbackarna' />
+	</node>
+</osm>

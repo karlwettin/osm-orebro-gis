@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
+	<node id='-1' lat='6573573.858' lon='164472.101' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Alnängsbadet' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1' />
+		<tag k='url' v='http://www.orebro.se/3089.html' />
+	</node>
+	<node id='-2' lat='6558097.37933069' lon='192498.316900273' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Dimbobaden' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2' />
+		<tag k='url' v='http://www.orebro.se/3090.html' />
+	</node>
+	<node id='-3' lat='6571004.42660151' lon='173714.033612482' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Hjälmarbaden' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/3' />
+		<tag k='url' v='http://www.orebro.se/3092.html' />
+	</node>
+	<node id='-4' lat='6558995.47140749' lon='188030.476122689' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Hampetorp' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/4' />
+		<tag k='url' v='http://www.orebro.se/3091.html' />
+	</node>
+	<node id='-5' lat='6574718.14909123' lon='148976.454978237' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Lögardammen' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/5' />
+		<tag k='url' v='http://www.orebro.se/3096.html' />
+	</node>
+	<node id='-6' lat='6569066.56363408' lon='182419.288122881' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Katrinelund' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/6' />
+		<tag k='url' v='http://www.orebro.se/3094.html' />
+	</node>
+	<node id='-7' lat='6581681.05741802' lon='160163.960704692' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Lången' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/7' />
+		<tag k='url' v='http://www.orebro.se/3095.html' />
+	</node>
+	<node id='-8' lat='6592148.82086997' lon='151676.360153277' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Ramsjön' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/8' />
+		<tag k='url' v='http://www.orebro.se/3105.html' />
+	</node>
+	<node id='-9' lat='6565698.41256835' lon='190633.847674741' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Norra Vinön' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/9' />
+		<tag k='url' v='http://www.orebro.se/3098.html' />
+	</node>
+	<node id='-10' lat='6590143.05411894' lon='160122.227196115' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Norsebäcksbadet' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/10' />
+		<tag k='url' v='http://www.orebro.se/3102.html' />
+	</node>
+	<node id='-11' lat='6548685.84649297' lon='181625.906888894' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Solbergabadet' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/11' />
+		<tag k='url' v='http://www.orebro.se/3111.html' />
+	</node>
+	<node id='-12' lat='6544178.61373396' lon='182756.653755576' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Röda Sand' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/12' />
+		<tag k='url' v='http://www.orebro.se/3107.html' />
+	</node>
+	<node id='-13' lat='6580296.54897482' lon='146296.334067044' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Södra Ånnabodasjön' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/13' />
+		<tag k='url' v='http://www.orebro.se/3110.html' />
+	</node>
+	<node id='-14' lat='6584007.44886094' lon='172062.181678922' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Tjugestasjön' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/14' />
+		<tag k='url' v='http://www.orebro.se/3113.html' />
+	</node>
+	<node id='-15' lat='6586408.91972719' lon='173119.837744161' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Väringsbricka' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/15' />
+	</node>
+	<node id='-16' lat='6577428.59864568' lon='179232.242700426' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Åstabadet' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/16' />
+	</node>
+	<node id='-18' lat='6569454.31599' lon='163835.81178' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Brickebackens bad' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1710' />
+		<tag k='url' v='http://www.orebro.se/2152.html' />
+	</node>
+	<node id='-17' lat='6574270.72514522' lon='173439.377410066' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Norra Ässundet' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/17' />
+		<tag k='url' v='http://www.orebro.se/3099.html' />
+	</node>
+	<node id='-20' lat='6573336.015966' lon='159400.72277019' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Hagabadet' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1712' />
+		<tag k='url' v='http://www.orebro.se/2155.html' />
+	</node>
+	<node id='-19' lat='6571678.81599' lon='161064.31178' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Gustavsvik' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1711' />
+		<tag k='url' v='http://www.gustavsvik.se/?page_id=5' />
+	</node>
+	<node id='-22' lat='6576072.015966' lon='160604.72277019' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Vivallabadet' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1714' />
+		<tag k='url' v='http://www.orebro.se/5340.html' />
+	</node>
+	<node id='-21' lat='6574303.515966' lon='160078.72277019' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Varbergabadet' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1713' />
+		<tag k='url' v='http://www.orebro.se/2495.html' />
+	</node>
+	<node id='-23' lat='6572275.56599' lon='162441.81178' >
+		<tag k='amenity' v='public bath' />
+		<tag k='name' v='Eyrabadet' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2268' />
+		<tag k='url' v='http://www.orebro.se/2153.html' />
+	</node>
+</osm>

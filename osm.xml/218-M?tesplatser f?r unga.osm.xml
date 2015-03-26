@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
+	<node id='-1' lat='6569362.385' lon='163833.009' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Trädet - fritidsklubb och fritidsgård' />
+		<tag k='note' v='Björkrisvägen 18' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1821' />
+		<tag k='url' v='http://www.foreningen-tradet.se/' />
+	</node>
+	<node id='-2' lat='6569362.385' lon='163833.009' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Trädet - fritidsklubb och fritidsgård' />
+		<tag k='note' v='Björkrisvägen 18' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1822' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-3' lat='6578321.735' lon='172805.431' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Glanshammars fritidsgård och fritidsklubb' />
+		<tag k='note' v='Skolvägen 1, Glanshammar' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1823' />
+		<tag k='url' v='http://www.orebro.se/11014.html' />
+	</node>
+	<node id='-4' lat='6578321.735' lon='172805.431' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Glanshammars fritidsgård och fritidsklubb' />
+		<tag k='note' v='Skolvägen 1, Glanshammar' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1824' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-5' lat='6574437.814' lon='163245.336' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Norrbygården - fritidsklubb och fritidsgård' />
+		<tag k='note' v='Höglundagatan 10' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1825' />
+		<tag k='url' v='http://www.orebro.se/8421.html' />
+	</node>
+	<node id='-6' lat='6574437.814' lon='163245.336' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Norrbygården - fritidsklubb och fritidsgård' />
+		<tag k='note' v='Höglundagatan 10' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1826' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-7' lat='6573712.482' lon='159997.434' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Haga fritidsklubb' />
+		<tag k='note' v='Oxhagens centrum, Tornfalkgatan 26.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1827' />
+		<tag k='url' v='http://www.orebro.se/14541.html' />
+	</node>
+	<node id='-8' lat='6573712.482' lon='159997.434' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Haga fritidsklubb' />
+		<tag k='note' v='Oxhagens centrum, Tornfalkgatan 26.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1828' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-9' lat='6560363.029' lon='180171.617' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Odengården - fritidsgård' />
+		<tag k='note' v='Örebrovägen 27 i Odensbacken.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1829' />
+		<tag k='url' v='http://www.orebro.se/11101.html' />
+	</node>
+	<node id='-10' lat='6560363.029' lon='180171.617' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Odengården - fritidsgård' />
+		<tag k='note' v='Örebrovägen 27 i Odensbacken.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1830' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-11' lat='6570972.716' lon='147502.503' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Viagården - fritidsklubb och fritidsgård' />
+		<tag k='note' v='Höglundavägen 4-6 i Vintrosa.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1831' />
+		<tag k='url' v='http://www.orebro.se/14241.html' />
+	</node>
+	<node id='-12' lat='6570972.716' lon='147502.503' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Viagården - fritidsklubb och fritidsgård' />
+		<tag k='note' v='Höglundavägen 4-6 i Vintrosa.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1832' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-13' lat='6575835.221' lon='160731.041' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Vivalla fritidsgård och fritidsklubb' />
+		<tag k='note' v='Diktargatan 25.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1833' />
+		<tag k='url' v='http://www.orebro.se/11021.html' />
+	</node>
+	<node id='-14' lat='6575835.221' lon='160731.041' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Vivalla fritidsgård och fritidsklubb' />
+		<tag k='note' v='Diktargatan 25.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1834' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-15' lat='6571233.525' lon='162016.778' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Kuggen - fritidsgård' />
+		<tag k='note' v='Loftbodsgatan 1' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1835' />
+		<tag k='url' v='http://www.orebro.se/10605.html' />
+	</node>
+	<node id='-16' lat='6571233.525' lon='162016.778' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Kuggen - fritidsgård' />
+		<tag k='note' v='Loftbodsgatan 1' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1836' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-18' lat='6573058.662' lon='163528.537' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Engelbrektsgården - fritidsklubb' />
+		<tag k='note' v='Wadköpingsvägen 15-19.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1838' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-17' lat='6573058.662' lon='163528.537' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Engelbrektsgården - fritidsklubb' />
+		<tag k='note' v='Wadköpingsvägen 15-19.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1837' />
+		<tag k='url' v='http://www.orebro.se/14242.html' />
+	</node>
+	<node id='-20' lat='6574925.663' lon='161370.83' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='52:an - fritidsklubb och fritidsgård' />
+		<tag k='note' v='Hjalmar Bergmans väg 52' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1840' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-19' lat='6574925.663' lon='161370.83' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='52:an - fritidsklubb och fritidsgård' />
+		<tag k='note' v='Hjalmar Bergmans väg 52' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1839' />
+		<tag k='url' v='http://www.orebro.se/11112.html' />
+	</node>
+	<node id='-22' lat='6574002.168' lon='160879.476' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Tegelbruket - fritidsklubb' />
+		<tag k='note' v='Lertagsgatan 2.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1842' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-21' lat='6574002.168' lon='160879.476' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Tegelbruket - fritidsklubb' />
+		<tag k='note' v='Lertagsgatan 2.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1841' />
+		<tag k='url' v='http://www.orebro.se/6530.html' />
+	</node>
+	<node id='-24' lat='6584008.275' lon='154753.308' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Närkes Kilsgården - fritidsgård' />
+		<tag k='note' v='Närkes Kils skola, Hammarby 225.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1844' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-23' lat='6584008.275' lon='154753.308' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Närkes Kilsgården - fritidsgård' />
+		<tag k='note' v='Närkes Kils skola, Hammarby 225.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1843' />
+		<tag k='url' v='http://www.orebro.se/14243.html' />
+	</node>
+	<node id='-26' lat='6574651.941' lon='160196.579' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Varberga fritidsgård och fritidsklubb' />
+		<tag k='note' v='Varberga torg.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1846' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-25' lat='6574651.941' lon='160196.579' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Varberga fritidsgård och fritidsklubb' />
+		<tag k='note' v='Varberga torg.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1845' />
+		<tag k='url' v='http://www.orebro.se/3442.html' />
+	</node>
+	<node id='-28' lat='6574031.521' lon='160887.872' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Tegelbruket - Allaktivitetshus för ungdomar' />
+		<tag k='note' v='Lertagsgatan 2. Örebros mötesplats med fokus på ungdomar och unga vuxna. Musik, dans, idrott, bibliotek, café, kurser mm. Invigning 2 mars 2013.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1848' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-27' lat='6574031.521' lon='160887.872' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Tegelbruket - Allaktivitetshus för ungdomar' />
+		<tag k='note' v='Lertagsgatan 2. Örebros mötesplats med fokus på ungdomar och unga vuxna. Musik, dans, idrott, bibliotek, café, kurser mm. Invigning 2 mars 2013.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1847' />
+		<tag k='url' v='https://www.facebook.com/tegelbruket' />
+	</node>
+	<node id='-30' lat='6570157.649' lon='159447.903' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Adolfsbergsgården - fritidsklubb och fritidsgård' />
+		<tag k='note' v='Adolf Mörners plan 2' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1850' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-29' lat='6570157.649' lon='159447.903' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Adolfsbergsgården - fritidsklubb och fritidsgård' />
+		<tag k='note' v='Adolf Mörners plan 2' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1849' />
+		<tag k='url' v='http://www.orebro.se/14236.html' />
+	</node>
+	<node id='-32' lat='6573296.075' lon='159386.939' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Haga fritidsgård' />
+		<tag k='note' v='Vaktelvägen 2' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1852' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-31' lat='6573296.075' lon='159386.939' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Haga fritidsgård' />
+		<tag k='note' v='Vaktelvägen 2' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1851' />
+		<tag k='url' v='http://www.orebro.se/11005.html' />
+	</node>
+	<node id='-35' lat='6564878.034' lon='159274.977' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Stationshuset - Fritidsgård' />
+		<tag k='note' v='Stationshuset i Mosjö.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1855' />
+		<tag k='url' v='http://www.orebro.se/14244.html' />
+	</node>
+	<node id='-36' lat='6564878.034' lon='159274.977' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Stationshuset - Fritidsgård' />
+		<tag k='note' v='Stationshuset i Mosjö.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1856' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-33' lat='6578282.939' lon='162989.794' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Lillåns fritidsgård' />
+		<tag k='note' v='Kyrkvägen 5' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1853' />
+		<tag k='url' v='http://www.orebro.se/11107.html' />
+	</node>
+	<node id='-34' lat='6578282.939' lon='162989.794' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Lillåns fritidsgård' />
+		<tag k='note' v='Kyrkvägen 5' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1854' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-39' lat='6573643.034' lon='162233.895' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Kulturhuset - Mötesplats för unga' />
+		<tag k='note' v='Järnvägsgatan 8. Arrangemang, utställningar, föreläsningar m.m.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1859' />
+		<tag k='url' v='http://www.kulturhusetorebro.se/' />
+	</node>
+	<node id='-40' lat='6573643.034' lon='162233.895' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Kulturhuset - Mötesplats för unga' />
+		<tag k='note' v='Järnvägsgatan 8. Arrangemang, utställningar, föreläsningar m.m.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1860' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-37' lat='6573639.173' lon='162245.442' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Café Deed - Mötesplats för unga' />
+		<tag k='note' v='Järnvägsgatan 8. Café, verkstad m.m. för gymnasieungdomar och äldre.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1857' />
+		<tag k='url' v='http://www.cafedeed.se/' />
+	</node>
+	<node id='-38' lat='6573639.173' lon='162245.442' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Café Deed - Mötesplats för unga' />
+		<tag k='note' v='Järnvägsgatan 8. Café, verkstad m.m. för gymnasieungdomar och äldre.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1858' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-43' lat='6573115.712' lon='161713.745' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Café 019 - Mötesplats för unga' />
+		<tag k='note' v='Västra Bangatan 7 A. Mötesplats för ungdomar på Riksgymnasiet för döva och hörselskadade.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1863' />
+		<tag k='url' v='http://www.orebro.se/cafe019' />
+	</node>
+	<node id='-44' lat='6573115.712' lon='161713.745' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Café 019 - Mötesplats för unga' />
+		<tag k='note' v='Västra Bangatan 7 A. Mötesplats för ungdomar på Riksgymnasiet för döva och hörselskadade.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1864' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+	<node id='-41' lat='6573751.568' lon='162277.584' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Brädcentralen - Mötesplats för unga' />
+		<tag k='note' v='Östra Nobelgatan 9. Skateboardåkning framför allt för unga under 20 år' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1861' />
+		<tag k='url' v='http://bradcentralen.se/start/' />
+	</node>
+	<node id='-42' lat='6573751.568' lon='162277.584' >
+		<tag k='amenity' v='community_centre' />
+		<tag k='name' v='Brädcentralen - Mötesplats för unga' />
+		<tag k='note' v='Östra Nobelgatan 9. Skateboardåkning framför allt för unga under 20 år' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1862' />
+		<tag k='url' v='http://www.orebro.se/1317.html' />
+	</node>
+</osm>

@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
+	<node id='-1' lat='6569300.63712583' lon='159237.941080838' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Adolfsbergshemmet' />
+		<tag k='note' v='Vårdboende och demensboende.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/521' />
+		<tag k='url' v='http://www.orebro.se/624.html' />
+	</node>
+	<node id='-2' lat='6560647.10405189' lon='180044.803932559' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Askenäs' />
+		<tag k='note' v='Vårdboende och demensboende.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/522' />
+		<tag k='url' v='http://www.orebro.se/625.html' />
+	</node>
+	<node id='-3' lat='6576010.96320486' lon='158837.507364007' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Demenscentrum' />
+		<tag k='note' v='Demensboende och korttidsvård (entreprenad). Boende och utbildning.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/523' />
+		<tag k='url' v='http://www.orebro.se/1830.html' />
+	</node>
+	<node id='-4' lat='6575911.94603219' lon='159249.783083693' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Elgströmska huset' />
+		<tag k='note' v='Demensboende (entreprenad).' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/524' />
+		<tag k='url' v='http://www.orebro.se/630.html' />
+	</node>
+	<node id='-5' lat='6578165.22105565' lon='172759.009010287' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Hagagården' />
+		<tag k='note' v='Vårdboende och demensboende.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/525' />
+		<tag k='url' v='http://www.orebro.se/631.html' />
+	</node>
+	<node id='-6' lat='6571089.68194656' lon='163505.039084474' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Jeremiasgården' />
+		<tag k='note' v='Vårdboende, korttidsboende och demensboende.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/526' />
+		<tag k='url' v='http://www.orebro.se/1700.html' />
+	</node>
+	<node id='-7' lat='6573937.21386705' lon='162434.315288034' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Klosterbacken' />
+		<tag k='note' v='Vårdboende, demensboende, korttidsvård och rehab. (Boende och utbildning).' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/527' />
+		<tag k='url' v='http://www.orebro.se/2120.html' />
+	</node>
+	<node id='-8' lat='6569309.82514382' lon='159170.81753574' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Lindhultsgården' />
+		<tag k='note' v='Demensboende.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/528' />
+		<tag k='url' v='http://www.orebro.se/1551.html' />
+	</node>
+	<node id='-9' lat='6575777.94436916' lon='158839.333845982' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Löwenhjelmska huset' />
+		<tag k='note' v='Vårdboende och demensboende.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/529' />
+		<tag k='url' v='http://www.orebro.se/1706.html' />
+	</node>
+	<node id='-10' lat='6574651.19305863' lon='161432.472224901' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Mikaeligården' />
+		<tag k='note' v='Vårdboende, korttidsboende och demensboende.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/530' />
+		<tag k='url' v='http://www.orebro.se/1990.html' />
+	</node>
+	<node id='-11' lat='6576047.4198361' lon='160853.432731974' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Rosenlund' />
+		<tag k='note' v='Vårdboende, demensboende och korttidsvård.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/531' />
+		<tag k='url' v='http://www.orebro.se/1707.html' />
+	</node>
+	<node id='-12' lat='6573262.78099459' lon='160759.184693433' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Rostahemmet' />
+		<tag k='note' v='Vårdboende och demensboende.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/532' />
+		<tag k='url' v='http://www.orebro.se/2577.html' />
+	</node>
+	<node id='-13' lat='6572843.73217123' lon='162905.6617046' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Sirishof' />
+		<tag k='note' v='Vårdboende och demensboende (Entreprenad).' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/533' />
+		<tag k='url' v='http://www.orebro.se/1709.html' />
+	</node>
+	<node id='-14' lat='6572958.82944751' lon='163324.344001187' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Skebäcksgården' />
+		<tag k='note' v='Vårdboende, rehab och korttidsvård' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/534' />
+		<tag k='url' v='http://www.orebro.se/2126.html' />
+	</node>
+	<node id='-15' lat='6573248.58469407' lon='159506.128061549' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Skäpplandsgården' />
+		<tag k='note' v='Vårdboende, demensboende och korttidsvård (entreprenad).' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/535' />
+		<tag k='url' v='http://www.orebro.se/1827.html' />
+	</node>
+	<node id='-16' lat='6572226.40326819' lon='161897.959997245' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Södermalmshemmet' />
+		<tag k='note' v='Vårdboende och demensboende.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/536' />
+		<tag k='url' v='http://www.orebro.se/632.html' />
+	</node>
+	<node id='-18' lat='6571009.59843268' lon='147414.158105941' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Vintrosahemmet' />
+		<tag k='note' v='Vårdboende och demensboende.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/538' />
+		<tag k='url' v='http://www.orebro.se/2394.html' />
+	</node>
+	<node id='-17' lat='6573638.18641698' lon='162518.956958811' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Tullhuset' />
+		<tag k='note' v='Demensboende.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/537' />
+		<tag k='url' v='http://www.orebro.se/1765.html' />
+	</node>
+	<node id='-20' lat='6586088.01479143' lon='163885.160255189' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Ölmbrogården' />
+		<tag k='note' v='Demensboende och korttidsvård.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/540' />
+		<tag k='url' v='http://www.orebro.se/1939.html' />
+	</node>
+	<node id='-19' lat='6574556.90204432' lon='160255.399802889' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Ädelgården' />
+		<tag k='note' v='Vårdboende och korttidsvård.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/539' />
+		<tag k='url' v='http://www.orebro.se/2119.html' />
+	</node>
+	<node id='-22' lat='6571247.5034054' lon='161508.256020493' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Backagården' />
+		<tag k='note' v='Vårdboende och demensboende.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/883' />
+		<tag k='url' v='http://www.orebro.se/626.html' />
+	</node>
+	<node id='-21' lat='6571331.87660365' lon='161702.768976689' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Ängen' />
+		<tag k='note' v='Vårdboende och demensboende.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/541' />
+		<tag k='url' v='http://www.orebro.se/10914.html' />
+	</node>
+	<node id='-23' lat='6573834.63787863' lon='162883.142358868' >
+		<tag k='social_facility' v='assisted_living' />
+		<tag k='amenity' v='social_facility' />
+		<tag k='name' v='Berggården' />
+		<tag k='note' v='Vårdboende och demensboende (entreprenad).' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/884' />
+		<tag k='url' v='http://www.orebro.se/627.html' />
+	</node>
+</osm>

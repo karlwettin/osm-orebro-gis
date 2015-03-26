@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
+	<node id='-1' lat='6568887.83305693' lon='160580.189130942' >
+		<tag k='recycling:organic' v='yes' />
+		<tag k='recycling:christmas_trees' v='yes' />
+		<tag k='amenity' v='recycling' />
+		<tag k='name' v='Adolfsberg, Bergavägen' />
+		<tag k='note' v='Ris- och kompostupplag, Bergavägen' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/497' />
+		<tag k='url' v='http://www.orebro.se/317.html' />
+	</node>
+	<node id='-2' lat='6569096.06645782' lon='158616.308075069' >
+		<tag k='recycling:organic' v='yes' />
+		<tag k='recycling:christmas_trees' v='yes' />
+		<tag k='amenity' v='recycling' />
+		<tag k='name' v='Adolfsberg, St Gropen' />
+		<tag k='note' v='Ris- och kompostupplag, St Gropen' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/498' />
+		<tag k='url' v='http://www.orebro.se/317.html' />
+	</node>
+	<node id='-3' lat='6576205.42079574' lon='163572.0193076' >
+		<tag k='recycling:organic' v='yes' />
+		<tag k='recycling:christmas_trees' v='yes' />
+		<tag k='amenity' v='recycling' />
+		<tag k='name' v='Bettorp, Bakom gamla skjutbanan' />
+		<tag k='note' v='Ris- och kompostupplag, Bettorp' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/499' />
+		<tag k='url' v='http://www.orebro.se/317.html' />
+	</node>
+	<node id='-4' lat='6568866.29835917' lon='164414.159913141' >
+		<tag k='recycling:organic' v='yes' />
+		<tag k='recycling:christmas_trees' v='yes' />
+		<tag k='amenity' v='recycling' />
+		<tag k='name' v='Brickebacken, Gällerstavägen Norra Bro' />
+		<tag k='note' v='Ris- och kompostupplag, Gällerstavägen' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/500' />
+		<tag k='url' v='http://www.orebro.se/317.html' />
+	</node>
+	<node id='-5' lat='6576015.85440993' lon='147450.458087964' >
+		<tag k='recycling:organic' v='yes' />
+		<tag k='recycling:christmas_trees' v='yes' />
+		<tag k='amenity' v='recycling' />
+		<tag k='name' v='Garphyttan, Dragarvägen' />
+		<tag k='note' v='Ris- och kompostupplag, Dragarvägen' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/501' />
+		<tag k='url' v='http://www.orebro.se/317.html' />
+	</node>
+	<node id='-6' lat='6580346.00622233' lon='163228.725914561' >
+		<tag k='recycling:organic' v='yes' />
+		<tag k='recycling:christmas_trees' v='yes' />
+		<tag k='amenity' v='recycling' />
+		<tag k='name' v='Hovsta, Lundbackagatan' />
+		<tag k='note' v='Ris- och kompostupplag, Lundbackagatan' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/502' />
+		<tag k='url' v='http://www.orebro.se/317.html' />
+	</node>
+	<node id='-7' lat='6573249.40639124' lon='149677.385162321' >
+		<tag k='recycling:organic' v='yes' />
+		<tag k='recycling:christmas_trees' v='yes' />
+		<tag k='amenity' v='recycling' />
+		<tag k='name' v='Latorp, Fabriksvägen' />
+		<tag k='note' v='Ris- och kompostupplag, Fabriksvägen' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/503' />
+		<tag k='url' v='http://www.orebro.se/317.html' />
+	</node>
+	<node id='-8' lat='6570527.16811859' lon='147880.085046257' >
+		<tag k='recycling:organic' v='yes' />
+		<tag k='recycling:christmas_trees' v='yes' />
+		<tag k='amenity' v='recycling' />
+		<tag k='name' v='Vintrosa, Holmsätervägen' />
+		<tag k='note' v='Ris- och kompostupplag, Holmsätersvägen' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/505' />
+		<tag k='url' v='http://www.orebro.se/317.html' />
+	</node>
+	<node id='-9' lat='6585954.73966646' lon='163699.743500555' >
+		<tag k='recycling:organic' v='yes' />
+		<tag k='recycling:christmas_trees' v='yes' />
+		<tag k='amenity' v='recycling' />
+		<tag k='name' v='Ölmbrotorp, Stationsvägen' />
+		<tag k='note' v='Ris- och kompostupplag, stationsvägen' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/506' />
+		<tag k='url' v='http://www.orebro.se/317.html' />
+	</node>
+</osm>

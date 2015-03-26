@@ -1,4 +1,4 @@
-package se.kodapan.osm.orebro;
+package se.kodapan.osm.orebro.v1;
 
 import org.apache.lucene.search.BooleanClause;
 import org.apache.lucene.search.BooleanQuery;

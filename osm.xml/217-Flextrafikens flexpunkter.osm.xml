@@ -1,0 +1,793 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
+	<node id='-1' lat='6573425.424' lon='162783.808' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 101' />
+		<tag k='note' v='Tulegatan 8, USÖ Huvudentré' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1743' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-2' lat='6573432.327' lon='163023.738' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 102' />
+		<tag k='note' v='Södra Grev Rosengatan, USÖ Entré A-huset.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1744' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-3' lat='6573373.365' lon='163192.461' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 103' />
+		<tag k='note' v='Södra Grev Rosengatan, USÖ Entré L-huset.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1745' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-4' lat='6573616.934' lon='161998.448' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 104' />
+		<tag k='note' v='Östra Bangatan, Resecentrum.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1746' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-5' lat='6573588.126' lon='162179.806' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 105' />
+		<tag k='note' v='Klostergatan 26.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1747' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-6' lat='6573597.557' lon='162380.703' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 106' />
+		<tag k='note' v='Järnvägsgatan 16.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1748' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-7' lat='6573534.474' lon='162539.475' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 107' />
+		<tag k='note' v='Järnvägsgatan 26.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1749' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-8' lat='6573476.31' lon='162278.164' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 108' />
+		<tag k='note' v='Storgatan 15.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1750' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-9' lat='6573969.777' lon='162397.201' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 109' />
+		<tag k='note' v='Ribbingsgatan 6-8, Olaus Petri vårdcentral.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1751' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-10' lat='6573369.231' lon='162189.455' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 110' />
+		<tag k='note' v='Olaigatan 13, Järntorget.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1752' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-11' lat='6573386.762' lon='162233.245' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 111' />
+		<tag k='note' v='Storgatan 2.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1753' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-12' lat='6573264.35' lon='162447.738' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 112' />
+		<tag k='note' v='Olaigatan 25.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1754' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-13' lat='6573069.577' lon='161806.058' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 114' />
+		<tag k='note' v='Vasastrand 3.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1756' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-14' lat='6572997.732' lon='161901.933' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 115' />
+		<tag k='note' v='Fabriksgatan 1, Konserthuset.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1757' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-15' lat='6573030.173' lon='162103.551' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 116' />
+		<tag k='note' v='Drottninggatan, Stortorget, Nikolaikyrkan.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1758' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-16' lat='6572975.247' lon='162275.225' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 117' />
+		<tag k='note' v='Kungsgatan 6.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1759' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-18' lat='6572878.114' lon='161851.377' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 119' />
+		<tag k='note' v='Fabriksgatan 9.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1761' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-17' lat='6572911.446' lon='162043.984' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 118' />
+		<tag k='note' v='Drottninggatan 17' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1760' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-20' lat='6572724.963' lon='162170.247' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 121' />
+		<tag k='note' v='Kungsgatan 23.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1763' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-19' lat='6572764.806' lon='161991.755' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 120' />
+		<tag k='note' v='Drottninggatan 34, Hållplats Våghustorget.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1762' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-22' lat='6572711.956' lon='161756.382' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 123' />
+		<tag k='note' v='Fabriksgatan 23.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1765' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-21' lat='6572747.013' lon='162256.985' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 122' />
+		<tag k='note' v='Nygatan 40.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1764' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-24' lat='6572575.71' lon='161902.038' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 125' />
+		<tag k='note' v='Drottninggatan, Hållplats Olof Palmes torg.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1767' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-23' lat='6572608.933' lon='161837.632' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 124' />
+		<tag k='note' v='Näbbtorgsgatan 18.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1766' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-26' lat='6572535.916' lon='161588.502' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 127' />
+		<tag k='note' v='Fabriksgatan 39.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1769' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-25' lat='6572501.411' lon='162042.944' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 126' />
+		<tag k='note' v='Bondegatan 12.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1768' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-28' lat='6572405.98' lon='161925.092' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 129' />
+		<tag k='note' v='Änggatan 23.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1771' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-27' lat='6572464.172' lon='161775.38' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 128' />
+		<tag k='note' v='Drottninggatan 45-47.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1770' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-30' lat='6573014.501' lon='162626.77' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 131' />
+		<tag k='note' v='Manillagatan 1, Läkargruppen.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1773' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-29' lat='6572234.383' lon='161711.156' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 130' />
+		<tag k='note' v='Kungsgatan, hållplats Södra Allén.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1772' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-32' lat='6572601.43' lon='162126.739' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 133' />
+		<tag k='note' v='Kungsgatan 24, City Hotel.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1775' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-31' lat='6573001.733' lon='163389.967' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 132' />
+		<tag k='note' v='Slussgatan 10-12, Skebäcks vårdcentral.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1774' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-35' lat='6573505.614' lon='162633.83' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 136' />
+		<tag k='note' v='Järnvägsgatan 21.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1778' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-36' lat='6573596.504' lon='161797.684' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 201' />
+		<tag k='note' v='Tulegatan 8, Brolyckan vårdcentral.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1779' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-33' lat='6572887.678' lon='162559.3' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 134' />
+		<tag k='note' v='Manillagatan 10.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1776' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-34' lat='6573112.517' lon='163371.626' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 135' />
+		<tag k='note' v='Wadköpingsvägen 16.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1777' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-39' lat='6572768.072' lon='161021.663' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 204' />
+		<tag k='note' v='Trumpetaregatan 6.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1782' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-40' lat='6572724.838' lon='160837.176' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 205' />
+		<tag k='note' v='Trumpetaregatan 12.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1783' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-37' lat='6573476.474' lon='161217.104' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 202' />
+		<tag k='note' v='Älvtomtagatan 30, Karla vårdcentral.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1780' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-38' lat='6572976.5' lon='161304.157' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 203' />
+		<tag k='note' v='Hagagatan 34.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1781' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-43' lat='6572928.629' lon='160405.688' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 208' />
+		<tag k='note' v='Västra Vintergatan 204.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1786' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-44' lat='6573131.243' lon='160538.244' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 209' />
+		<tag k='note' v='Otto E Andersens gata 7.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1787' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-41' lat='6573596.691' lon='159746.571' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 206' />
+		<tag k='note' v='Grönsångargatan 6.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1784' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-42' lat='6573550.001' lon='159359.116' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 207' />
+		<tag k='note' v='Grönsångargatan 128, vändslingan.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1785' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-47' lat='6572922.876' lon='160756.776' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 212' />
+		<tag k='note' v='Östra Vintergatan 92.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1790' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-48' lat='6573116.076' lon='160772.44' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 213' />
+		<tag k='note' v='Östra Vintergatan 56.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1791' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-45' lat='6572955.526' lon='160562.371' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 210' />
+		<tag k='note' v='Västra Vintergatan 138.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1788' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-46' lat='6572789.9' lon='160759.385' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 211' />
+		<tag k='note' v='Västra Vintergatan 9.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1789' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-52' lat='6573351.569' lon='159489.523' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 217' />
+		<tag k='note' v='Skäpplandsgatan 31, Haga Vårdcental.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1795' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-51' lat='6573349.033' lon='159362.547' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 216' />
+		<tag k='note' v='Vaktelvägen 2, Haga Centrum.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1794' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-50' lat='6572982.685' lon='160906.061' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 215' />
+		<tag k='note' v='Östra Vintergatan 26.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1793' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-49' lat='6573269.013' lon='160766.59' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 214' />
+		<tag k='note' v='Rostagatan 30.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1792' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-56' lat='6573120.792' lon='159922.338' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 221' />
+		<tag k='note' v='Tunnlandsgatan 10.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1799' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-55' lat='6574000.307' lon='160043.704' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 220' />
+		<tag k='note' v='Tornfalksgatan 106-162.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1798' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-54' lat='6573693.477' lon='159976.413' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 219' />
+		<tag k='note' v='Tornfalksgatan 26.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1797' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-53' lat='6573265.795' lon='159756.575' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 218' />
+		<tag k='note' v='Skäpplandsgatan 13.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1796' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-60' lat='6572934.636' lon='159331.559' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 225' />
+		<tag k='note' v='Hagagatan, Hållplats Vaktelvägen.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1803' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-59' lat='6572937.781' lon='159591.534' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 224' />
+		<tag k='note' v='Spannlandsgatan 2.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1802' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-58' lat='6572815.49' lon='159816.025' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 223' />
+		<tag k='note' v='Hagagatan, Hållplats Västhagagatan.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1801' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-57' lat='6572961.251' lon='159878.265' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 222' />
+		<tag k='note' v='Tunnlandsgatan 29.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1800' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-64' lat='6573028.857' lon='158853.394' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 229' />
+		<tag k='note' v='Grindgatan, Hållplats Stödjegränd.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1807' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-63' lat='6573118.09' lon='159120.328' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 228' />
+		<tag k='note' v='Stolpgränd 50.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1806' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-62' lat='6572989.078' lon='159119.889' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 227' />
+		<tag k='note' v='Grindgatan, Hållplats Stolpgränd.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1805' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-61' lat='6573127.932' lon='159355.222' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 226' />
+		<tag k='note' v='Stånggatan 2.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1804' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-69' lat='6573255.965' lon='159274.669' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 234' />
+		<tag k='note' v='Vaktelvägen 1' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1812' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-70' lat='6573592.597' lon='161226.7' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 235' />
+		<tag k='note' v='Karlsgatan 24, Marklyckan.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1813' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-71' lat='6573205.572' lon='161722.409' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 236' />
+		<tag k='note' v='Karslundsgatan 1, Vasatorget.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1814' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-72' lat='6573088.232' lon='160950.786' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 237' />
+		<tag k='note' v='Rostagatan 22-26, Älvtomta kolloniområde.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1815' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-65' lat='6573178.601' lon='158831.582' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 230' />
+		<tag k='note' v='Stödjegränd 50.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1808' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-66' lat='6573364.369' lon='158894.338' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 231' />
+		<tag k='note' v='Ledgränd 28.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1809' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-67' lat='6573289.868' lon='159101.25' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 232' />
+		<tag k='note' v='Ledgränd 1.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1810' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-68' lat='6573411.413' lon='159145.781' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 233' />
+		<tag k='note' v='Ledgränd 5.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1811' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-77' lat='6572660.191' lon='161279.982' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 253' />
+		<tag k='note' v='Ånstagatan 7.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1820' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-78' lat='6573309.632' lon='163365.774' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 137' />
+		<tag k='note' v='Universitetssjukhuset entré V-huset' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2270' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-79' lat='6573410.54' lon='161284.145' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 254' />
+		<tag k='note' v='Folkungagatan 33, Syncentralen.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2271' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-73' lat='6573512.229' lon='161692.698' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 240' />
+		<tag k='note' v='Ekersgatan 14.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1816' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-74' lat='6572326.044' lon='160607.988' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 250' />
+		<tag k='note' v='Örnsro koloniområde.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1817' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-75' lat='6572421.076' lon='160940.856' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 251' />
+		<tag k='note' v='Idrottsvägen 20.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1818' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+	<node id='-76' lat='6572486.803' lon='161166.073' >
+		<tag k='bus' v='yes' />
+		<tag k='public_transport' v='stop_position' />
+		<tag k='operator' v='Flextrafiken' />
+		<tag k='name' v='Flexpunkt 252' />
+		<tag k='note' v='Idrottsvägen, Svanåallén.' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1819' />
+		<tag k='url' v='http://www.orebro.se/234.html' />
+	</node>
+</osm>

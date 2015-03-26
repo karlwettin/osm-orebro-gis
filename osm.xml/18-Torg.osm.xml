@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
+	<node id='-1' lat='6573218.29523763' lon='161791.913974651' >
+		<tag k='area' v='yes' />
+		<tag k='highway' v='pedestrian' />
+		<tag k='name' v='Vasatorget' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/507' />
+	</node>
+	<node id='-2' lat='6572974.72599321' lon='162160.935434952' >
+		<tag k='area' v='yes' />
+		<tag k='highway' v='pedestrian' />
+		<tag k='name' v='Stortorget' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/508' />
+	</node>
+	<node id='-3' lat='6572732.19010518' lon='162037.85341746' >
+		<tag k='area' v='yes' />
+		<tag k='highway' v='pedestrian' />
+		<tag k='name' v='Våghustorget' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/509' />
+	</node>
+	<node id='-4' lat='6572659.89018538' lon='161931.71043598' >
+		<tag k='area' v='yes' />
+		<tag k='highway' v='pedestrian' />
+		<tag k='name' v='Näbbtorget' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/510' />
+	</node>
+	<node id='-5' lat='6572587.42702825' lon='161894.582174178' >
+		<tag k='area' v='yes' />
+		<tag k='highway' v='pedestrian' />
+		<tag k='name' v='Olof Palmes torg' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/511' />
+	</node>
+	<node id='-6' lat='6572549.92301769' lon='161936.044547388' >
+		<tag k='area' v='yes' />
+		<tag k='highway' v='pedestrian' />
+		<tag k='name' v='Krämartorget' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/512' />
+	</node>
+	<node id='-7' lat='6573361.60516997' lon='162145.241522627' >
+		<tag k='area' v='yes' />
+		<tag k='highway' v='pedestrian' />
+		<tag k='name' v='Järntorget' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/513' />
+	</node>
+	<node id='-8' lat='6574188.968654' lon='162575.288560749' >
+		<tag k='area' v='yes' />
+		<tag k='highway' v='pedestrian' />
+		<tag k='name' v='Bromsplan' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/514' />
+	</node>
+	<node id='-9' lat='6573037.97261398' lon='162510.233201924' >
+		<tag k='area' v='yes' />
+		<tag k='highway' v='pedestrian' />
+		<tag k='name' v='Hamnplan' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/515' />
+	</node>
+</osm>

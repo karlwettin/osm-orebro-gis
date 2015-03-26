@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
+	<node id='-1' lat='6573061.76' lon='162518.504' >
+		<tag k='amenity' v='parking' />
+		<tag k='note' v='2 platser' />
+		<tag k='name' v='Bussparkering Hamnplan, Kanalvägen' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1731' />
+		<tag k='url' v='http://www.orebro.se/592.html' />
+	</node>
+	<node id='-2' lat='6573035.522' lon='161920.288' >
+		<tag k='amenity' v='parking' />
+		<tag k='note' v='3 platser 3 dygn' />
+		<tag k='name' v='Bussparkering Fabriksgatan' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1732' />
+		<tag k='url' v='http://www.orebro.se/592.html' />
+	</node>
+	<node id='-3' lat='6572668.881' lon='161662.209' >
+		<tag k='amenity' v='parking' />
+		<tag k='note' v='2 platser 3 timmar' />
+		<tag k='name' v='Bussparkering Änggatan' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1733' />
+		<tag k='url' v='http://www.orebro.se/592.html' />
+	</node>
+	<node id='-4' lat='6572599.06' lon='161388.039' >
+		<tag k='amenity' v='parking' />
+		<tag k='note' v='4 platser 3 dygn' />
+		<tag k='name' v='Bussparkering Svartå Bangata' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1734' />
+		<tag k='url' v='http://www.orebro.se/592.html' />
+	</node>
+	<node id='-5' lat='6573008.443' lon='162823.166' >
+		<tag k='amenity' v='parking' />
+		<tag k='note' v='2 platser' />
+		<tag k='name' v='Bussparkering Floragatan' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1735' />
+		<tag k='url' v='http://www.orebro.se/592.html' />
+	</node>
+	<node id='-6' lat='6573077.548' lon='163492.868' >
+		<tag k='amenity' v='parking' />
+		<tag k='note' v='3 platser 3 dygn' />
+		<tag k='name' v='Bussparkering Slussgatan' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1736' />
+		<tag k='url' v='http://www.orebro.se/592.html' />
+	</node>
+	<node id='-7' lat='6572210.969' lon='161630.247' >
+		<tag k='amenity' v='parking' />
+		<tag k='note' v='4 platser' />
+		<tag k='name' v='Bussparkering Kungsgatan' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1737' />
+		<tag k='url' v='http://www.orebro.se/592.html' />
+	</node>
+	<node id='-8' lat='6574780.152' lon='162956.24' >
+		<tag k='amenity' v='parking' />
+		<tag k='note' v='4 platser' />
+		<tag k='name' v='Bussparkering Svampen, Dalbygatan' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1738' />
+		<tag k='url' v='http://www.orebro.se/592.html' />
+	</node>
+	<node id='-9' lat='6570460.742' lon='160048.33' >
+		<tag k='amenity' v='parking' />
+		<tag k='note' v='3 platser 30 minuter' />
+		<tag k='name' v='Bussparkering Brunnsparken, Brunnsvägen' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1739' />
+		<tag k='url' v='http://www.orebro.se/592.html' />
+	</node>
+	<node id='-10' lat='6573508.432' lon='162618.795' >
+		<tag k='amenity' v='parking' />
+		<tag k='note' v='2 platser 3 dygn' />
+		<tag k='name' v='Bussparkering Järnvägsgatan' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1740' />
+		<tag k='url' v='http://www.orebro.se/592.html' />
+	</node>
+	<node id='-11' lat='6573281.376' lon='162408.53' >
+		<tag k='amenity' v='parking' />
+		<tag k='note' v='1 plats 3 timmar' />
+		<tag k='name' v='Bussparkering Olaigatan' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1741' />
+		<tag k='url' v='http://www.orebro.se/592.html' />
+	</node>
+	<node id='-12' lat='6573038.9' lon='162576.972' >
+		<tag k='amenity' v='parking' />
+		<tag k='note' v='2 platser kl. 8-20 (9-19) 9-19 &lt;p&gt;&lt;/p&gt; sommartid 1 maj-30 september' />
+		<tag k='name' v='Bussparkering Kanalvägen' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1742' />
+		<tag k='url' v='http://www.orebro.se/592.html' />
+	</node>
+	<node id='-13' lat='6572864.391' lon='163212.943' >
+		<tag k='amenity' v='parking' />
+		<tag k='note' v='2 platser Sommartid 1 maj-30 september' />
+		<tag k='name' v='Bussparkering Skyttegatan' />
+		<tag k='source' v='api.karta.orebro.se' />
+		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2037' />
+	</node>
+</osm>
