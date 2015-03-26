@@ -1,775 +1,775 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
-	<node id='-1' lat='6573034.71544661' lon='162437.930239616' >
+	<node id='-1' lat='59.272405421614394' lon='15.218130431999432' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2273' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-2' lat='6573044.60201434' lon='162439.351295984' >
+	<node id='-2' lat='59.2724941277178' lon='15.218155921079838' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2274' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-3' lat='6572900.50626398' lon='162772.779720976' >
+	<node id='-3' lat='59.27119070933162' lon='15.223994899905124' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2275' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-4' lat='6572829.97363922' lon='162218.379686081' >
+	<node id='-4' lat='59.27057392655141' lon='15.214268548981375' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2276' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-5' lat='6572601.43023031' lon='161928.212675451' >
+	<node id='-5' lat='59.268530653371286' lon='15.209167476021262' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2277' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-6' lat='6573777.35243594' lon='162084.555800188' >
+	<node id='-6' lat='59.27908201637065' lon='15.211974591968735' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2278' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-7' lat='6573795.40543893' lon='162079.11516915' >
+	<node id='-7' lat='59.27924422631142' lon='15.211880165584388' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2279' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-8' lat='6572695.4750873' lon='161943.145332726' >
+	<node id='-8' lat='59.26937443731267' lon='15.209434507562609' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2280' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-9' lat='6572923.85891745' lon='162552.634931401' >
+	<node id='-9' lat='59.27140692073391' lon='15.220135629662545' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2281' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-10' lat='6572732.21582984' lon='161770.807667569' >
+	<node id='-10' lat='59.26970907070469' lon='15.206414419400716' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2282' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-11' lat='6572740.71228562' lon='161774.465019884' >
+	<node id='-11' lat='59.26978523847077' lon='15.206479016267217' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2283' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-12' lat='6573090.37845235' lon='162224.0820712' >
+	<node id='-12' lat='59.272911314972006' lon='15.214383236294424' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2284' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-13' lat='6573005.32055967' lon='162829.976150619' >
+	<node id='-13' lat='59.27212985667874' lon='15.2250041436644' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2285' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-14' lat='6572790.35633333' lon='162156.352833333' >
+	<node id='-14' lat='59.27022008258708' lon='15.213178597113258' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2286' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-15' lat='6572863.779375' lon='162372.750497844' >
+	<node id='-15' lat='59.27087290480492' lon='15.216977591973803' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2287' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-16' lat='6572896.27672826' lon='162304.590980252' >
+	<node id='-16' lat='59.2711666071701' lon='15.215784151687533' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2288' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-18' lat='6572352.3817382' lon='162593.753361857' >
+	<node id='-18' lat='59.26627577061505' lon='15.220823516012961' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2290' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-17' lat='6572875.68040897' lon='162374.204999201' >
+	<node id='-17' lat='59.27097969326117' lon='15.217003778428667' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2289' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-20' lat='6572969.56130909' lon='162516.497375188' >
+	<node id='-20' lat='59.2718182430664' lon='15.219504529962954' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2292' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-19' lat='6572343.0719249' lon='162552.963170191' >
+	<node id='-19' lat='59.26619341104024' lon='15.220107752847088' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2291' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-22' lat='6570224.72642925' lon='159582.947082281' >
+	<node id='-22' lat='59.24725537075813' lon='15.167937250861721' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2294' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-21' lat='6573366.19835325' lon='162176.083731098' >
+	<node id='-21' lat='59.27538862556782' lon='15.213556957629308' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2293' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-24' lat='6572435.64300366' lon='161740.922433884' >
+	<node id='-24' lat='59.267047678343204' lon='15.205874289044694' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2296' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-23' lat='6572336.84579588' lon='161016.083120654' >
+	<node id='-23' lat='59.26618028802706' lon='15.193159470105098' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2295' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-26' lat='6573359.10854057' lon='162113.030049311' >
+	<node id='-26' lat='59.27532679194822' lon='15.212450668348394' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2298' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-25' lat='6573366.42293407' lon='162113.678488934' >
+	<node id='-25' lat='59.275392431838945' lon='15.21246245018812' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2297' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-28' lat='6573446.76976509' lon='162252.811448275' >
+	<node id='-28' lat='59.276109669616886' lon='15.214907234528' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2300' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-27' lat='6573366.08521875' lon='162110.72909375' >
+	<node id='-27' lat='59.27538948468616' lon='15.212410702125128' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2299' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-30' lat='6572730.44980935' lon='162163.553921381' >
+	<node id='-30' lat='59.26968211796877' lon='15.213301515411578' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2302' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-29' lat='6572824' lon='162902' >
+	<node id='-29' lat='59.27050002489175' lon='15.226256447743708' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2301' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-32' lat='6574702.50889023' lon='162009.627968888' >
+	<node id='-32' lat='59.287388906806946' lon='15.210711604467727' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2304' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-31' lat='6577862' lon='162837' >
+	<node id='-31' lat='59.3157259900185' lon='15.225415433549907' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2303' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-35' lat='6573716.17443528' lon='162472.054858534' >
+	<node id='-35' lat='59.278521605509916' lon='15.218768114720545' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2307' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-36' lat='6573805.19230642' lon='162663.590992544' >
+	<node id='-36' lat='59.27931499621937' lon='15.222132960538849' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2308' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-33' lat='6573983.88614204' lon='161678.051021112' >
+	<node id='-33' lat='59.280947398582654' lon='15.20485530091626' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2305' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-34' lat='6574756' lon='162901' >
+	<node id='-34' lat='59.28784283621846' lon='15.22635397681164' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2306' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-39' lat='6573737.40512244' lon='162006.345824907' >
+	<node id='-39' lat='59.27872565080362' lon='15.210600511327042' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2311' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-40' lat='6573572.45146993' lon='162305.176619933' >
+	<node id='-40' lat='59.27723634567012' lon='15.215832820225016' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2312' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-37' lat='6573886.22727015' lon='162469.087769246' >
+	<node id='-37' lat='59.28004818904843' lon='15.218725859402854' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2309' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-38' lat='6572922.90868462' lon='162322.046734643' >
+	<node id='-38' lat='59.271405164267605' lon='15.216091782790985' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2310' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-43' lat='6572669.97209495' lon='162012.532107713' >
+	<node id='-43' lat='59.26914354395902' lon='15.210649848371222' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2315' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-44' lat='6572634.07176526' lon='161997.877576403' >
+	<node id='-44' lat='59.26882169587783' lon='15.210390883791328' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2316' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-41' lat='6573508.10301235' lon='162239.265370539' >
+	<node id='-41' lat='59.27666062584449' lon='15.214673110917536' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2313' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-42' lat='6572948.6183755' lon='161769.610177379' >
+	<node id='-42' lat='59.27165166702441' lon='15.206405171476218' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2314' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-47' lat='6572940.9866636' lon='162311.438557731' >
+	<node id='-47' lat='59.27156775185144' lon='15.215906775617126' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2319' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-48' lat='6573349.36984' lon='162051.496456128' >
+	<node id='-48' lat='59.275241127626295' lon='15.211370896328763' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2320' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-45' lat='6572981.58114692' lon='162260.967084649' >
+	<node id='-45' lat='59.2719336173332' lon='15.215023956810349' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2317' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-46' lat='6572794.64947266' lon='162139.857930451' >
+	<node id='-46' lat='59.27025909368526' lon='15.212889578764406' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2318' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-52' lat='6572583.87416718' lon='161821.50574714' >
+	<node id='-52' lat='59.26837605161195' lon='15.207295370837416' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2324' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-51' lat='6573393.52657163' lon='161840.44521199' >
+	<node id='-51' lat='59.27564346091578' lon='15.207671715316462' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2323' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-50' lat='6572552.50778135' lon='161873.112188628' >
+	<node id='-50' lat='59.268093043643866' lon='15.208198587900679' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2322' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-49' lat='6573645.42631506' lon='162200.222480705' >
+	<node id='-49' lat='59.27789444988007' lon='15.213996049059311' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2321' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-56' lat='6572870.28308495' lon='162386.826605333' >
+	<node id='-56' lat='59.270930874527274' lon='15.217224810518374' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2328' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-55' lat='6573072.06110687' lon='161946.49497505' >
+	<node id='-55' lat='59.27275481087947' lon='15.209514003855642' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2327' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-54' lat='6572610.6752364' lon='161854.525455914' >
+	<node id='-54' lat='59.26861571155027' lon='15.207875847383459' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2326' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-53' lat='6572580.18620278' lon='161817.94799278' >
+	<node id='-53' lat='59.268343045459005' lon='15.207232783445608' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2325' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-60' lat='6573629.30119806' lon='162305.693813022' >
+	<node id='-60' lat='59.2777466480927' lon='15.215845120945346' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2332' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-59' lat='6572903.48198762' lon='162307.363151133' >
+	<node id='-59' lat='59.27123120541789' lon='15.215833175676522' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2331' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-58' lat='6573629.53427736' lon='162468.508125914' >
+	<node id='-58' lat='59.277743975895454' lon='15.218700916459879' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2330' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-57' lat='6572600.99360466' lon='162003.314387053' >
+	<node id='-57' lat='59.26852461176415' lon='15.210484389541257' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2329' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-64' lat='6573552.93028897' lon='161845.209424102' >
+	<node id='-64' lat='59.27707423256943' lon='15.207763990139926' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2336' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-63' lat='6572595.91678867' lon='162106.480357694' >
+	<node id='-63' lat='59.268476102201895' lon='15.212293160869748' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2335' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-62' lat='6572998.37499085' lon='161945.551427814' >
+	<node id='-62' lat='59.272093385679185' lon='15.209493394673263' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2334' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-61' lat='6574012' lon='163015' >
+	<node id='-61' lat='59.28116076510799' lon='15.228309421974078' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2333' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-69' lat='6573133.23284396' lon='162272.266952527' >
+	<node id='-69' lat='59.27329460816179' lon='15.215230712045322' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2341' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-70' lat='6573417.73155843' lon='161755.871159573' >
+	<node id='-70' lat='59.27586309671118' lon='15.206189680179273' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2342' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-71' lat='6571285' lon='161849' >
+	<node id='-71' lat='59.25671577197545' lon='15.207706522722628' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2343' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-72' lat='6571062.88824226' lon='164332.6786044' >
+	<node id='-72' lat='59.254645215720004' lon='15.25122894133598' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2344' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-65' lat='6572681.75687643' lon='161731.920679867' >
+	<node id='-65' lat='59.26925719905129' lon='15.205729766153455' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2337' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-66' lat='6573584.00887015' lon='162410.319840301' >
+	<node id='-66' lat='59.27733702239033' lon='15.217677679197791' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2338' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-67' lat='6572389.59861832' lon='161085.590916031' >
+	<node id='-67' lat='59.266652016867276' lon='15.194380930915722' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2339' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-68' lat='6573337.21961082' lon='162322.532553196' >
+	<node id='-68' lat='59.275124257322965' lon='15.216123861899979' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2340' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-77' lat='6573523.60168288' lon='162423.466615513' >
+	<node id='-77' lat='59.27679438543695' lon='15.217904808372204' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2349' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-78' lat='6573009.78759157' lon='162118.924192444' >
+	<node id='-78' lat='59.272190905188396' lon='15.212534508774663' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2350' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-79' lat='6572331.65935563' lon='162443.175441346' >
+	<node id='-79' lat='59.266094204803636' lon='15.218182060239902' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2351' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-80' lat='6573483.58601481' lon='162138.046194909' >
+	<node id='-80' lat='59.276443460822925' lon='15.212896397077277' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2352' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-73' lat='6572396.21719992' lon='161719.625735711' >
+	<node id='-73' lat='59.26669435763971' lon='15.205498728004445' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2345' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-74' lat='6572327.4255668' lon='161750.825642212' >
+	<node id='-74' lat='59.26607597640646' lon='15.206042072688707' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2346' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-75' lat='6572457.20681848' lon='161800.022286531' >
+	<node id='-75' lat='59.26723960591512' lon='15.206911756836703' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2347' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-76' lat='6573535.30123615' lon='162428.29669071' >
+	<node id='-76' lat='59.27689926590071' lon='15.217990197252579' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2348' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-86' lat='6572442' lon='160986' >
+	<node id='-86' lat='59.26712500001423' lon='15.192637315165523' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2358' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-85' lat='6572348.52511538' lon='161676.331948818' >
+	<node id='-85' lat='59.266267439590706' lon='15.20473702667317' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2357' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-82' lat='6573312' lon='162183' >
+	<node id='-82' lat='59.27490190922367' lon='15.213675214013845' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2354' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-81' lat='6572329' lon='162431' >
+	<node id='-81' lat='59.266070690348954' lon='15.217968422017943' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2353' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-84' lat='6572343.99686418' lon='161678.542166667' >
+	<node id='-84' lat='59.26622673023166' lon='15.204775537225778' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2356' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />
 	</node>
-	<node id='-83' lat='6573481' lon='161707' >
+	<node id='-83' lat='59.27643238723818' lon='15.205335939606947' >
 		<tag k='amenity' v='parking' />
 		<tag k='capacity:disabled' v='yes' />
 		<tag k='name' v='Handikapplats' />
-		<tag k='note' v='Parkeringsplats för rörelsehindrade' />
+		<tag k='note:description' v='Parkeringsplats för rörelsehindrade' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2355' />
 		<tag k='url' v='http://www.orebro.se/1455.html' />

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
-	<node id='-1' lat='6573013.785' lon='162154.253' >
+	<node id='-1' lat='59.27222577567227' lon='15.213154303683384' >
 		<tag k='amenity' v='toilets' />
 		<tag k='access' v='public' />
 		<tag k='operator' v='Örebro kommun' />
@@ -9,17 +9,17 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1877' />
 		<tag k='url' v='http://www.orebro.se/5418.html' />
 	</node>
-	<node id='-2' lat='6569956.546' lon='160866.66' >
+	<node id='-2' lat='59.24481703524773' lon='15.190420239346977' >
 		<tag k='amenity' v='toilets' />
 		<tag k='access' v='public' />
 		<tag k='operator' v='Örebro kommun' />
 		<tag k='name' v='Sommarro' />
-		<tag k='note' v='Öppet 1 maj till 30 oktober.' />
+		<tag k='note:description' v='Öppet 1 maj till 30 oktober.' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1878' />
 		<tag k='url' v='http://www.orebro.se/5418.html' />
 	</node>
-	<node id='-3' lat='6573060.386' lon='162575.712' >
+	<node id='-3' lat='59.27263178605909' lon='15.220548251175343' >
 		<tag k='amenity' v='toilets' />
 		<tag k='access' v='public' />
 		<tag k='operator' v='Örebro kommun' />
@@ -28,17 +28,17 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1879' />
 		<tag k='url' v='http://www.orebro.se/5418.html' />
 	</node>
-	<node id='-4' lat='6573005.895' lon='162907.39' >
+	<node id='-4' lat='59.272132660280576' lon='15.226361801579916' >
 		<tag k='amenity' v='toilets' />
 		<tag k='access' v='public' />
 		<tag k='operator' v='Örebro kommun' />
 		<tag k='name' v='Stadsparken' />
-		<tag k='note' v='Öppet 1 maj till 30 oktober.' />
+		<tag k='note:description' v='Öppet 1 maj till 30 oktober.' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1880' />
 		<tag k='url' v='http://www.orebro.se/5418.html' />
 	</node>
-	<node id='-5' lat='6572982.269' lon='163227.694' >
+	<node id='-5' lat='59.27191069332479' lon='15.231977599729692' >
 		<tag k='amenity' v='toilets' />
 		<tag k='access' v='public' />
 		<tag k='operator' v='Örebro kommun' />
@@ -47,17 +47,17 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1881' />
 		<tag k='url' v='http://www.orebro.se/5418.html' />
 	</node>
-	<node id='-6' lat='6573256.865' lon='162862.351' >
+	<node id='-6' lat='59.27438688905096' lon='15.225586838973829' >
 		<tag k='amenity' v='toilets' />
 		<tag k='access' v='public' />
 		<tag k='operator' v='Örebro kommun' />
 		<tag k='name' v='Stora holmen' />
-		<tag k='note' v='Öppet 1 maj till 30 oktober.' />
+		<tag k='note:description' v='Öppet 1 maj till 30 oktober.' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1882' />
 		<tag k='url' v='http://www.orebro.se/5418.html' />
 	</node>
-	<node id='-7' lat='6573557.372' lon='164390.803' >
+	<node id='-7' lat='59.27703521869469' lon='15.25241332721478' >
 		<tag k='amenity' v='toilets' />
 		<tag k='access' v='public' />
 		<tag k='operator' v='Örebro kommun' />
@@ -66,7 +66,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1883' />
 		<tag k='url' v='http://www.orebro.se/5418.html' />
 	</node>
-	<node id='-8' lat='6572727.793' lon='162032.205' >
+	<node id='-8' lat='59.269662021549685' lon='15.210998035971496' >
 		<tag k='amenity' v='toilets' />
 		<tag k='access' v='public' />
 		<tag k='operator' v='Örebro kommun' />
@@ -75,7 +75,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1884' />
 		<tag k='url' v='http://www.orebro.se/5418.html' />
 	</node>
-	<node id='-9' lat='6573470.039' lon='161961.034' >
+	<node id='-9' lat='59.27632689309168' lon='15.209790951533973' >
 		<tag k='amenity' v='toilets' />
 		<tag k='access' v='public' />
 		<tag k='operator' v='Örebro kommun' />
@@ -84,7 +84,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1885' />
 		<tag k='url' v='http://www.orebro.se/5418.html' />
 	</node>
-	<node id='-10' lat='6573358.006' lon='162129.587' >
+	<node id='-10' lat='59.27531642080679' lon='15.212740996985156' >
 		<tag k='amenity' v='toilets' />
 		<tag k='access' v='public' />
 		<tag k='operator' v='Örebro kommun' />

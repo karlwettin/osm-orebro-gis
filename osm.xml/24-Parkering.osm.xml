@@ -1,157 +1,157 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
-	<node id='-1' lat='6573851.21536728' lon='162188.312591375' >
+	<node id='-1' lat='59.279742079531545' lon='15.21379872620462' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='Parkering, centralstation/posten' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/785' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-2' lat='6573735.08594942' lon='162426.76489482' >
+	<node id='-2' lat='59.27869269865077' lon='15.217974790276331' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='Parkering Norra Grev Rosengatan/Storgatan' />
-		<tag k='note' v='Kommunal parkeringsplats' />
+		<tag k='note:description' v='Kommunal parkeringsplats' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/786' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-3' lat='6573715.30796755' lon='162197.962382733' >
+	<node id='-3' lat='59.27852181489451' lon='15.213960341414596' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='Parkering Östra Nobelgatan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/787' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-4' lat='6573604.80712238' lon='162158.294961719' >
+	<node id='-4' lat='59.277531033803186' lon='15.213258352358793' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='Parkering Fredsgatan/Klostergatan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/788' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-5' lat='6573566.59530196' lon='162388.800949905' >
+	<node id='-5' lat='59.277181338039476' lon='15.217299244045742' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='P-hus Norrcity Järnvägsgatan/Slottsgatan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/789' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-6' lat='6573446.383019' lon='162043.194689494' >
+	<node id='-6' lat='59.27611221320428' lon='15.211230685399384' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='P-hus Centralen Olaigatan/Magasinsgatan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/790' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-7' lat='6573228.82260134' lon='161752.779109677' >
+	<node id='-7' lat='59.274167420089164' lon='15.206125201536498' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='Parkering Vasatorget' />
-		<tag k='note' v='Kommunal parkering' />
+		<tag k='note:description' v='Kommunal parkering' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/792' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-8' lat='6573112.37219965' lon='162047.245449297' >
+	<node id='-8' lat='59.2731138130985' lon='15.21128316221884' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='P-hus Färgeriet Ågatan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/793' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-9' lat='6573016.8142626' lon='162497.487387909' >
+	<node id='-9' lat='59.272242975894066' lon='15.219173875432045' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='Parkering Hamnplan' />
-		<tag k='note' v='Kommunal parkering' />
+		<tag k='note:description' v='Kommunal parkering' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/794' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-10' lat='6572983.38471335' lon='161802.764311816' >
+	<node id='-10' lat='59.271962828193686' lon='15.20698848878835' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='Parkering Konserthuset' />
-		<tag k='note' v='Kommunal parkeringsplats' />
+		<tag k='note:description' v='Kommunal parkeringsplats' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/795' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-11' lat='6572931.55381901' lon='161982.425919014' >
+	<node id='-11' lat='59.27149251580411' lon='15.210136376267101' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='P-hus Prästgården Kyrkogatan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/796' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-12' lat='6572900.91861074' lon='162342.863997504' >
+	<node id='-12' lat='59.27120716157787' lon='15.216455599857001' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='Parkering Stortorget' />
-		<tag k='note' v='Kommunal parkeringsplats' />
+		<tag k='note:description' v='Kommunal parkeringsplats' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/797' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-13' lat='6572764.30778879' lon='162294.511440762' >
+	<node id='-13' lat='59.2699822658641' lon='15.215599903623625' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='P-hus City Nygatan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/798' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-14' lat='6572745.54876145' lon='162149.712114687' >
+	<node id='-14' lat='59.26981805285078' lon='15.213059632144978' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='P-hus Träffpunkt Kungsgatan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/799' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-15' lat='6572852.21072047' lon='161790.352505742' >
+	<node id='-15' lat='59.270785675307366' lon='15.206763684993826' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='P-hus Behrn Center infart från Nygatan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/800' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-16' lat='6572855.16690709' lon='161539.270390986' >
+	<node id='-16' lat='59.27081912899237' lon='15.202360726893746' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='Parkering Svartå Bangata' />
-		<tag k='note' v='Kommunal parkeringsplats' />
+		<tag k='note:description' v='Kommunal parkeringsplats' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/801' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-18' lat='6572605.30073666' lon='161966.378714474' >
+	<node id='-18' lat='59.2685643206214' lon='15.209836946032489' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='P-hus Krämaren Kungsgatan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/803' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-17' lat='6572676.00449809' lon='161693.47111158' >
+	<node id='-17' lat='59.26920662567128' lon='15.205055213136852' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='P-hus Conventum Fabriksgatan' />
-		<tag k='note' v='Kommunalt parkeringshus' />
+		<tag k='note:description' v='Kommunalt parkeringshus' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/802' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-20' lat='6572411.36455316' lon='161479.640371741' >
+	<node id='-20' lat='59.26683690318027' lon='15.20129151766377' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='Oscariagaraget Fabriksgatan' />
-		<tag k='note' v='Kommunalt parkeringshus' />
+		<tag k='note:description' v='Kommunalt parkeringshus' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/805' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-19' lat='6572566.75286404' lon='161756.807426019' >
+	<node id='-19' lat='59.2682241613689' lon='15.206159936916238' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='P-hus Södergaraget Änggatan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/804' />
 		<tag k='url' v='http://www.orebro.se/592.html' />
 	</node>
-	<node id='-21' lat='6572043.86053417' lon='161196.043917558' >
+	<node id='-21' lat='59.26354554774976' lon='15.196299809570052' >
 		<tag k='amenity' v='parking' />
 		<tag k='name' v='Parkering Tappstället Gustavsviksvägen' />
-		<tag k='note' v='Parkeringsplats för besökare till Conventum på Gustavsviksvägen (kommunal parkeringsplats).' />
+		<tag k='note:description' v='Parkeringsplats för besökare till Conventum på Gustavsviksvägen (kommunal parkeringsplats).' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/806' />
 		<tag k='url' v='http://www.orebro.se/592.html' />

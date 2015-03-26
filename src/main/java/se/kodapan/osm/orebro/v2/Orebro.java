@@ -176,7 +176,7 @@ public class Orebro {
 
     CloseableHttpClient client = HttpClientBuilder.create().build();
 
-    CloseableHttpResponse response = client.execute(new HttpGet("http://data.karta.orebro.se/api/v1/layers/" + id));
+    CloseableHttpResponse response = client.execute(new HttpGet("http://data.karta.orebro.se/api/v1/layers/" + id + "?srs=EPSG:4326"));
 
     JSONObject json = new JSONObject(new JSONTokener(IOUtils.toString(response.getEntity().getContent(), "UTF8")));
 

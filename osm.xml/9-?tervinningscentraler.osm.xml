@@ -1,34 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
-	<node id='-1' lat='6581300.23288305' lon='163645.225130552' >
+	<node id='-1' lat='59.34656401574337' lon='15.239824947810835' >
 		<tag k='amenity' v='recycling' />
 		<tag k='name' v='Återvinningscentral Hovsta' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/56' />
 		<tag k='url' v='http://www.orebro.se/305.html' />
 	</node>
-	<node id='-2' lat='6567224.4356206' lon='162469.696365961' >
+	<node id='-2' lat='59.22024766784399' lon='15.218353805152047' >
 		<tag k='amenity' v='recycling' />
 		<tag k='name' v='Återvinningscentral Atle' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/57' />
 		<tag k='url' v='http://www.orebro.se/305.html' />
 	</node>
-	<node id='-3' lat='6576301.26270245' lon='158857.990114563' >
+	<node id='-3' lat='59.30181801007832' lon='15.155481140281275' >
 		<tag k='amenity' v='recycling' />
 		<tag k='name' v='Återvinningscentral Mellringe' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/58' />
 		<tag k='url' v='http://www.orebro.se/305.html' />
 	</node>
-	<node id='-4' lat='6577893.70700641' lon='173380.425199302' >
+	<node id='-4' lat='59.31555888539827' lon='15.410555262632835' >
 		<tag k='amenity' v='recycling' />
 		<tag k='name' v='Återvinningscentral Glanshammar' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/59' />
 		<tag k='url' v='http://www.orebro.se/305.html' />
 	</node>
-	<node id='-5' lat='6561032.47736785' lon='180647.260298173' >
+	<node id='-5' lat='59.16374256252017' lon='15.535774520840821' >
 		<tag k='amenity' v='recycling' />
 		<tag k='name' v='Återvinningscentral Odensbacken' />
 		<tag k='source' v='api.karta.orebro.se' />

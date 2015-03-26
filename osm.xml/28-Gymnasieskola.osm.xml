@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
-	<node id='-1' lat='6572472.00919353' lon='161531.9147119' >
+	<node id='-1' lat='59.26737986714448' lon='15.202211349378121' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Virginska gymnasiet' />
@@ -8,7 +8,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/808' />
 		<tag k='url' v='http://www.orebro.se/virginskagymnasiet' />
 	</node>
-	<node id='-2' lat='6571602.8375142' lon='161860.513107985' >
+	<node id='-2' lat='59.25956856109426' lon='15.207925717431804' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Tullängsgymnasiet' />
@@ -16,7 +16,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/809' />
 		<tag k='url' v='http://www.orebro.se/tullangsgymnasiet' />
 	</node>
-	<node id='-3' lat='6572826.20283194' lon='159563.259909703' >
+	<node id='-3' lat='59.27060836994942' lon='15.167706935158753' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Risbergska gymnasiet' />
@@ -24,7 +24,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/810' />
 		<tag k='url' v='http://www.orebro.se/risbergskagymnasiet' />
 	</node>
-	<node id='-4' lat='6573284.1196563' lon='162436.234903464' >
+	<node id='-4' lat='59.27464427510555' lon='15.218115013499254' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Karolinska gymnasiet' />
@@ -32,7 +32,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/811' />
 		<tag k='url' v='http://www.orebro.se/karolinskagymnasiet' />
 	</node>
-	<node id='-5' lat='6572620.41129773' lon='162140.227617727' >
+	<node id='-5' lat='59.26869501386865' lon='15.212886302953562' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Rudbecksgymnasiet' />
@@ -40,7 +40,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/812' />
 		<tag k='url' v='http://www.ru.orebro.se/' />
 	</node>
-	<node id='-6' lat='6582273.86562927' lon='163600.401782916' >
+	<node id='-6' lat='59.355305263816334' lon='15.239098586979322' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Kvinnerstagymnasiet' />
@@ -48,7 +48,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/813' />
 		<tag k='url' v='http://www.orebro.se/kvinnerstagymnasiet' />
 	</node>
-	<node id='-7' lat='6572348.9987762' lon='161450.391135414' >
+	<node id='-7' lat='59.26627786072714' lon='15.2007753522465' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Riksgymnasiet för döva RGD och Riksgymnasiet för hörselskadade, RGH' />
@@ -56,7 +56,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/815' />
 		<tag k='url' v='http://www.orebro.se/riksgymnasier.rgd-rgh' />
 	</node>
-	<node id='-8' lat='6571468.16555744' lon='161642.105530064' >
+	<node id='-8' lat='59.258365718881294' lon='15.204089631887097' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Rockgymnasiet' />
@@ -64,7 +64,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/816' />
 		<tag k='url' v='http://www.rockgymnasiet.se/' />
 	</node>
-	<node id='-9' lat='6573620.98173956' lon='161017.888746444' >
+	<node id='-9' lat='59.27770744615223' lon='15.193256414400667' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='IT-gymnasiet' />
@@ -72,7 +72,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/817' />
 		<tag k='url' v='http://www.it-gymnasiet.se/' />
 	</node>
-	<node id='-10' lat='6573434.1081218' lon='161773.29371221' >
+	<node id='-10' lat='59.276009618567365' lon='15.206496147046108' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Jensen gymnasium' />
@@ -80,7 +80,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/820' />
 		<tag k='url' v='http://www.jenseneducation.se/Gymnasium/' />
 	</node>
-	<node id='-11' lat='6573079.89262461' lon='162090.647288552' >
+	<node id='-11' lat='59.272821019335254' lon='15.212042520369499' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Thorén Business School' />
@@ -88,7 +88,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/821' />
 		<tag k='url' v='http://www.gymnasium.se/Thoren_Business_School_Oerebro__b3736.html' />
 	</node>
-	<node id='-12' lat='6571734.20659442' lon='160816.728502781' >
+	<node id='-12' lat='59.26077575326425' lon='15.189633885269183' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Örebro praktiska gymnasium' />
@@ -96,7 +96,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/822' />
 		<tag k='url' v='http://www.praktiska.se/' />
 	</node>
-	<node id='-13' lat='6572146.98639032' lon='163844.284159284' >
+	<node id='-13' lat='59.26439298365208' lon='15.24273745156317' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Fordonsutbildningar' />
@@ -104,7 +104,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/823' />
 		<tag k='url' v='http://www.fordonsutbildningar.com/' />
 	</node>
-	<node id='-14' lat='6573480.40728504' lon='161879.75194719' >
+	<node id='-14' lat='59.27642225395704' lon='15.208365881768373' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Plusgymnasiet' />
@@ -112,7 +112,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/824' />
 		<tag k='url' v='http://plusgymnasiet.se/' />
 	</node>
-	<node id='-15' lat='6573637.60353884' lon='161027.688992797' >
+	<node id='-15' lat='59.2778563984533' lon='15.193429158066454' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Rytmus musikergymnasiet' />
@@ -120,7 +120,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/880' />
 		<tag k='url' v='http://www.rytmus.se/%C3%96rebro/V%C3%A5rskola.aspx' />
 	</node>
-	<node id='-16' lat='6573605.55346736' lon='160941.561817972' >
+	<node id='-16' lat='59.27757093226407' lon='15.191916851256957' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Liaskolan, gymnasiesärskola' />
@@ -128,7 +128,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/881' />
 		<tag k='url' v='http://liaskolan.se/' />
 	</node>
-	<node id='-17' lat='6572596.64238917' lon='160262.670791627' >
+	<node id='-17' lat='59.26853131556072' lon='15.179961277992328' >
 		<tag k='isced:level' v='4' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Yrkesgymnasiet' />

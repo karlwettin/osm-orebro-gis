@@ -1,42 +1,42 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
-	<node id='-1' lat='6584052.649' lon='154742.77' >
+	<node id='-1' lat='59.37146508822501' lon='15.083418669558865' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Killevigge föräldrakooperativ' />
-		<tag k='note' v='Killevigge föräldrakooperativ (enskild förskola)' />
+		<tag k='note:description' v='Killevigge föräldrakooperativ (enskild förskola)' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1887' />
 		<tag k='url' v='http://www.killevigge.se' />
 	</node>
-	<node id='-2' lat='1468106.008' lon='204782.56' >
+	<node id='-2' lat='13.274240736708881' lon='15.505534270971282' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Hästskon' />
-		<tag k='note' v='Hästskon, förskola' />
+		<tag k='note:description' v='Hästskon, förskola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1888' />
 		<tag k='url' v='http://www.orebro.se/724.html' />
 	</node>
-	<node id='-3' lat='6559537.202' lon='176983.61' >
+	<node id='-3' lat='59.150568454553444' lon='15.471544669028875' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Klockargården' />
-		<tag k='note' v='Klockargården, förskola' />
+		<tag k='note:description' v='Klockargården, förskola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1889' />
 		<tag k='url' v='http://www.orebro.se/730.html' />
 	</node>
-	<node id='-4' lat='6573155.273' lon='160457.949' >
+	<node id='-4' lat='59.27354115814527' lon='15.18341251811043' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Lilla flotten' />
-		<tag k='note' v='Lilla flotten, förskola' />
+		<tag k='note:description' v='Lilla flotten, förskola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1890' />
 		<tag k='url' v='http://www.orebro.se/744.html' />
 	</node>
-	<node id='-5' lat='6567749.347' lon='158668.234' >
+	<node id='-5' lat='59.22505434563848' lon='15.151808580727222' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Mariebergs förskola' />
@@ -44,43 +44,43 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1891' />
 		<tag k='url' v='http://www.orebro.se/748.html' />
 	</node>
-	<node id='-6' lat='6573258.933' lon='160842.716' >
+	<node id='-6' lat='59.274461995611894' lon='15.190165743440733' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Rostastugan' />
-		<tag k='note' v='Rostastugan, förskola' />
+		<tag k='note:description' v='Rostastugan, förskola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1892' />
 		<tag k='url' v='http://www.orebro.se/925.html' />
 	</node>
-	<node id='-7' lat='6558149.316' lon='188177.249' >
+	<node id='-7' lat='59.137253239172374' lon='15.666900595054171' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Sjögården' />
-		<tag k='note' v='Sjögården, förskola' />
+		<tag k='note:description' v='Sjögården, förskola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1893' />
 		<tag k='url' v='http://www.orebro.se/930.html' />
 	</node>
-	<node id='-8' lat='6550519.816' lon='181892.869' >
+	<node id='-8' lat='59.06928440376082' lon='15.556018474224283' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Sotterngården' />
-		<tag k='note' v='Sotterngården, förskola' />
+		<tag k='note:description' v='Sotterngården, förskola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1894' />
 		<tag k='url' v='http://www.orebro.se/933.html' />
 	</node>
-	<node id='-9' lat='6572889.008' lon='160933.195' >
+	<node id='-9' lat='59.27113899129412' lon='15.191733942409382' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Tussilagon' />
-		<tag k='note' v='Tussilagon, förskola' />
+		<tag k='note:description' v='Tussilagon, förskola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1895' />
 		<tag k='url' v='http://www.orebro.se/944.html' />
 	</node>
-	<node id='-10' lat='6575138.193' lon='149615.447' >
+	<node id='-10' lat='59.2914701465718' lon='14.993252131292357' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Asken, förskola' />
@@ -88,16 +88,16 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1897' />
 		<tag k='url' v='http://www.orebro.se/689.html' />
 	</node>
-	<node id='-11' lat='6569521.745' lon='163986.091' >
+	<node id='-11' lat='59.24082253170184' lon='15.245054588516664' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Pärlan, förskola' />
-		<tag k='note' v='Pärlan (fristående förskola)' />
+		<tag k='note:description' v='Pärlan (fristående förskola)' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1898' />
 		<tag k='url' v='http://www.orebro.se/968.html' />
 	</node>
-	<node id='-12' lat='6566663.943' lon='178491.592' >
+	<node id='-12' lat='59.214443037957835' lon='15.498827035300174' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Backagården, förskola' />
@@ -105,7 +105,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1899' />
 		<tag k='url' v='http://www.orebro.se/78.html' />
 	</node>
-	<node id='-13' lat='6569521.407' lon='163710.079' >
+	<node id='-13' lat='59.240828514037624' lon='15.240218526073145' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Bollen, förskola' />
@@ -113,7 +113,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1900' />
 		<tag k='url' v='http://www.orebro.se/701.html' />
 	</node>
-	<node id='-14' lat='6568910.341' lon='163707.468' >
+	<node id='-14' lat='59.2353432772135' lon='15.240134219109894' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Byggklossen, förskola' />
@@ -121,7 +121,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1901' />
 		<tag k='url' v='http://www.orebro.se/704.html' />
 	</node>
-	<node id='-15' lat='6571816.432' lon='168744.624' >
+	<node id='-15' lat='59.2612372166331' lon='15.328627101602232' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Ekebergabackens förskola' />
@@ -129,7 +129,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1902' />
 		<tag k='url' v='http://www.orebro.se/705.html' />
 	</node>
-	<node id='-16' lat='6576493.788' lon='146932.938' >
+	<node id='-16' lat='59.30362788578763' lon='14.946162123312764' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Garphyttans förskola' />
@@ -137,7 +137,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1903' />
 		<tag k='url' v='http://www.orebro.se/714.html' />
 	</node>
-	<node id='-18' lat='6573484.717' lon='149168.434' >
+	<node id='-18' lat='59.27662681614743' lon='14.98541460787983' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Latorps förskola' />
@@ -145,7 +145,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1905' />
 		<tag k='url' v='http://www.orebro.se/741.html' />
 	</node>
-	<node id='-17' lat='6569399.293' lon='163618.55' >
+	<node id='-17' lat='59.23973529080374' lon='15.238607177614538' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Hopprepet, förskola' />
@@ -153,7 +153,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1904' />
 		<tag k='url' v='http://www.orebro.se/723.html' />
 	</node>
-	<node id='-20' lat='6564233.472' lon='158610.734' >
+	<node id='-20' lat='59.193494453551054' lon='15.150662485427516' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Mosjö förskola' />
@@ -161,7 +161,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1907' />
 		<tag k='url' v='http://www.orebro.se/751.html' />
 	</node>
-	<node id='-19' lat='6568836.323' lon='163706.363' >
+	<node id='-19' lat='59.23467887946353' lon='15.2401101920752' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Trollskogen, förskola' />
@@ -169,7 +169,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1906' />
 		<tag k='url' v='http://www.orebro.se/750.html' />
 	</node>
-	<node id='-22' lat='6559544.839' lon='176953.516' >
+	<node id='-22' lat='59.1506389160712' lon='15.471019732088214' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Lovis, förskola' />
@@ -177,7 +177,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1909' />
 		<tag k='url' v='http://www.orebro.se/979.html' />
 	</node>
-	<node id='-21' lat='6560434.71' lon='180331.013' >
+	<node id='-21' lat='59.1583994129596' lon='15.530163147570002' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Per-Andersgården, förskola' />
@@ -185,7 +185,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1908' />
 		<tag k='url' v='http://www.orebro.se/920.html' />
 	</node>
-	<node id='-24' lat='6572172' lon='164904.091' >
+	<node id='-24' lat='59.264581551354304' lon='15.261320978111618' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Näsby förskola' />
@@ -193,7 +193,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1911' />
 		<tag k='url' v='http://www.orebro.se/5522.html' />
 	</node>
-	<node id='-23' lat='6566396.128' lon='178425.825' >
+	<node id='-23' lat='59.212043429176845' lon='15.49764066039803' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Råby förskola' />
@@ -201,7 +201,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1910' />
 		<tag k='url' v='http://www.orebro.se/690.html' />
 	</node>
-	<node id='-26' lat='6571538.886' lon='165393.777' >
+	<node id='-26' lat='59.25888083141669' lon='15.269861843639413' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Ormesta förskola' />
@@ -209,7 +209,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1913' />
 		<tag k='url' v='http://www.orebro.se/8011.html' />
 	</node>
-	<node id='-25' lat='6571370.03' lon='165323.815' >
+	<node id='-25' lat='59.257367616022094' lon='15.268623456864512' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Snökristallens barnakademi, förskola' />
@@ -217,7 +217,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1912' />
 		<tag k='url' v='http://www.orebro.se/6685.html' />
 	</node>
-	<node id='-28' lat='6572348.997' lon='161678.768' >
+	<node id='-28' lat='59.266271608349484' lon='15.204779766378326' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Solägget, förskola' />
@@ -225,7 +225,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1916' />
 		<tag k='url' v='http://www.orebro.se/970.html' />
 	</node>
-	<node id='-27' lat='6569622.159' lon='160298.673' >
+	<node id='-27' lat='59.24182953493893' lon='15.180451406782602' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Waldorfförskolan Linden' />
@@ -233,7 +233,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1915' />
 		<tag k='url' v='http://www.orebro.se/973.html' />
 	</node>
-	<node id='-30' lat='6572411.955' lon='161675.006' >
+	<node id='-30' lat='59.266836862428455' lon='15.204717192939686' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Allégårdens förskola' />
@@ -241,7 +241,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1918' />
 		<tag k='url' v='http://www.orebro.se/685.html' />
 	</node>
-	<node id='-29' lat='6569385.825' lon='160685.552' >
+	<node id='-29' lat='59.23969846683317' lon='15.187218558965395' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Adolfsbergsskolans förskola' />
@@ -249,7 +249,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1917' />
 		<tag k='url' v='http://www.orebro.se/77.html' />
 	</node>
-	<node id='-32' lat='6574052.989' lon='160761.105' >
+	<node id='-32' lat='59.28159201493998' lon='15.188773856838969' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Brukets förskola' />
@@ -257,7 +257,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1920' />
 		<tag k='url' v='http://www.orebro.se/703.html' />
 	</node>
-	<node id='-31' lat='6573722.139' lon='159783.056' >
+	<node id='-31' lat='59.278645836784996' lon='15.171601839578948' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Blåmesen, förskola' />
@@ -265,7 +265,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1919' />
 		<tag k='url' v='http://www.orebro.se/700.html' />
 	</node>
-	<node id='-35' lat='6571437.99' lon='163583.893' >
+	<node id='-35' lat='59.25803702981036' lon='15.238127547574031' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Fröet, förskola' />
@@ -273,7 +273,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1923' />
 		<tag k='url' v='http://www.orebro.se/80.html' />
 	</node>
-	<node id='-36' lat='6571093.113' lon='161445.945' >
+	<node id='-36' lat='59.25500435226028' lon='15.20063111589572' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Fåraherden, förskola' />
@@ -281,7 +281,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1924' />
 		<tag k='url' v='http://www.orebro.se/713.html' />
 	</node>
-	<node id='-33' lat='6571970.193' lon='162523.396' >
+	<node id='-33' lat='59.262847094345176' lon='15.219567780838473' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Eklunda förskola' />
@@ -289,7 +289,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1921' />
 		<tag k='url' v='http://www.orebro.se/79.html' />
 	</node>
-	<node id='-34' lat='6573197.922' lon='159271.371' >
+	<node id='-34' lat='59.27395165032238' lon='15.162604126868693' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Fasanen, förskola' />
@@ -297,7 +297,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1922' />
 		<tag k='url' v='http://www.orebro.se/710.html' />
 	</node>
-	<node id='-39' lat='6571090.653' lon='161655.987' >
+	<node id='-39' lat='59.254976543275376' lon='15.20431269399155' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Gåsapigan, förskola' />
@@ -305,7 +305,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1927' />
 		<tag k='url' v='http://www.orebro.se/719.html' />
 	</node>
-	<node id='-40' lat='6572718.161' lon='161277.281' >
+	<node id='-40' lat='59.26959633741326' lon='15.197759201197208' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Hasselbacken, förskola' />
@@ -313,7 +313,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1928' />
 		<tag k='url' v='http://www.orebro.se/720.html' />
 	</node>
-	<node id='-37' lat='6569620.994' lon='160367.691' >
+	<node id='-37' lat='59.241817394708654' lon='15.181660664527621' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Glommagårdens förskola' />
@@ -321,7 +321,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1925' />
 		<tag k='url' v='http://www.orebro.se/715.html' />
 	</node>
-	<node id='-38' lat='6570054.503' lon='159339.203' >
+	<node id='-38' lat='59.24573277192125' lon='15.163658432806768' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Skutan, förskola' />
@@ -329,7 +329,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1926' />
 		<tag k='url' v='http://www.orebro.se/81.html' />
 	</node>
-	<node id='-43' lat='6572573.029' lon='163251.145' >
+	<node id='-43' lat='59.26823637482255' lon='15.232363843067603' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Kattungen, förskola' />
@@ -337,7 +337,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1931' />
 		<tag k='url' v='http://www.orebro.se/83.html' />
 	</node>
-	<node id='-44' lat='6571142.529' lon='162968.432' >
+	<node id='-44' lat='59.255404075108395' lon='15.227320869231724' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Kryddgårdens förskola' />
@@ -345,7 +345,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1932' />
 		<tag k='url' v='http://www.orebro.se/734.html' />
 	</node>
-	<node id='-41' lat='6572770.213' lon='163182.756' >
+	<node id='-41' lat='59.270008552356884' lon='15.231176619402293' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Junibacken, förskola' />
@@ -353,7 +353,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1929' />
 		<tag k='url' v='http://www.orebro.se/725.html' />
 	</node>
-	<node id='-42' lat='6573349.955' lon='158529.493' >
+	<node id='-42' lat='59.27533199249001' lon='15.149598883004833' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Karlslunds förskola' />
@@ -361,7 +361,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1930' />
 		<tag k='url' v='http://www.orebro.se/728.html' />
 	</node>
-	<node id='-47' lat='6572908.849' lon='160919.955' >
+	<node id='-47' lat='59.27131743819428' lon='15.191502755528466' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Murgrönan, förskola' />
@@ -369,7 +369,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1935' />
 		<tag k='url' v='http://www.orebro.se/752.html' />
 	</node>
-	<node id='-48' lat='6572679.096' lon='162842.839' >
+	<node id='-48' lat='59.2692010769985' lon='15.225210392060234' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Oskarstorgets förskola' />
@@ -377,7 +377,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1936' />
 		<tag k='url' v='http://www.orebro.se/918.html' />
 	</node>
-	<node id='-45' lat='6569432.468' lon='158753.886' >
+	<node id='-45' lat='59.240161454285435' lon='15.153376416818777' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Leklustan, förskola' />
@@ -385,7 +385,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1933' />
 		<tag k='url' v='http://www.orebro.se/742.html' />
 	</node>
-	<node id='-46' lat='6570950.7' lon='162900.748' >
+	<node id='-46' lat='59.25368416371405' lon='15.226123056347147' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Lergöken, förskola' />
@@ -393,7 +393,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1934' />
 		<tag k='url' v='http://www.orebro.se/743.html' />
 	</node>
-	<node id='-52' lat='6574212.607' lon='160646.168' >
+	<node id='-52' lat='59.283027750649865' lon='15.186765463848761' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Trollbacken, förskola' />
@@ -401,7 +401,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1940' />
 		<tag k='url' v='http://www.orebro.se/942.html' />
 	</node>
-	<node id='-51' lat='6571386.982' lon='164079.538' >
+	<node id='-51' lat='59.25756296782069' lon='15.246812871492692' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Södra gårdens förskola' />
@@ -409,7 +409,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1939' />
 		<tag k='url' v='http://www.orebro.se/937.html' />
 	</node>
-	<node id='-50' lat='6573332.3' lon='158888.725' >
+	<node id='-50' lat='59.27516611972273' lon='15.155898706710682' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Strömstaren, förskola' />
@@ -417,7 +417,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1938' />
 		<tag k='url' v='http://www.orebro.se/936.html' />
 	</node>
-	<node id='-49' lat='6571103.406' lon='161800.84' >
+	<node id='-49' lat='59.255087012520704' lon='15.206852433367528' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Stallbacken, förskola' />
@@ -425,16 +425,16 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1937' />
 		<tag k='url' v='http://www.orebro.se/935.html' />
 	</node>
-	<node id='-56' lat='6573804.109' lon='161020.13' >
+	<node id='-56' lat='59.27935125062685' lon='15.193305042386063' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Väster Parks förskola' />
-		<tag k='note' v='Väster Parks förskola har både dagverksamhet och natt- och helgomsorg.' />
+		<tag k='note:description' v='Väster Parks förskola har både dagverksamhet och natt- och helgomsorg.' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1944' />
 		<tag k='url' v='http://www.orebro.se/953.html' />
 	</node>
-	<node id='-55' lat='6572889.008' lon='160933.195' >
+	<node id='-55' lat='59.27113899129412' lon='15.191733942409382' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Vintergatan, förskola' />
@@ -442,7 +442,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1943' />
 		<tag k='url' v='http://www.orebro.se/950.html' />
 	</node>
-	<node id='-54' lat='6573061.3' lon='163271.24' >
+	<node id='-54' lat='59.27261876032278' lon='15.232746109935421' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Wadköpings förskola' />
@@ -450,7 +450,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1942' />
 		<tag k='url' v='http://www.orebro.se/946.html' />
 	</node>
-	<node id='-53' lat='6571472.374' lon='163615.479' >
+	<node id='-53' lat='59.258344667775766' lon='15.23868340713292' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Tybble förskola' />
@@ -458,7 +458,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1941' />
 		<tag k='url' v='http://www.orebro.se/945.html' />
 	</node>
-	<node id='-60' lat='6572837.727' lon='162976.928' >
+	<node id='-60' lat='59.27062095701457' lon='15.227571235550991' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Fridensberg, förskola' />
@@ -466,7 +466,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1948' />
 		<tag k='url' v='http://www.orebro.se/711.html' />
 	</node>
-	<node id='-59' lat='6574250.197' lon='160146.343' >
+	<node id='-59' lat='59.283377459902916' lon='15.177998857659393' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Fantasia, förskola' />
@@ -474,7 +474,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1947' />
 		<tag k='url' v='http://www.orebro.se/709.html' />
 	</node>
-	<node id='-58' lat='6574430.932' lon='160093.497' >
+	<node id='-58' lat='59.28500111206562' lon='15.177080201885445' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Emil, förskola' />
@@ -482,7 +482,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1946' />
 		<tag k='url' v='http://www.orebro.se/706.html' />
 	</node>
-	<node id='-57' lat='6571310.927' lon='162008.342' >
+	<node id='-57' lat='59.256944022644156' lon='15.210501114664558' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Höskullen, förskola' />
@@ -490,7 +490,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1945' />
 		<tag k='url' v='http://www.orebro.se/2433.html' />
 	</node>
-	<node id='-64' lat='6569652.176' lon='160465.319' >
+	<node id='-64' lat='59.24209490624043' lon='15.183372775884498' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Waldorfskolans förskola Barnträdgården Viljan' />
@@ -498,7 +498,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1954' />
 		<tag k='url' v='http://www.orebro.se/3971.html' />
 	</node>
-	<node id='-63' lat='6572791.162' lon='159706.314' >
+	<node id='-63' lat='59.27029056596292' lon='15.170214033639565' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Alsalam, förskola' />
@@ -506,7 +506,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1952' />
 		<tag k='url' v='http://www.orebro.se/2580.html' />
 	</node>
-	<node id='-62' lat='6571397.39' lon='164240.082' >
+	<node id='-62' lat='59.25765103030531' lon='15.24962784391645' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Terra Nova, förskola' />
@@ -514,7 +514,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1951' />
 		<tag k='url' v='http://www.orebro.se/971.html' />
 	</node>
-	<node id='-61' lat='6572341.889' lon='161669.853' >
+	<node id='-61' lat='59.2662080482538' lon='15.20462306608629' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Kristinaskolans förskola' />
@@ -522,7 +522,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1949' />
 		<tag k='url' v='http://www.orebro.se/733.html' />
 	</node>
-	<node id='-69' lat='6573325.746' lon='161074.92' >
+	<node id='-69' lat='59.27505573972688' lon='15.194241657853432' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Hanna, förskola' />
@@ -530,7 +530,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1959' />
 		<tag k='url' v='http://www.orebro.se/963.html' />
 	</node>
-	<node id='-70' lat='6573628.884' lon='161746.289' >
+	<node id='-70' lat='59.27775879579755' lon='15.20603306541438' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Brolyckan, förskola' />
@@ -538,7 +538,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1960' />
 		<tag k='url' v='http://www.orebro.se/702.html' />
 	</node>
-	<node id='-71' lat='6573807.829' lon='162650.174' >
+	<node id='-71' lat='59.279339065954574' lon='15.221897768139245' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Hattstugan, förskola' />
@@ -546,7 +546,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1961' />
 		<tag k='url' v='http://www.orebro.se/82.html' />
 	</node>
-	<node id='-72' lat='6573519.45' lon='161545.602' >
+	<node id='-72' lat='59.276781970676886' lon='15.202507155106929' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Leklunden, förskola' />
@@ -554,7 +554,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1962' />
 		<tag k='url' v='http://www.orebro.se/38708.html' />
 	</node>
-	<node id='-65' lat='6574453.075' lon='160105.23' >
+	<node id='-65' lat='59.28519960120412' lon='15.177287077783626' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Karlavagnen, förskola' />
@@ -562,7 +562,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1955' />
 		<tag k='url' v='http://www.orebro.se/8803.html' />
 	</node>
-	<node id='-66' lat='6569323.041' lon='159463.246' >
+	<node id='-66' lat='59.23916392157298' lon='15.16580025373997' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Eriksbergsgårdens förskola' />
@@ -570,7 +570,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1956' />
 		<tag k='url' v='http://www.orebro.se/9813.html' />
 	</node>
-	<node id='-67' lat='6571376.558' lon='162225.56' >
+	<node id='-67' lat='59.25752695526056' lon='15.214312521549338' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Ekängens förskola' />
@@ -578,7 +578,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1957' />
 		<tag k='url' v='http://www.orebro.se/10184.html' />
 	</node>
-	<node id='-68' lat='6568868.376' lon='158996.72' >
+	<node id='-68' lat='59.23509269223214' lon='15.157607719575635' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Valpebo, förskola' />
@@ -586,7 +586,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1958' />
 		<tag k='url' v='http://www.orebro.se/10498.html' />
 	</node>
-	<node id='-77' lat='6574193.71' lon='162886.519' >
+	<node id='-77' lat='59.28279583280924' lon='15.226066438008308' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Knagglabacke förskola' />
@@ -594,7 +594,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1967' />
 		<tag k='url' v='http://www.orebro.se/732.html' />
 	</node>
-	<node id='-78' lat='6574715.857' lon='163392.231' >
+	<node id='-78' lat='59.28746722702707' lon='15.234970284745616' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Norrlunden, förskola' />
@@ -602,7 +602,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1968' />
 		<tag k='url' v='http://www.orebro.se/916.html' />
 	</node>
-	<node id='-79' lat='6574727.011' lon='163818.12' >
+	<node id='-79' lat='59.28755365809311' lon='15.242443257030084' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Kottebo förskola' />
@@ -610,7 +610,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1969' />
 		<tag k='url' v='http://www.orebro.se/10497.html' />
 	</node>
-	<node id='-80' lat='6575531.436' lon='159469.149' >
+	<node id='-80' lat='59.29489434056667' lon='15.166174846316874' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Nejlikan, förskola' />
@@ -618,7 +618,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1970' />
 		<tag k='url' v='http://www.orebro.se/967.html' />
 	</node>
-	<node id='-73' lat='6573596.717' lon='161236.651' >
+	<node id='-73' lat='59.27748388037805' lon='15.197092272213041' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Marklyckans förskola' />
@@ -626,7 +626,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1963' />
 		<tag k='url' v='http://www.orebro.se/749.html' />
 	</node>
-	<node id='-74' lat='6573900.01' lon='162830.069' >
+	<node id='-74' lat='59.28016112276319' lon='15.225058753580887' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Villekulla, förskola' />
@@ -634,7 +634,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1964' />
 		<tag k='url' v='http://www.orebro.se/949.html' />
 	</node>
-	<node id='-75' lat='6574172.544' lon='163864.831' >
+	<node id='-75' lat='59.28257491516974' lon='15.24322730332885' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Rynningeåsen, förskola' />
@@ -642,7 +642,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1965' />
 		<tag k='url' v='http://www.orebro.se/4787.html' />
 	</node>
-	<node id='-76' lat='6574268.777' lon='163635.653' >
+	<node id='-76' lat='59.28344620439955' lon='15.239212990692716' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Grenadjärskolans förskola' />
@@ -650,7 +650,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1966' />
 		<tag k='url' v='http://www.orebro.se/962.html' />
 	</node>
-	<node id='-86' lat='6574438.341' lon='161036.458' >
+	<node id='-86' lat='59.28504407802311' lon='15.193623772211717' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Lagan, förskola' />
@@ -658,7 +658,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1977' />
 		<tag k='url' v='http://www.orebro.se/738.html' />
 	</node>
-	<node id='-85' lat='6574895.549' lon='159811.861' >
+	<node id='-85' lat='59.28917842289477' lon='15.172160266289882' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Hasselmusen, förskola' />
@@ -666,7 +666,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1976' />
 		<tag k='url' v='http://www.orebro.se/722.html' />
 	</node>
-	<node id='-88' lat='6574210.72' lon='158837.096' >
+	<node id='-88' lat='59.28305245360651' lon='15.155029029680609' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Solskenet, förskola' />
@@ -674,7 +674,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1979' />
 		<tag k='url' v='http://www.orebro.se/932.html' />
 	</node>
-	<node id='-87' lat='6574019.408' lon='161374.545' >
+	<node id='-87' lat='59.28127452975273' lon='15.199533129574926' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Nyckelpigan, förskola' />
@@ -682,7 +682,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1978' />
 		<tag k='url' v='http://www.orebro.se/917.html' />
 	</node>
-	<node id='-82' lat='6575293.145' lon='159694.044' >
+	<node id='-82' lat='59.29275020238557' lon='15.17011085159007' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Blåklinten, förskola' />
@@ -690,7 +690,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1973' />
 		<tag k='url' v='http://www.orebro.se/699.html' />
 	</node>
-	<node id='-81' lat='6574538.934' lon='158440.105' >
+	<node id='-81' lat='59.28600681173471' lon='15.148077443940387' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Björkhaga förskola' />
@@ -698,7 +698,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1972' />
 		<tag k='url' v='http://www.orebro.se/698.html' />
 	</node>
-	<node id='-84' lat='6574836.01' lon='159767.579' >
+	<node id='-84' lat='59.28864498903137' lon='15.17138060570012' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Gränden, förskola' />
@@ -706,7 +706,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1975' />
 		<tag k='url' v='http://www.orebro.se/716.html' />
 	</node>
-	<node id='-83' lat='6575034.1' lon='159526.17' >
+	<node id='-83' lat='59.29042867012193' lon='15.167153615348107' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Emilia, förskola' />
@@ -714,7 +714,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1974' />
 		<tag k='url' v='http://www.orebro.se/707.html' />
 	</node>
-	<node id='-94' lat='6576161.277' lon='160775.598' >
+	<node id='-94' lat='59.30051690276425' lon='15.189133059306194' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Kastanjegården, förskola' />
@@ -722,7 +722,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1986' />
 		<tag k='url' v='http://www.orebro.se/729.html' />
 	</node>
-	<node id='-93' lat='6595269.518' lon='158483.057' >
+	<node id='-93' lat='59.47209395097418' lon='15.149648498731583' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Järle förskola' />
@@ -730,7 +730,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1985' />
 		<tag k='url' v='http://www.orebro.se/727.html' />
 	</node>
-	<node id='-96' lat='6581207.173' lon='163222.662' >
+	<node id='-96' lat='59.34574211100506' lon='15.232392452572018' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Kullens förskola' />
@@ -738,7 +738,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1988' />
 		<tag k='url' v='http://www.orebro.se/735.html' />
 	</node>
-	<node id='-95' lat='6577911.147' lon='163318.562' >
+	<node id='-95' lat='59.31615225985823' lon='15.233874525756182' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Klockarängens förskola' />
@@ -746,7 +746,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1987' />
 		<tag k='url' v='http://www.orebro.se/731.html' />
 	</node>
-	<node id='-90' lat='6575797.92' lon='160913.002' >
+	<node id='-90' lat='59.297251673740405' lon='15.191526424884355' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Björkbacken, förskola' />
@@ -754,7 +754,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1982' />
 		<tag k='url' v='http://www.orebro.se/697.html' />
 	</node>
-	<node id='-89' lat='6575132.093' lon='160269.023' >
+	<node id='-89' lat='59.291290936409474' lon='15.180192871249837' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Växthuset, förskola' />
@@ -762,7 +762,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1981' />
 		<tag k='url' v='http://www.orebro.se/954.html' />
 	</node>
-	<node id='-92' lat='6586140.558' lon='163891.963' >
+	<node id='-92' lat='59.390004950224316' lon='15.244473842815394' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Grönvallska förskolan' />
@@ -770,7 +770,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1984' />
 		<tag k='url' v='http://www.orebro.se/718.html' />
 	</node>
-	<node id='-91' lat='6591475.992' lon='163572.31' >
+	<node id='-91' lat='59.43790835383608' lon='15.239186007289318' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Ervalla förskola' />
@@ -778,7 +778,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1983' />
 		<tag k='url' v='http://www.orebro.se/708.html' />
 	</node>
-	<node id='-103' lat='6574711.805' lon='163305.275' >
+	<node id='-103' lat='59.287433597135674' lon='15.233444384105564' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Pettersbergs förskola' />
@@ -786,7 +786,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1995' />
 		<tag k='url' v='http://www.orebro.se/921.html' />
 	</node>
-	<node id='-104' lat='6578095.172' lon='172656.913' >
+	<node id='-104' lat='59.317406717710135' lon='15.39787203099379' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Ringblommans förskola' />
@@ -794,7 +794,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1996' />
 		<tag k='url' v='http://www.orebro.se/923.html' />
 	</node>
-	<node id='-101' lat='6575855.651' lon='160477.28' >
+	<node id='-101' lat='59.29778091891223' lon='15.183882216959704' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Linden, förskola' />
@@ -802,7 +802,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1993' />
 		<tag k='url' v='http://www.orebro.se/747.html' />
 	</node>
-	<node id='-102' lat='6576319.859' lon='160657.672' >
+	<node id='-102' lat='59.30194341596208' lon='15.187071051949534' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Musikanten, förskolan' />
@@ -810,7 +810,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1994' />
 		<tag k='url' v='http://www.orebro.se/753.html' />
 	</node>
-	<node id='-99' lat='6579198.168' lon='177359.892' >
+	<node id='-99' lat='59.327029245475764' lon='15.48059644637506' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Lillkyrka förskola' />
@@ -818,7 +818,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1991' />
 		<tag k='url' v='http://www.orebro.se/745.html' />
 	</node>
-	<node id='-100' lat='6577952.925' lon='163300.056' >
+	<node id='-100' lat='59.316527864428444' lon='15.23355213448592' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Lillåns förskola' />
@@ -826,7 +826,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1992' />
 		<tag k='url' v='http://www.orebro.se/746.html' />
 	</node>
-	<node id='-97' lat='6575128.769' lon='161234.115' >
+	<node id='-97' lat='59.291236572346726' lon='15.197127275262416' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Lars Wivallius förskola' />
@@ -834,7 +834,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1989' />
 		<tag k='url' v='http://www.orebro.se/740.html' />
 	</node>
-	<node id='-98' lat='6575043.793' lon='161071.135' >
+	<node id='-98' lat='59.290478073351466' lon='15.194263104993425' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Larsgården, förskola' />
@@ -842,7 +842,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1990' />
 		<tag k='url' v='http://www.orebro.se/739.html' />
 	</node>
-	<node id='-111' lat='6571132.009' lon='147298.819' >
+	<node id='-111' lat='59.2554995083781' lon='14.952651500625139' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Vintrosa förskola' />
@@ -850,7 +850,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2003' />
 		<tag k='url' v='http://www.orebro.se/951.html' />
 	</node>
-	<node id='-112' lat='6576797.288' lon='160938.91' >
+	<node id='-112' lat='59.3062219142408' lon='15.192031661457644' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Ädelstenen, förskola' />
@@ -858,7 +858,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2004' />
 		<tag k='url' v='http://www.orebro.se/955.html' />
 	</node>
-	<node id='-109' lat='6584038.784' lon='154753.939' >
+	<node id='-109' lat='59.37134050292251' lon='15.083614810118823' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Sörgården, förskola' />
@@ -866,7 +866,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2001' />
 		<tag k='url' v='http://www.orebro.se/940.html' />
 	</node>
-	<node id='-110' lat='6576236.88' lon='160907.69' >
+	<node id='-110' lat='59.30119217326774' lon='15.191455332998768' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Villan, förskola' />
@@ -874,7 +874,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2002' />
 		<tag k='url' v='http://www.orebro.se/948.html' />
 	</node>
-	<node id='-107' lat='6580686.052' lon='163049.961' >
+	<node id='-107' lat='59.34106964035008' lon='15.229325671734768' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Skogsbrynet, förskola' />
@@ -882,7 +882,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1999' />
 		<tag k='url' v='http://www.orebro.se/931.html' />
 	</node>
-	<node id='-108' lat='6576061.453' lon='160955.815' >
+	<node id='-108' lat='59.29961619397178' lon='15.192291147479414' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Språk och lek, förskola' />
@@ -890,7 +890,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2000' />
 		<tag k='url' v='http://www.orebro.se/934.html' />
 	</node>
-	<node id='-105' lat='6574951.343' lon='161530.278' >
+	<node id='-105' lat='59.289635923520734' lon='15.202314618208916' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Sagan, förskolan' />
@@ -898,7 +898,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1997' />
 		<tag k='url' v='http://www.orebro.se/926.html' />
 	</node>
-	<node id='-106' lat='6576200.279' lon='160197.095' >
+	<node id='-106' lat='59.300881351834' lon='15.178981085207152' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Sagogården, förskola' />
@@ -906,7 +906,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1998' />
 		<tag k='url' v='http://www.orebro.se/927.html' />
 	</node>
-	<node id='-120' lat='6574407.9' lon='160132.278' >
+	<node id='-120' lat='59.28479343593693' lon='15.17775949377133' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Stjärnhimlen, förskola' />
@@ -914,7 +914,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2014' />
 		<tag k='url' v='http://www.orebro.se/12139.html' />
 	</node>
-	<node id='-119' lat='6575853.019' lon='161003.59' >
+	<node id='-119' lat='59.29774392784663' lon='15.193119063223463' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Al-Azhar, förskola' />
@@ -922,7 +922,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2013' />
 		<tag k='url' v='http://www.orebro.se/958.html' />
 	</node>
-	<node id='-118' lat='6574787.676' lon='161393.251' >
+	<node id='-118' lat='59.28817046294274' lon='15.199901693519651' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Lillstugan, förskola' />
@@ -930,7 +930,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2011' />
 		<tag k='url' v='http://www.orebro.se/8989.html' />
 	</node>
-	<node id='-117' lat='6576750.996' lon='160584.451' >
+	<node id='-117' lat='59.305815392052935' lon='15.185806935404027' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Nybacken, förskola' />
@@ -938,7 +938,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2010' />
 		<tag k='url' v='http://www.orebro.se/8876.html' />
 	</node>
-	<node id='-116' lat='6576230.661' lon='160641.751' >
+	<node id='-116' lat='59.30114312338824' lon='15.186787208060515' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Hallongården, förskola' />
@@ -946,7 +946,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2009' />
 		<tag k='url' v='http://www.orebro.se/5521.html' />
 	</node>
-	<node id='-115' lat='6581329.232' lon='163392.194' >
+	<node id='-115' lat='59.34683242911913' lon='15.235379583318672' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Kårstaängen, förskola' />
@@ -954,7 +954,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2007' />
 		<tag k='url' v='http://www.orebro.se/736.html' />
 	</node>
-	<node id='-114' lat='6576443.88' lon='160824.181' >
+	<node id='-114' lat='59.303052471670036' lon='15.189999925371144' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Almgården, förskola' />
@@ -962,7 +962,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2006' />
 		<tag k='url' v='http://www.orebro.se/692.html' />
 	</node>
-	<node id='-113' lat='6577152.825' lon='160568.588' >
+	<node id='-113' lat='59.30942283824986' lon='15.185548110594846' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Änglagård, förskola' />
@@ -970,7 +970,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2005' />
 		<tag k='url' v='http://www.orebro.se/956.html' />
 	</node>
-	<node id='-128' lat='6571327.393' lon='163369.719' >
+	<node id='-128' lat='59.257051056054905' lon='15.234366268017538' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Sörbyskolans förskola' />
@@ -978,7 +978,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2022' />
 		<tag k='url' v='http://www.orebro.se/939.html' />
 	</node>
-	<node id='-127' lat='6577699.598' lon='169058.466' >
+	<node id='-127' lat='59.314033451528786' lon='15.334647135555848' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Rinkaby förskola' />
@@ -986,7 +986,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2021' />
 		<tag k='url' v='http://www.orebro.se/924.html' />
 	</node>
-	<node id='-126' lat='6560383.846' lon='180342.628' >
+	<node id='-126' lat='59.15794200640347' lon='15.530359093205364' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Fruktgården, förskola' />
@@ -994,7 +994,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2020' />
 		<tag k='url' v='http://www.orebro.se/712.html' />
 	</node>
-	<node id='-125' lat='6577100.811' lon='163129.358' >
+	<node id='-125' lat='59.308884161458366' lon='15.230502897522904' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Bettorps förskola' />
@@ -1002,7 +1002,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2019' />
 		<tag k='url' v='http://www.orebro.se/696.html' />
 	</node>
-	<node id='-124' lat='6577305.117' lon='160426.737' >
+	<node id='-124' lat='59.31079342119957' lon='15.183065055309156' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Bergagård, förskola' />
@@ -1010,7 +1010,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2018' />
 		<tag k='url' v='http://www.orebro.se/695.html' />
 	</node>
-	<node id='-123' lat='6575973.364' lon='160948.881' >
+	<node id='-123' lat='59.29882563502075' lon='15.192164987383421' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Apelgården, förskola' />
@@ -1018,7 +1018,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2017' />
 		<tag k='url' v='http://www.orebro.se/693.html' />
 	</node>
-	<node id='-122' lat='6572117.699' lon='164052.699' >
+	<node id='-122' lat='59.26412321838885' lon='15.246389736592903' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Almby förskola' />
@@ -1026,7 +1026,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2016' />
 		<tag k='url' v='http://www.orebro.se/686.html' />
 	</node>
-	<node id='-121' lat='6571591.104' lon='164502.094' >
+	<node id='-121' lat='59.25938103610183' lon='15.2542337982423' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Fagertärn, förskola' />
@@ -1034,7 +1034,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2015' />
 		<tag k='url' v='http://www.orebro.se/959.html' />
 	</node>
-	<node id='-138' lat='6566802.877' lon='169717.311' >
+	<node id='-138' lat='59.216188589708246' lon='15.34522462249661' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Fridhems förskola' />
@@ -1042,7 +1042,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2033' />
 		<tag k='url' v='http://www.fridhemsskolan.se/' />
 	</node>
-	<node id='-137' lat='6570909.525' lon='163837.299' >
+	<node id='-137' lat='59.25328500060925' lon='15.24253604084049' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Galaxens förskola' />
@@ -1050,7 +1050,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2032' />
 		<tag k='url' v='http://www.orebro.se/15068.html' />
 	</node>
-	<node id='-140' lat='6568081.906' lon='158547.707' >
+	<node id='-140' lat='59.22804207625613' lon='15.14971085024073' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Hagvidson förskola' />
@@ -1058,7 +1058,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2035' />
 		<tag k='url' v='http://www.orebro.se/15616.html' />
 	</node>
-	<node id='-139' lat='6573015.712' lon='163718.817' >
+	<node id='-139' lat='59.27219526923826' lon='15.240592585379591' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Måsen, förskola' />
@@ -1066,7 +1066,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2034' />
 		<tag k='url' v='http://www.orebro.se/11069.html' />
 	</node>
-	<node id='-142' lat='6570032.503' lon='159273.823' >
+	<node id='-142' lat='59.24553672066921' lon='15.162511791668429' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Skeppet, förskola' />
@@ -1074,7 +1074,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2262' />
 		<tag k='url' v='http://www.orebro.se/36493.html' />
 	</node>
-	<node id='-141' lat='6572410.334' lon='163188.922' >
+	<node id='-141' lat='59.2667778681737' lon='15.23126285152128' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Kameleonten, förskola' />
@@ -1082,7 +1082,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2036' />
 		<tag k='url' v='http://www.orebro.se/15638.html' />
 	</node>
-	<node id='-144' lat='6576504.344' lon='160378.362' >
+	<node id='-144' lat='59.30360640836734' lon='15.182177286409033' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Skattkistan, förskola' />
@@ -1090,7 +1090,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2265' />
 		<tag k='url' v='http://www.orebro.se/37013.html' />
 	</node>
-	<node id='-143' lat='6571314.363' lon='163334.011' >
+	<node id='-143' lat='59.256935216077025' lon='15.23373952507063' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Lavendelgården, förskola' />
@@ -1098,7 +1098,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2263' />
 		<tag k='url' v='http://www.orebro.se/36430.html' />
 	</node>
-	<node id='-130' lat='6575740.077' lon='159190.61' >
+	<node id='-130' lat='59.296773372001816' lon='15.16129562867306' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Hedenhös, förskola' />
@@ -1106,7 +1106,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2024' />
 		<tag k='url' v='http://www.orebro.se/964.html' />
 	</node>
-	<node id='-129' lat='6575977.126' lon='158945.729' >
+	<node id='-129' lat='59.29890651717642' lon='15.157007777123894' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Al Azhar förskola' />
@@ -1114,7 +1114,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2023' />
 		<tag k='url' v='http://www.orebro.se/958.html' />
 	</node>
-	<node id='-132' lat='6574924.139' lon='163373.21' >
+	<node id='-132' lat='59.28933748793067' lon='15.23464942648131' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Hästskon, förskola' />
@@ -1122,7 +1122,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2026' />
 		<tag k='url' v='http://www.orebro.se/724.html' />
 	</node>
-	<node id='-131' lat='6575783.938' lon='158931.066' >
+	<node id='-131' lat='59.29717265471381' lon='15.156742450210686' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Paletten, förskola' />
@@ -1130,7 +1130,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2025' />
 		<tag k='url' v='http://www.orebro.se/919.html' />
 	</node>
-	<node id='-134' lat='6572324.475' lon='163165.147' >
+	<node id='-134' lat='59.26600788523172' lon='15.230840755984786' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Snöstjärnan, förskola' />
@@ -1138,7 +1138,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2028' />
 		<tag k='url' v='http://www.orebro.se/928.html' />
 	</node>
-	<node id='-133' lat='6565764.453' lon='148179.757' >
+	<node id='-133' lat='59.20732110991827' lon='14.968138251867' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Ängen, förskola' />
@@ -1146,7 +1146,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2027' />
 		<tag k='url' v='http://www.orebro.se/974.html' />
 	</node>
-	<node id='-136' lat='6571701.231' lon='164594.767' >
+	<node id='-136' lat='59.26036641957642' lon='15.255865824621388' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Försprånget, förskola' />
@@ -1154,7 +1154,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2030' />
 		<tag k='url' v='http://www.orebro.se/961.html' />
 	</node>
-	<node id='-135' lat='6572874.489' lon='160890.369' >
+	<node id='-135' lat='59.27100976333524' lon='15.19098218402032' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Kuben, förskola' />
@@ -1162,7 +1162,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2029' />
 		<tag k='url' v='http://www.orebro.se/13746.html' />
 	</node>
-	<node id='-145' lat='6571698.166' lon='168038.154' >
+	<node id='-145' lat='59.26020626992671' lon='15.316231794135545' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Heimdals förskola' />
@@ -1170,7 +1170,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2269' />
 		<tag k='url' v='http://www.orebro.se/37243.html' />
 	</node>
-	<node id='-146' lat='6578351.213' lon='162687.678' >
+	<node id='-146' lat='59.320121940310116' lon='15.222822120350255' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Klöverängens förskola' />
@@ -1178,7 +1178,7 @@
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2272' />
 		<tag k='url' v='http://www.orebro.se/37414.html' />
 	</node>
-	<node id='-147' lat='6576450.73' lon='159257.097' >
+	<node id='-147' lat='59.30315116965768' lon='15.162492886941394' >
 		<tag k='isced:level' v='1' />
 		<tag k='amenity' v='school' />
 		<tag k='name' v='Hagvidson förskola i Nyponlunden' />

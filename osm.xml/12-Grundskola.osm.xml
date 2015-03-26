@@ -1,488 +1,488 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
-	<node id='-1' lat='6569978.63941026' lon='159475.765967417' >
+	<node id='-1' lat='59.2450487380582' lon='15.166048214003403' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Brunnsskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/252' />
 		<tag k='url' v='http://www.orebro.se/brunnsskolan' />
 	</node>
-	<node id='-2' lat='6569419.79580551' lon='164034.380104929' >
+	<node id='-2' lat='59.23990577497996' lon='15.245894080086765' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Viktoriaskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/253' />
 		<tag k='url' v='http://www.viktoriaskolan.se/' />
 	</node>
-	<node id='-3' lat='6558161.22425727' lon='188189.6113983' >
+	<node id='-3' lat='59.137359021746335' lon='15.667118610111403' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Hampetorps skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/254' />
 		<tag k='url' v='http://www.orebro.se/hampetorpsskola' />
 	</node>
-	<node id='-4' lat='6550505.37786986' lon='180895.743557809' >
+	<node id='-4' lat='59.069228145195765' lon='15.538633519396548' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Kilsmo skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/255' />
 		<tag k='url' v='http://www.orebro.se/kilsmoskola' />
 	</node>
-	<node id='-5' lat='6578320.89243392' lon='163002.252839789' >
+	<node id='-5' lat='59.31984020491824' lon='15.228344836025911' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Lillåns skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/256' />
 		<tag k='url' v='http://www.orebro.se/lillansskola7_9' />
 	</node>
-	<node id='-6' lat='6573940.21119817' lon='161197.050685276' >
+	<node id='-6' lat='59.28056834390412' lon='15.196415437965713' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Karl Johans skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/257' />
 		<tag k='url' v='http://www.pysslingen.se/' />
 	</node>
-	<node id='-7' lat='6571099.43080527' lon='162741.779017487' >
+	<node id='-7' lat='59.25502407566331' lon='15.223345421951308' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Sörbyängsskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/258' />
 		<tag k='url' v='http://www.orebro.se/sorbyangsskolan' />
 	</node>
-	<node id='-8' lat='6571142.18463942' lon='162968.302755668' >
+	<node id='-8' lat='59.25540098786801' lon='15.227318583173622' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Kryddgårdsskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/259' />
 		<tag k='url' v='http://www.orebro.se/kryddgardsskolan' />
 	</node>
-	<node id='-9' lat='6574325.30731725' lon='162683.655345234' >
+	<node id='-9' lat='59.283983256499624' lon='15.222515367900469' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Olaus Petriskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/260' />
 		<tag k='url' v='http://www.orebro.se/olauspetriskolan' />
 	</node>
-	<node id='-10' lat='6591524.72377191' lon='163615.092666586' >
+	<node id='-10' lat='59.438344405388854' lon='15.239943059163142' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Ervalla skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/261' />
 		<tag k='url' v='http://www.orebro.se/ervallaskola' />
 	</node>
-	<node id='-11' lat='6571969.93744968' lon='162523.184996651' >
+	<node id='-11' lat='59.262844806605536' lon='15.21956406667354' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Eklundaskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/263' />
 		<tag k='url' v='http://www.orebro.se/eklundaskolan' />
 	</node>
-	<node id='-12' lat='6576508.30084209' lon='147068.420896062' >
+	<node id='-12' lat='59.30375912311428' lon='14.94854013345092' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Garphyttans skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/264' />
 		<tag k='url' v='http://www.orebro.se/garphyttansskola' />
 	</node>
-	<node id='-13' lat='6573071.1286022' lon='163553.525062629' >
+	<node id='-13' lat='59.27269804526216' lon='15.237697287012013' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Engelbrektsskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/265' />
 		<tag k='url' v='http://www.orebro.se/engelbrektsskolan' />
 	</node>
-	<node id='-14' lat='6575414.14884519' lon='159850.929831938' >
+	<node id='-14' lat='59.293832781931805' lon='15.172869374247405' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Wallerska skolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/266' />
 		<tag k='url' v='http://www.orebro.se/wallerskaskolan' />
 	</node>
-	<node id='-15' lat='6564281.40526951' lon='164161.671300422' >
+	<node id='-15' lat='59.19377592005501' lon='15.247789809167358' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Almbro skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/267' />
 		<tag k='url' v='http://www.orebro.se/almbroskola' />
 	</node>
-	<node id='-16' lat='6571369.98180166' lon='163360.614099567' >
+	<node id='-16' lat='59.25743364678915' lon='15.234209286885191' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Sörbyskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/268' />
 		<tag k='url' v='http://www.orebro.se/sorbyskolan' />
 	</node>
-	<node id='-18' lat='6572959.68097041' lon='162817.23941731' >
+	<node id='-18' lat='59.27172055384931' lon='15.224778077559746' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Stureskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/270' />
 		<tag k='url' v='http://www.orebro.se/stureskolan' />
 	</node>
-	<node id='-17' lat='6571646.50343976' lon='164059.392097341' >
+	<node id='-17' lat='59.25989325963692' lon='15.246476540259081' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Almby skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/269' />
 		<tag k='url' v='http://www.orebro.se/almbyskola' />
 	</node>
-	<node id='-20' lat='6586089.90122445' lon='163958.151015285' >
+	<node id='-20' lat='59.38954804624792' lon='15.245635332505692' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Ölmbrotorps skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/273' />
 		<tag k='url' v='http://www.orebro.se/olmbrotorpsskola' />
 	</node>
-	<node id='-19' lat='6575795.33457202' lon='159036.158613791' >
+	<node id='-19' lat='59.29727272516958' lon='15.158587319824418' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Mellringeskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/272' />
 		<tag k='url' v='http://www.orebro.se/mellringeskolan' />
 	</node>
-	<node id='-22' lat='6573667.90803413' lon='159774.092266098' >
+	<node id='-22' lat='59.27815923278755' lon='15.17144216315967' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Hagaskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/275' />
 		<tag k='url' v='http://www.orebro.se/hagaskolan' />
 	</node>
-	<node id='-21' lat='6564515.78397118' lon='158741.835375177' >
+	<node id='-21' lat='59.19602601931497' lon='15.152967691110454' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Mosjö skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/274' />
 		<tag k='url' v='http://www.orebro.se/mosjoskola' />
 	</node>
-	<node id='-24' lat='6584039.79251148' lon='154752.361338041' >
+	<node id='-24' lat='59.37134957363426' lon='15.083587083662108' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Närkes Kils skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/277' />
 		<tag k='url' v='http://www.orebro.se/narkeskilsskola' />
 	</node>
-	<node id='-23' lat='6575483.38911402' lon='159375.003456171' >
+	<node id='-23' lat='59.29446513956562' lon='15.164520604954758' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Sverigefinska språkskolan i Örebro' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/276' />
 		<tag k='url' v='http://www.sprakskolan.org/' />
 	</node>
-	<node id='-26' lat='6567748.45226989' lon='158667.650428106' >
+	<node id='-26' lat='59.22504632583219' lon='15.15179832488442' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Mariebergs skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/280' />
 		<tag k='url' v='http://www.orebro.se/mariebergsskolan' />
 	</node>
-	<node id='-25' lat='6560346.6022988' lon='180173.469527268' >
+	<node id='-25' lat='59.1576197245873' lon='15.527397371432254' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Odenskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/278' />
 		<tag k='url' v='http://www.orebro.se/odenskolanf_6' />
 	</node>
-	<node id='-28' lat='6574834.96842645' lon='161411.239662304' >
+	<node id='-28' lat='59.288594503247566' lon='15.200219806542668' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Västra Engelbrektsskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/283' />
 		<tag k='url' v='http://www.orebro.se/mikaelskolan' />
 	</node>
-	<node id='-27' lat='6572094.33838094' lon='161894.560541887' >
+	<node id='-27' lat='59.263979627549205' lon='15.208549552374985' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Sveaskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/282' />
 		<tag k='url' v='http://www.orebro.se/sveaskolan' />
 	</node>
-	<node id='-30' lat='6577585.36709409' lon='163217.215222662' >
+	<node id='-30' lat='59.313231064377554' lon='15.232074961873659' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Lillåns södra skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/286' />
 		<tag k='url' v='http://www.orebro.se/lillanssodraskola' />
 	</node>
-	<node id='-29' lat='6566560.0964678' lon='178543.867367813' >
+	<node id='-29' lat='59.21350735555322' lon='15.499728602487192' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Stora Mellösa skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/285' />
 		<tag k='url' v='http://www.orebro.se/storamellosaskola' />
 	</node>
-	<node id='-32' lat='6574071.18133478' lon='161522.522389347' >
+	<node id='-32' lat='59.28173527582111' lon='15.20213169600062' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Tegnérskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/288' />
 		<tag k='url' v='http://www.orebro.se/tegnerskolan' />
 	</node>
-	<node id='-31' lat='6573484.24971175' lon='149166.45038749' >
+	<node id='-31' lat='59.27662261755473' lon='14.985379817772797' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Latorps skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/287' />
 		<tag k='url' v='http://www.orebro.se/latorpsskola' />
 	</node>
-	<node id='-35' lat='6559535.83748526' lon='176985.64031488' >
+	<node id='-35' lat='59.15055607715337' lon='15.47157997935655' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Askers skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/291' />
 		<tag k='url' v='http://www.orebro.se/askersskola' />
 	</node>
-	<node id='-36' lat='6581104.80122071' lon='163200.513625883' >
+	<node id='-36' lat='59.34482386393026' lon='15.231996924491785' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Hovstaskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/292' />
 		<tag k='url' v='http://www.orebro.se/hovstaskolan' />
 	</node>
-	<node id='-33' lat='6578313.01628735' lon='172822.228598036' >
+	<node id='-33' lat='59.319353278498944' lon='15.40079802625756' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Glanshammars skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/289' />
 		<tag k='url' v='http://www.orebro.se/glanshammarsskola' />
 	</node>
-	<node id='-34' lat='6574782.4921973' lon='163434.250692379' >
+	<node id='-34' lat='59.28806405098972' lon='15.235711659423584' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Norrbyskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/290' />
 		<tag k='url' v='http://www.orebro.se/norrbyskolan' />
 	</node>
-	<node id='-39' lat='6574538.87514721' lon='158439.288398515' >
+	<node id='-39' lat='59.28600629972187' lon='15.14806311483501' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Björkhagaskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/296' />
 		<tag k='url' v='http://www.orebro.se/bjorkhagaskolan' />
 	</node>
-	<node id='-40' lat='6571227.51084871' lon='162004.089798841' >
+	<node id='-40' lat='59.25619534676496' lon='15.210421960496227' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Navets skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/299' />
 		<tag k='url' v='http://www.orebro.se/navetsskola' />
 	</node>
-	<node id='-37' lat='6574052.93885141' lon='160760.603617861' >
+	<node id='-37' lat='59.28159157752322' lon='15.188765059038271' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Brukets skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/293' />
 		<tag k='url' v='http://www.orebro.se/bruketsskola' />
 	</node>
-	<node id='-38' lat='6569344.6108535' lon='160637.663170701' >
+	<node id='-38' lat='59.239329705304144' lon='15.18637749892338' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Adolfsbergsskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/295' />
 		<tag k='url' v='http://www.orebro.se/adolfsbergsskolan' />
 	</node>
-	<node id='-43' lat='6569798.48016069' lon='160950.218980916' >
+	<node id='-43' lat='59.24339598095753' lon='15.191876491546173' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Örebro Waldorfskola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/303' />
 		<tag k='url' v='http://www.orebrowaldorfskola.se/' />
 	</node>
-	<node id='-44' lat='6573274.09982623' lon='161280.143080083' >
+	<node id='-44' lat='59.27458671331888' lon='15.19783832685658' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Gumaeliusskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/304' />
 		<tag k='url' v='http://www.orebro.se/gumaeliusskolan' />
 	</node>
-	<node id='-41' lat='6573155.10303868' lon='160457.435074588' >
+	<node id='-41' lat='59.273539645160454' lon='15.183403496688516' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Rostaskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/301' />
 		<tag k='url' v='http://www.orebro.se/rostaskolan' />
 	</node>
-	<node id='-42' lat='6577127.8086072' lon='160622.28615053' >
+	<node id='-42' lat='59.30919693093812' lon='15.186489630621136' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Lundbyskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/302' />
 		<tag k='url' v='http://www.orebro.se/lundbyskolan' />
 	</node>
-	<node id='-47' lat='6575852.24924648' lon='160759.782670583' >
+	<node id='-47' lat='59.29774329054275' lon='15.18884009932491' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Vivallaskolan 7-9' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/307' />
 		<tag k='url' v='http://www.orebro.se/vivallaskolan' />
 	</node>
-	<node id='-48' lat='6575852.24924648' lon='160759.782670583' >
+	<node id='-48' lat='59.29774329054275' lon='15.18884009932491' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Vivallaskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/308' />
 		<tag k='url' v='http://www.orebro.se/vivallaskolan' />
 	</node>
-	<node id='-45' lat='6574401.29361003' lon='151136.667431102' >
+	<node id='-45' lat='59.28485390525781' lon='15.019941580020019' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Tysslinge friskola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/305' />
 		<tag k='url' v='http://www.tysslingefriskola.se/' />
 	</node>
-	<node id='-46' lat='6571131.19382228' lon='147296.664220374' >
+	<node id='-46' lat='59.255492177033176' lon='14.95261374006562' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Vintrosa skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/306' />
 		<tag k='url' v='http://www.orebro.se/vintrosaskola' />
 	</node>
-	<node id='-52' lat='6572800.10601146' lon='159720.604968891' >
+	<node id='-52' lat='59.27037052527134' lon='15.17046504595908' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Al-Salamskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/312' />
 		<tag k='url' v='http://alsalam.se/' />
 	</node>
-	<node id='-51' lat='6565722.32406713' lon='168755.083735678' >
+	<node id='-51' lat='59.20653250647051' lon='15.328284474802732' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Fridhems skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/311' />
 		<tag k='url' v='http://www.fridhemsskolan.se/' />
 	</node>
-	<node id='-50' lat='6574268.83984888' lon='163635.517155014' >
+	<node id='-50' lat='59.28344677294449' lon='15.239210611518429' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Grenadjärskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/310' />
 		<tag k='url' v='http://www.grenadjarskolan.se/' />
 	</node>
-	<node id='-49' lat='6573325.61528005' lon='161074.480642674' >
+	<node id='-49' lat='59.275054577797285' lon='15.194233945389522' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Hannaskolan ' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/309' />
 		<tag k='url' v='http://www.hannaskolan.nu/' />
 	</node>
-	<node id='-56' lat='6570908.63183953' lon='163916.060590498' >
+	<node id='-56' lat='59.253274403573535' lon='15.243916478716415' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Kunskapsskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/879' />
 		<tag k='url' v='http://www.kunskapsskolan.se/skolor/orebro.4.73486978116254b1bc18000664.html' />
 	</node>
-	<node id='-55' lat='6572598.5625932' lon='163307.709065728' >
+	<node id='-55' lat='59.26846380599614' lon='15.233357273342495' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Birgittaskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/315' />
 		<tag k='url' v='http://www.spsm.se/Skolor/Birgittaskolan/' />
 	</node>
-	<node id='-54' lat='6572198.85872288' lon='163420.576235811' >
+	<node id='-54' lat='59.26487225965655' lon='15.235311693008107' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Internationella engelska skolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/314' />
 		<tag k='url' v='http://engelska.se/index.php/Orebro' />
 	</node>
-	<node id='-53' lat='6575977.2602173' lon='158944.935601924' >
+	<node id='-53' lat='59.29890773877231' lon='15.156993857690695' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Al-Azharskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/313' />
 		<tag k='url' v='http://www.alazharskolan-orebro.se/' />
 	</node>
-	<node id='-60' lat='6569287.445' lon='159499.625' >
+	<node id='-60' lat='59.23884357397311' lon='15.166436070041081' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Ekeskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2266' />
 		<tag k='url' v='http://www.spsm.se/sv/Vi-erbjuder/Undervisning-i-specialskola/Om-specialskolorna/For-elever-med-synnedsattning-och-ytterligare-funktionsnedsattning/Ekeskolan/' />
 	</node>
-	<node id='-59' lat='6569334.03947111' lon='163823.441937633' >
+	<node id='-59' lat='59.2391429019288' lon='15.242192847808441' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Brickebackens skola' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/896' />
 		<tag k='url' v='http://www.orebro.se/brickebackensskolaf_6' />
 	</node>
-	<node id='-58' lat='6572939.45230436' lon='159169.815272315' >
+	<node id='-58' lat='59.2716336732044' lon='15.160812082894845' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Nya Karlslundsskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/895' />
 		<tag k='url' v='http://www.nyakarlslundsskolan.se/' />
 	</node>
-	<node id='-57' lat='6571790.73616525' lon='168695.522408739' >
+	<node id='-57' lat='59.261008726924786' lon='15.32776406341116' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Fyren Ekalmen' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/894' />
 		<tag k='url' v='http://www.fyrenekalmen.se/' />
 	</node>
-	<node id='-61' lat='6572575.411' lon='163277.649' >
+	<node id='-61' lat='59.26825692688963' lon='15.232828742192376' >
 		<tag k='amenity' v='school' />
-		<tag k='note' v='Todo: set isced:level=2 (lågstadie-mellanstadie) or 3 (högstadie)' />
+		<tag k='note:todo' v='isced:level=2 (lågstadie-mellanstadie) eller 3 (högstadie)' />
 		<tag k='name' v='Åsbackaskolan' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2267' />

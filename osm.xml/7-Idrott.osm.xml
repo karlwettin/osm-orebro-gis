@@ -1,172 +1,174 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
-	<node id='-1' lat='6572335.35141223' lon='162881.821186548' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-1' lat='59.26611423148233' lon='15.22587354661514' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Vinterstadion' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/19' />
 		<tag k='url' v='http://www.orebro.se/2516.html' />
 	</node>
-	<node id='-2' lat='6572315.43388686' lon='162559.002800764' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-2' lat='59.26594513590398' lon='15.220212051820114' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Idrottshuset' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/21' />
 		<tag k='url' v='http://www.orebro.se/2514.html' />
 	</node>
-	<node id='-3' lat='6572285.03834021' lon='162444.350088915' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-3' lat='59.265675671241226' lon='15.218199980757843' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Eyrabadet' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/22' />
 		<tag k='url' v='http://www.orebro.se/2153.html' />
 	</node>
-	<node id='-4' lat='6566860.32965252' lon='159000.473563102' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-4' lat='59.21706697394722' lon='15.157590344371021' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Örebrotravet' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/23' />
 		<tag k='url' v='http://www.orebrotravet.se/' />
 	</node>
-	<node id='-5' lat='6573806.18359954' lon='160454.539764877' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-5' lat='59.27938422105446' lon='15.183384136375263' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Trängen' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/24' />
 		<tag k='url' v='http://www.orebro.se/2518.html' />
 	</node>
-	<node id='-6' lat='6573656.57924736' lon='160489.360229186' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-6' lat='59.278040418307384' lon='15.183987677744708' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Curlinghall' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/25' />
 	</node>
-	<node id='-7' lat='6572443.17355163' lon='160721.115410161' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-7' lat='59.267142323432296' lon='15.18799270418645' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Örnsro' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/26' />
 	</node>
-	<node id='-8' lat='6573881.78790187' lon='163307.149451234' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-8' lat='59.27998282011519' lon='15.233426265369491' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Grenadjärvallen' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/27' />
 	</node>
-	<node id='-9' lat='6572747.79744275' lon='159036.114829897' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-9' lat='59.269916130622754' lon='15.158459383328399' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Rosta gärde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/28' />
 		<tag k='url' v='http://www.orebro.se/2517.html' />
 	</node>
-	<node id='-10' lat='6571384.7549359' lon='161197.034861702' >
-		<tag k='note' v='Spela tennis, badminton, squash eller pingis i Backahallen.' />
+	<node id='-10' lat='59.25762896932734' lon='15.19628315725685' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Backahallen' />
+		<tag k='note:description' v='Spela tennis, badminton, squash eller pingis i Backahallen.' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/29' />
 		<tag k='url' v='http://www.backahallen.com/' />
 	</node>
-	<node id='-11' lat='6568559.84517288' lon='153242.852474183' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-11' lat='59.23240614190826' lon='15.056804939269972' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Örebro Motorstadion' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/30' />
 		<tag k='url' v='http://www.gorace.se/' />
 	</node>
-	<node id='-12' lat='6572352.4723682' lon='162726.584800887' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-12' lat='59.2662726132139' lon='15.223152616396659' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Behrn arena fotboll' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/31' />
 		<tag k='url' v='http://www.orebro.se/2513.html' />
 	</node>
-	<node id='-13' lat='6580282.23552029' lon='146847.600063031' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-13' lat='59.33763464740879' lon='14.944608847133637' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Ånnaboda' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/32' />
 		<tag k='url' v='http://www.orebro.se/1260.html' />
 	</node>
-	<node id='-14' lat='6571572.09263561' lon='162211.950744547' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-14' lat='59.25928259002593' lon='15.214084962765336' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Ekäng' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/34' />
 	</node>
-	<node id='-15' lat='6571544.95381336' lon='159808.838753188' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-15' lat='59.25910143567501' lon='15.17195556646383' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Friidrottshallen' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/35' />
 		<tag k='url' v='http://www.orebro.se/2515.html' />
 	</node>
-	<node id='-16' lat='6572981.47933182' lon='158429.171592412' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-16' lat='59.27202632756896' lon='15.147825018207497' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Karlslunds ridhus' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/36' />
 	</node>
-	<node id='-18' lat='6573317.43459847' lon='159410.275798124' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-18' lat='59.275021406465484' lon='15.165045460142439' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Hagabadet' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/38' />
 		<tag k='url' v='http://www.orebro.se/3043.html' />
 	</node>
-	<node id='-17' lat='6571683.13945647' lon='161059.392136257' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-17' lat='59.26031107578433' lon='15.193885520084812' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Gustavsviksbadet' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/37' />
 		<tag k='url' v='http://www.gustavsvik.se' />
 	</node>
-	<node id='-20' lat='6574945.88403317' lon='158846.42621084' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-20' lat='59.28965154814563' lon='15.155222747483723' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Hedens IP' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/40' />
 	</node>
-	<node id='-19' lat='6574899.8829712' lon='163299.802038238' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-19' lat='59.28912206569005' lon='15.233359915556681' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Rynninge bollhall' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/39' />
 	</node>
-	<node id='-22' lat='6572891.0264414' lon='159135.396193045' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-22' lat='59.27119971567884' lon='15.160206433160555' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Karlslunds arena' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/43' />
 	</node>
-	<node id='-21' lat='6575923.53082791' lon='158885.576498315' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-21' lat='59.298426682528174' lon='15.155949835002932' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Mellringehallen' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/41' />
 	</node>
-	<node id='-24' lat='6561281.19022187' lon='180289.174559622' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-24' lat='59.1660007768126' lon='15.529549292468392' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Odenvallen' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/45' />
 	</node>
-	<node id='-23' lat='6572335.35141223' lon='162881.821186548' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-23' lat='59.26611423148233' lon='15.22587354661514' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Behrn arena - vinter' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/44' />
 		<tag k='url' v='http://www.orebro.se/2516.html' />
 	</node>
-	<node id='-26' lat='6573571.06599' lon='164653.81178' >
-		<tag k='note' v='Vid Svartån, mellan Alnängsbadet och Osetbron vid Naturens hus, finns ett utegym där du kan träna utomhus och när du vill.' />
+	<node id='-26' lat='59.27714912098578' lon='15.25702734932299' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Alnängarnas utegym' />
+		<tag k='note:description' v='Vid Svartån, mellan Alnängsbadet och Osetbron vid Naturens hus, finns ett utegym där du kan träna utomhus och när du vill.' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/2264' />
 		<tag k='url' v='http://www.orebro.se/13503.html' />
 	</node>
-	<node id='-25' lat='6569324.27088857' lon='163827.499318763' >
-		<tag k='note' v='Todo: någon slags idrottsanläggning' />
+	<node id='-25' lat='59.23905508056266' lon='15.242263312337853' >
+		<tag k='note:todo' v='Detta är någon slags idrottsanläggning' />
 		<tag k='name' v='Brickebackens bad' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/46' />

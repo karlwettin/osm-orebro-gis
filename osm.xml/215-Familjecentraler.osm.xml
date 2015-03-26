@@ -1,56 +1,56 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
-	<node id='-1' lat='6569244.358' lon='163835.25' >
-		<tag k='note' v='Todo: vad är detta för något?' />
+	<node id='-1' lat='59.23833747841935' lon='15.242394016101832' >
+		<tag k='note:todo' v='Se http://www.orebro.se/488.html' />
 		<tag k='name' v='Brickebackens familjecentral' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1723' />
 		<tag k='url' v='http://www.orebro.se/5778.html' />
 	</node>
-	<node id='-2' lat='6574905.847' lon='161406.822' >
-		<tag k='note' v='Todo: vad är detta för något?' />
+	<node id='-2' lat='59.289230870712345' lon='15.200146030448787' >
+		<tag k='note:todo' v='Se http://www.orebro.se/488.html' />
 		<tag k='name' v='Baronbackarnas familjecentral' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1724' />
 		<tag k='url' v='http://www.orebro.se/5777.html' />
 	</node>
-	<node id='-3' lat='6573857.306' lon='162524.069' >
-		<tag k='note' v='Todo: vad är detta för något?' />
+	<node id='-3' lat='59.27978695115239' lon='15.219688629376396' >
+		<tag k='note:todo' v='Se http://www.orebro.se/488.html' />
 		<tag k='name' v='Olaus Petri familjecentral' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1725' />
 		<tag k='url' v='http://www.orebro.se/5779.html' />
 	</node>
-	<node id='-4' lat='6573710.161' lon='159950.209' >
-		<tag k='note' v='Todo: vad är detta för något?' />
+	<node id='-4' lat='59.27853441850661' lon='15.174533257604848' >
+		<tag k='note:todo' v='Se http://www.orebro.se/488.html' />
 		<tag k='name' v='Oxhagens familjecentral' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1726' />
 		<tag k='url' v='http://www.orebro.se/5780.html' />
 	</node>
-	<node id='-5' lat='6574622.056' lon='160268.194' >
-		<tag k='note' v='Todo: vad är detta för något?' />
+	<node id='-5' lat='59.286712555007725' lon='15.180154130829983' >
+		<tag k='note:todo' v='Se http://www.orebro.se/488.html' />
 		<tag k='name' v='Varberga familjecentral' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1727' />
 		<tag k='url' v='http://www.orebro.se/5781.html' />
 	</node>
-	<node id='-6' lat='6576016.19' lon='160686.348' >
-		<tag k='note' v='Todo: vad är detta för något?' />
+	<node id='-6' lat='59.29921678115539' lon='15.18755938712877' >
+		<tag k='note:todo' v='Se http://www.orebro.se/488.html' />
 		<tag k='name' v='Vivalla familjecentral' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1728' />
 		<tag k='url' v='http://www.orebro.se/5782.html' />
 	</node>
-	<node id='-7' lat='6571352.26' lon='161622.321' >
-		<tag k='note' v='Todo: vad är detta för något?' />
+	<node id='-7' lat='59.25732581996258' lon='15.203736595904706' >
+		<tag k='note:todo' v='Se http://www.orebro.se/488.html' />
 		<tag k='name' v='Ängens familjecentral' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1729' />
 		<tag k='url' v='http://www.orebro.se/13483.html' />
 	</node>
-	<node id='-8' lat='6560494.908' lon='180098.768' >
-		<tag k='note' v='Todo: vad är detta för något?' />
+	<node id='-8' lat='59.158956276954434' lon='15.5261121751877' >
+		<tag k='note:todo' v='Se http://www.orebro.se/488.html' />
 		<tag k='name' v='Östernärke familjecentral' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/1730' />

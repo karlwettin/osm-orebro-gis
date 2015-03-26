@@ -1,205 +1,205 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' upload='true' generator='se.kodapan.osm.xml.OsmXmlWriter'>
-	<node id='-1' lat='6571605.53420191' lon='160433.218262355' >
+	<node id='-1' lat='59.25963032661544' lon='15.182904212002061' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Aspholmen' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/325' />
 	</node>
-	<node id='-2' lat='6569170.88498152' lon='157610.219937356' >
+	<node id='-2' lat='59.237835376349295' lon='15.133329201502379' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Berglunda' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/326' />
 	</node>
-	<node id='-3' lat='6576232.44597958' lon='163573.69184006' >
+	<node id='-3' lat='59.301075206172335' lon='15.238249165521976' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Bettorp' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/327' />
 	</node>
-	<node id='-4' lat='6571451.24414545' lon='158926.814609928' >
+	<node id='-4' lat='59.258279741102236' lon='15.156489301446806' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Bista' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/328' />
 	</node>
-	<node id='-5' lat='6576104.13150889' lon='161570.876808567' >
+	<node id='-5' lat='59.29998292104308' lon='15.203088620270812' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Boglundsängen' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/329' />
 	</node>
-	<node id='-6' lat='6573552.91018626' lon='163322.140164858' >
+	<node id='-6' lat='59.277030147833024' lon='15.233668995533845' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='CV-området' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/330' />
 	</node>
-	<node id='-7' lat='6576833.81887147' lon='146859.437414388' >
+	<node id='-7' lat='59.306679675738295' lon='14.944866987801563' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Garphyttan' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/331' />
 	</node>
-	<node id='-8' lat='6577779.7587628' lon='173056.743514499' >
+	<node id='-8' lat='59.314553822332066' lon='15.40485948836967' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Glanshammar' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/332' />
 	</node>
-	<node id='-9' lat='6574932.31522288' lon='161933.15533078' >
+	<node id='-9' lat='59.289453948020515' lon='15.20938255340781' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Holmen' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/333' />
 	</node>
-	<node id='-10' lat='6594186.66779847' lon='158878.883840937' >
+	<node id='-10' lat='59.46236570612661' lon='15.156586231773979' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Järle' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/334' />
 	</node>
-	<node id='-11' lat='6573106.3607873' lon='149593.105289736' >
+	<node id='-11' lat='59.27323105829737' lon='14.992863912005935' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Latorp' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/335' />
 	</node>
-	<node id='-12' lat='6577199.30715753' lon='162805.821645584' >
+	<node id='-12' lat='59.30977824108341' lon='15.224828683891188' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Lillån' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/336' />
 	</node>
-	<node id='-13' lat='6574794.32690796' lon='162430.920786743' >
+	<node id='-13' lat='59.28820095234236' lon='15.21810849232226' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Mannatorpsområdet' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/337' />
 	</node>
-	<node id='-14' lat='6568579.83932123' lon='158357.518252259' >
+	<node id='-14' lat='59.23251566625357' lon='15.14639890378515' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Marieberg Nordväst' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/338' />
 	</node>
-	<node id='-15' lat='6567066.80291613' lon='157963.784285066' >
+	<node id='-15' lat='59.21894115079517' lon='15.139446455942117' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Mariebergs köpcentrum' />
-		<tag k='note' v='Handelsområde' />
+		<tag k='note:description' v='Handelsområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/339' />
 	</node>
-	<node id='-16' lat='6565290.70164923' lon='159301.547832298' >
+	<node id='-16' lat='59.202970362639874' lon='15.162794784221127' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Mosås' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/340' />
 	</node>
-	<node id='-18' lat='6567979.94614278' lon='164645.945802992' >
+	<node id='-18' lat='59.226960078422394' lon='15.256512054538627' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Norra Bro/Gryt' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/342' />
 	</node>
-	<node id='-17' lat='6571323.48574031' lon='159608.487219395' >
+	<node id='-17' lat='59.2571179849649' lon='15.16843347701009' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Nasta' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/341' />
 	</node>
-	<node id='-20' lat='6571865.05652344' lon='165338.982607661' >
+	<node id='-20' lat='59.26181071873' lon='15.26892434544774' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Ormesta' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/344' />
 	</node>
-	<node id='-19' lat='6560670.32871368' lon='180145.543302139' >
+	<node id='-19' lat='59.160527619438724' lon='15.526953957889821' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Odensbacken' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/343' />
 	</node>
-	<node id='-22' lat='6572710.1475971' lon='164261.534193365' >
+	<node id='-22' lat='59.26943440966988' lon='15.250090232487416' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Skebäcksområdet' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/346' />
 	</node>
-	<node id='-21' lat='6569990.61689231' lon='157741.307255573' >
+	<node id='-21' lat='59.24519148382763' lon='15.135655031530408' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Pilängen' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/345' />
 	</node>
-	<node id='-24' lat='6571626.79966808' lon='161362.130802504' >
+	<node id='-24' lat='59.25979732169834' lon='15.19918993441407' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Södermalm/Ladugårdsängen' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/348' />
 	</node>
-	<node id='-23' lat='6565958.82927973' lon='178614.167260685' >
+	<node id='-23' lat='59.208105396641535' lon='15.500880263485666' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Stora Mellösa' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/347' />
 	</node>
-	<node id='-26' lat='6569703.73372549' lon='156682.595049644' >
+	<node id='-26' lat='59.242634235724594' lon='15.117093875738776' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Västra Pilängen' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/350' />
 	</node>
-	<node id='-25' lat='6566223.73592616' lon='158713.135722517' >
+	<node id='-25' lat='59.211358445961245' lon='15.152533841365901' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Törsjö' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/349' />
 	</node>
-	<node id='-28' lat='6572273.00891237' lon='160380.116143735' >
+	<node id='-28' lat='59.265623312940804' lon='15.18200523585508' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Örnsro' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/352' />
 	</node>
-	<node id='-27' lat='6572086.61017415' lon='159360.190204978' >
+	<node id='-27' lat='59.263973847491854' lon='15.16411387010677' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Åby/Skråmsta' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/351' />
 	</node>
-	<node id='-29' lat='6572309.30552455' lon='163538.259083827' >
+	<node id='-29' lat='59.26585995162749' lon='15.237381978796256' >
 		<tag k='landuse' v='industrial' />
 		<tag k='name' v='Österplan/Almbyplan' />
-		<tag k='note' v='Industriområde' />
+		<tag k='note:description' v='Industriområde' />
 		<tag k='source' v='api.karta.orebro.se' />
 		<tag k='source:url' v='http://karta2.orebro.se/api/v1/information/353' />
 	</node>
